@@ -1,0 +1,321 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 700px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Changchun", "label": "Changchun, China, Dwa", "shape": "dot", "size": 30, "title": "Changchun, China, Dwa"}, {"color": "#97c2fc", "id": "Harbin", "label": "Harbin, China, Dwa", "shape": "dot", "size": 30, "title": "Harbin, China, Dwa"}, {"color": "#97c2fc", "id": "Bras\u00c3\u0192\u00c2\u00adlia", "label": "Bras\u00c3\u0192\u00c2\u00adlia, Brazil, Aw", "shape": "dot", "size": 30, "title": "Bras\u00c3\u0192\u00c2\u00adlia, Brazil, Aw"}, {"color": "#97c2fc", "id": "Rio De Janeiro", "label": "Rio De Janeiro, Brazil, Ocean", "shape": "dot", "size": 30, "title": "Rio De Janeiro, Brazil, Ocean"}, {"color": "#97c2fc", "id": "Lakhnau", "label": "Lakhnau, India, BSh", "shape": "dot", "size": 30, "title": "Lakhnau, India, BSh"}, {"color": "#97c2fc", "id": "Nagpur", "label": "Nagpur, India, As", "shape": "dot", "size": 30, "title": "Nagpur, India, As"}, {"color": "#97c2fc", "id": "Baghdad", "label": "Baghdad, Iraq, BWh", "shape": "dot", "size": 30, "title": "Baghdad, Iraq, BWh"}, {"color": "#97c2fc", "id": "Riyadh", "label": "Riyadh, Saudi Arabia, BWh", "shape": "dot", "size": 30, "title": "Riyadh, Saudi Arabia, BWh"}, {"color": "#97c2fc", "id": "Shanghai", "label": "Shanghai, China, Cfa", "shape": "dot", "size": 30, "title": "Shanghai, China, Cfa"}, {"color": "#97c2fc", "id": "Wuhan", "label": "Wuhan, China, Cfa", "shape": "dot", "size": 30, "title": "Wuhan, China, Cfa"}, {"color": "#97c2fc", "id": "Delhi", "label": "Delhi, India, BSh", "shape": "dot", "size": 30, "title": "Delhi, India, BSh"}, {"color": "#97c2fc", "id": "Kanpur", "label": "Kanpur, India, BSh", "shape": "dot", "size": 30, "title": "Kanpur, India, BSh"}, {"color": "#97c2fc", "id": "Kabul", "label": "Kabul, Afghanistan, BWk", "shape": "dot", "size": 30, "title": "Kabul, Afghanistan, BWk"}, {"color": "#97c2fc", "id": "Lahore", "label": "Lahore, Pakistan, BSh", "shape": "dot", "size": 30, "title": "Lahore, Pakistan, BSh"}, {"color": "#97c2fc", "id": "Ankara", "label": "Ankara, Turkey, BSk", "shape": "dot", "size": 30, "title": "Ankara, Turkey, BSk"}, {"color": "#97c2fc", "id": "Istanbul", "label": "Istanbul, Turkey, Csa", "shape": "dot", "size": 30, "title": "Istanbul, Turkey, Csa"}, {"color": "#97c2fc", "id": "Tianjin", "label": "Tianjin, China, BSk", "shape": "dot", "size": 30, "title": "Tianjin, China, BSk"}, {"color": "#97c2fc", "id": "Chengdu", "label": "Chengdu, China, Cwb", "shape": "dot", "size": 30, "title": "Chengdu, China, Cwb"}, {"color": "#97c2fc", "id": "Chongqing", "label": "Chongqing, China, Cfa", "shape": "dot", "size": 30, "title": "Chongqing, China, Cfa"}, {"color": "#97c2fc", "id": "Faisalabad", "label": "Faisalabad, Pakistan, BSh", "shape": "dot", "size": 30, "title": "Faisalabad, Pakistan, BSh"}, {"color": "#97c2fc", "id": "New Delhi", "label": "New Delhi, India, BSh", "shape": "dot", "size": 30, "title": "New Delhi, India, BSh"}, {"color": "#97c2fc", "id": "Jinan", "label": "Jinan, China, Cwa", "shape": "dot", "size": 30, "title": "Jinan, China, Cwa"}, {"color": "#97c2fc", "id": "Peking", "label": "Peking, China, BSk", "shape": "dot", "size": 30, "title": "Peking, China, BSk"}, {"color": "#97c2fc", "id": "Xian", "label": "Xian, China, BSk", "shape": "dot", "size": 30, "title": "Xian, China, BSk"}, {"color": "#97c2fc", "id": "Dalian", "label": "Dalian, China, Ocean", "shape": "dot", "size": 30, "title": "Dalian, China, Ocean"}, {"color": "#97c2fc", "id": "Seoul", "label": "Seoul, South Korea, Cwa", "shape": "dot", "size": 30, "title": "Seoul, South Korea, Cwa"}, {"color": "#97c2fc", "id": "Jakarta", "label": "Jakarta, Indonesia, Ocean", "shape": "dot", "size": 30, "title": "Jakarta, Indonesia, Ocean"}, {"color": "#97c2fc", "id": "Singapore", "label": "Singapore, Singapore, Af", "shape": "dot", "size": 30, "title": "Singapore, Singapore, Af"}, {"color": "#97c2fc", "id": "Shenyang", "label": "Shenyang, China, Dwb", "shape": "dot", "size": 30, "title": "Shenyang, China, Dwb"}, {"color": "#97c2fc", "id": "Ahmadabad", "label": "Ahmadabad, India, BSh", "shape": "dot", "size": 30, "title": "Ahmadabad, India, BSh"}, {"color": "#97c2fc", "id": "Ibadan", "label": "Ibadan, Nigeria, Aw", "shape": "dot", "size": 30, "title": "Ibadan, Nigeria, Aw"}, {"color": "#97c2fc", "id": "Lagos", "label": "Lagos, Nigeria, Ocean", "shape": "dot", "size": 30, "title": "Lagos, Nigeria, Ocean"}, {"color": "#97c2fc", "id": "Bogot\u00c3\u0192\u00c2\u00a1", "label": "Bogot\u00c3\u0192\u00c2\u00a1, Colombia, As", "shape": "dot", "size": 30, "title": "Bogot\u00c3\u0192\u00c2\u00a1, Colombia, As"}, {"color": "#97c2fc", "id": "Santo Domingo", "label": "Santo Domingo, Dominican Republic, Am", "shape": "dot", "size": 30, "title": "Santo Domingo, Dominican Republic, Am"}, {"color": "#97c2fc", "id": "Jaipur", "label": "Jaipur, India, BSh", "shape": "dot", "size": 30, "title": "Jaipur, India, BSh"}, {"color": "#97c2fc", "id": "Surat", "label": "Surat, India, Aw", "shape": "dot", "size": 30, "title": "Surat, India, Aw"}, {"color": "#97c2fc", "id": "Karachi", "label": "Karachi, Pakistan, BWh", "shape": "dot", "size": 30, "title": "Karachi, Pakistan, BWh"}, {"color": "#97c2fc", "id": "Pune", "label": "Pune, India, BSh", "shape": "dot", "size": 30, "title": "Pune, India, BSh"}, {"color": "#97c2fc", "id": "Ho Chi Minh City", "label": "Ho Chi Minh City, Vietnam, Aw", "shape": "dot", "size": 30, "title": "Ho Chi Minh City, Vietnam, Aw"}, {"color": "#97c2fc", "id": "Bangkok", "label": "Bangkok, Thailand, Aw", "shape": "dot", "size": 30, "title": "Bangkok, Thailand, Aw"}, {"color": "#97c2fc", "id": "Nanjing", "label": "Nanjing, China, Cfa", "shape": "dot", "size": 30, "title": "Nanjing, China, Cfa"}, {"color": "#97c2fc", "id": "Bombay", "label": "Bombay, India, Am", "shape": "dot", "size": 30, "title": "Bombay, India, Am"}, {"color": "#97c2fc", "id": "Alexandria", "label": "Alexandria, Egypt, BWh", "shape": "dot", "size": 30, "title": "Alexandria, Egypt, BWh"}, {"color": "#97c2fc", "id": "Cairo", "label": "Cairo, Egypt, BWh", "shape": "dot", "size": 30, "title": "Cairo, Egypt, BWh"}, {"color": "#97c2fc", "id": "Salvador", "label": "Salvador, Brazil, Af", "shape": "dot", "size": 30, "title": "Salvador, Brazil, Af"}, {"color": "#97c2fc", "id": "Tangshan", "label": "Tangshan, China, Dwa", "shape": "dot", "size": 30, "title": "Tangshan, China, Dwa"}, {"color": "#97c2fc", "id": "Taiyuan", "label": "Taiyuan, China, Dwb", "shape": "dot", "size": 30, "title": "Taiyuan, China, Dwb"}, {"color": "#97c2fc", "id": "Rangoon", "label": "Rangoon, Burma, Am", "shape": "dot", "size": 30, "title": "Rangoon, Burma, Am"}, {"color": "#97c2fc", "id": "Abidjan", "label": "Abidjan, Cote D\u0027Ivoire, Aw", "shape": "dot", "size": 30, "title": "Abidjan, Cote D\u0027Ivoire, Aw"}, {"color": "#97c2fc", "id": "Kinshasa", "label": "Kinshasa, Congo (Democratic Republic Of The), Aw", "shape": "dot", "size": 30, "title": "Kinshasa, Congo (Democratic Republic Of The), Aw"}, {"color": "#97c2fc", "id": "Luanda", "label": "Luanda, Angola, BSh", "shape": "dot", "size": 30, "title": "Luanda, Angola, BSh"}, {"color": "#97c2fc", "id": "Surabaya", "label": "Surabaya, Indonesia, Aw", "shape": "dot", "size": 30, "title": "Surabaya, Indonesia, Aw"}, {"color": "#97c2fc", "id": "Bangalore", "label": "Bangalore, India, Aw", "shape": "dot", "size": 30, "title": "Bangalore, India, Aw"}, {"color": "#97c2fc", "id": "Madras", "label": "Madras, India, Aw", "shape": "dot", "size": 30, "title": "Madras, India, Aw"}, {"color": "#97c2fc", "id": "Calcutta", "label": "Calcutta, India, Aw", "shape": "dot", "size": 30, "title": "Calcutta, India, Aw"}, {"color": "#97c2fc", "id": "Dhaka", "label": "Dhaka, Bangladesh, Aw", "shape": "dot", "size": 30, "title": "Dhaka, Bangladesh, Aw"}, {"color": "#97c2fc", "id": "Nagoya", "label": "Nagoya, Japan, Cfa", "shape": "dot", "size": 30, "title": "Nagoya, Japan, Cfa"}, {"color": "#97c2fc", "id": "Tokyo", "label": "Tokyo, Japan, Cfa", "shape": "dot", "size": 30, "title": "Tokyo, Japan, Cfa"}, {"color": "#97c2fc", "id": "Belo Horizonte", "label": "Belo Horizonte, Brazil, Cwa", "shape": "dot", "size": 30, "title": "Belo Horizonte, Brazil, Cwa"}, {"color": "#97c2fc", "id": "Hyderabad", "label": "Hyderabad, India, BSh", "shape": "dot", "size": 30, "title": "Hyderabad, India, BSh"}, {"color": "#97c2fc", "id": "New York", "label": "New York, United States, Cfa", "shape": "dot", "size": 30, "title": "New York, United States, Cfa"}, {"color": "#97c2fc", "id": "Toronto", "label": "Toronto, Canada, Dfb", "shape": "dot", "size": 30, "title": "Toronto, Canada, Dfb"}, {"color": "#97c2fc", "id": "Montreal", "label": "Montreal, Canada, Dfb", "shape": "dot", "size": 30, "title": "Montreal, Canada, Dfb"}, {"color": "#97c2fc", "id": "Cali", "label": "Cali, Colombia, Af", "shape": "dot", "size": 30, "title": "Cali, Colombia, Af"}, {"color": "#97c2fc", "id": "Kano", "label": "Kano, Nigeria, Aw", "shape": "dot", "size": 30, "title": "Kano, Nigeria, Aw"}, {"color": "#97c2fc", "id": "S\u00c3\u0192\u00c2\u00a3o Paulo", "label": "S\u00c3\u0192\u00c2\u00a3o Paulo, Brazil, Cfa", "shape": "dot", "size": 30, "title": "S\u00c3\u0192\u00c2\u00a3o Paulo, Brazil, Cfa"}, {"color": "#97c2fc", "id": "Chicago", "label": "Chicago, United States, Dfa", "shape": "dot", "size": 30, "title": "Chicago, United States, Dfa"}, {"color": "#97c2fc", "id": "Manila", "label": "Manila, Philippines, Aw", "shape": "dot", "size": 30, "title": "Manila, Philippines, Aw"}, {"color": "#97c2fc", "id": "Casablanca", "label": "Casablanca, Morocco, Csa", "shape": "dot", "size": 30, "title": "Casablanca, Morocco, Csa"}, {"color": "#97c2fc", "id": "Madrid", "label": "Madrid, Spain, Csa", "shape": "dot", "size": 30, "title": "Madrid, Spain, Csa"}, {"color": "#97c2fc", "id": "London", "label": "London, United Kingdom, Cfb", "shape": "dot", "size": 30, "title": "London, United Kingdom, Cfb"}, {"color": "#97c2fc", "id": "Paris", "label": "Paris, France, Cfb", "shape": "dot", "size": 30, "title": "Paris, France, Cfb"}, {"color": "#97c2fc", "id": "Addis Abeba", "label": "Addis Abeba, Ethiopia, Cwb", "shape": "dot", "size": 30, "title": "Addis Abeba, Ethiopia, Cwb"}, {"color": "#97c2fc", "id": "Nairobi", "label": "Nairobi, Kenya, Cfb", "shape": "dot", "size": 30, "title": "Nairobi, Kenya, Cfb"}, {"color": "#97c2fc", "id": "Kiev", "label": "Kiev, Ukraine, Dfb", "shape": "dot", "size": 30, "title": "Kiev, Ukraine, Dfb"}, {"color": "#97c2fc", "id": "Moscow", "label": "Moscow, Russia, Dfb", "shape": "dot", "size": 30, "title": "Moscow, Russia, Dfb"}, {"color": "#97c2fc", "id": "Izmir", "label": "Izmir, Turkey, Csa", "shape": "dot", "size": 30, "title": "Izmir, Turkey, Csa"}, {"color": "#97c2fc", "id": "Gizeh", "label": "Gizeh, Egypt, BWh", "shape": "dot", "size": 30, "title": "Gizeh, Egypt, BWh"}, {"color": "#97c2fc", "id": "Aleppo", "label": "Aleppo, Syria, BSh", "shape": "dot", "size": 30, "title": "Aleppo, Syria, BSh"}, {"color": "#97c2fc", "id": "Saint Petersburg", "label": "Saint Petersburg, Russia, Dfb", "shape": "dot", "size": 30, "title": "Saint Petersburg, Russia, Dfb"}, {"color": "#97c2fc", "id": "Mogadishu", "label": "Mogadishu, Somalia, BSh", "shape": "dot", "size": 30, "title": "Mogadishu, Somalia, BSh"}]);
+                  edges = new vis.DataSet([{"from": "Changchun", "title": "Distance: 17.41", "to": "Harbin", "value": 2}, {"from": "Bras\u00c3\u0192\u00c2\u00adlia", "title": "Distance: 43.07", "to": "Rio De Janeiro", "value": 2}, {"from": "Lakhnau", "title": "Distance: 4.84", "to": "Nagpur", "value": 2}, {"from": "Baghdad", "title": "Distance: 4.70", "to": "Riyadh", "value": 2}, {"from": "Shanghai", "title": "Distance: 4.57", "to": "Wuhan", "value": 2}, {"from": "Delhi", "title": "Distance: 3.75", "to": "Kanpur", "value": 2}, {"from": "Kabul", "title": "Distance: 5.12", "to": "Lahore", "value": 2}, {"from": "Ankara", "title": "Distance: 39.02", "to": "Istanbul", "value": 2}, {"from": "Changchun", "title": "Distance: 5.39", "to": "Tianjin", "value": 2}, {"from": "Chengdu", "title": "Distance: 31.31", "to": "Chongqing", "value": 2}, {"from": "Delhi", "title": "Distance: 4.88", "to": "Faisalabad", "value": 2}, {"from": "Faisalabad", "title": "Distance: 4.88", "to": "New Delhi", "value": 2}, {"from": "Jinan", "title": "Distance: 29.21", "to": "Peking", "value": 2}, {"from": "Chengdu", "title": "Distance: 42.67", "to": "Xian", "value": 2}, {"from": "Kanpur", "title": "Distance: 32.52", "to": "New Delhi", "value": 2}, {"from": "Dalian", "title": "Distance: 33.64", "to": "Seoul", "value": 2}, {"from": "Jakarta", "title": "Distance: 3.11", "to": "Singapore", "value": 2}, {"from": "Changchun", "title": "Distance: 26.87", "to": "Shenyang", "value": 2}, {"from": "Ahmadabad", "title": "Distance: 5.06", "to": "Delhi", "value": 2}, {"from": "Ibadan", "title": "Distance: 1.69", "to": "Lagos", "value": 2}, {"from": "Harbin", "title": "Distance: 4.44", "to": "Shenyang", "value": 2}, {"from": "Bogot\u00c3\u0192\u00c2\u00a1", "title": "Distance: 37.65", "to": "Santo Domingo", "value": 2}, {"from": "Jaipur", "title": "Distance: 42.12", "to": "Surat", "value": 2}, {"from": "Delhi", "title": "Distance: 24.72", "to": "Jaipur", "value": 2}, {"from": "Seoul", "title": "Distance: 32.33", "to": "Shenyang", "value": 2}, {"from": "Ahmadabad", "title": "Distance: 5.18", "to": "Karachi", "value": 2}, {"from": "Delhi", "title": "Distance: 42.87", "to": "Surat", "value": 2}, {"from": "Ahmadabad", "title": "Distance: 4.20", "to": "Jaipur", "value": 2}, {"from": "Pune", "title": "Distance: 3.95", "to": "Surat", "value": 2}, {"from": "Ho Chi Minh City", "title": "Distance: 4.51", "to": "Singapore", "value": 2}, {"from": "Jinan", "title": "Distance: 3.46", "to": "Tianjin", "value": 2}, {"from": "Santo Domingo", "title": "Distance: 4.59", "to": "Singapore", "value": 2}, {"from": "Bangkok", "title": "Distance: 4.84", "to": "Ho Chi Minh City", "value": 2}, {"from": "Jaipur", "title": "Distance: 5.34", "to": "Lakhnau", "value": 2}, {"from": "Dalian", "title": "Distance: 26.54", "to": "Peking", "value": 2}, {"from": "Chongqing", "title": "Distance: 5.11", "to": "Xian", "value": 2}, {"from": "Nanjing", "title": "Distance: 1.73", "to": "Shanghai", "value": 2}, {"from": "Bogot\u00c3\u0192\u00c2\u00a1", "title": "Distance: 4.58", "to": "Jakarta", "value": 2}, {"from": "Kanpur", "title": "Distance: 38.09", "to": "Nagpur", "value": 2}, {"from": "Ahmadabad", "title": "Distance: 5.22", "to": "Bombay", "value": 2}, {"from": "Alexandria", "title": "Distance: 2.24", "to": "Cairo", "value": 2}, {"from": "Bras\u00c3\u0192\u00c2\u00adlia", "title": "Distance: 4.72", "to": "Salvador", "value": 2}, {"from": "Dalian", "title": "Distance: 2.37", "to": "Shenyang", "value": 2}, {"from": "Wuhan", "title": "Distance: 4.92", "to": "Xian", "value": 2}, {"from": "Peking", "title": "Distance: 25.69", "to": "Tangshan", "value": 2}, {"from": "Jinan", "title": "Distance: 3.93", "to": "Taiyuan", "value": 2}, {"from": "Bangkok", "title": "Distance: 36.89", "to": "Rangoon", "value": 2}, {"from": "Jinan", "title": "Distance: 35.41", "to": "Nanjing", "value": 2}, {"from": "Abidjan", "title": "Distance: 3.78", "to": "Lagos", "value": 2}, {"from": "Kinshasa", "title": "Distance: 3.99", "to": "Luanda", "value": 2}, {"from": "Jakarta", "title": "Distance: 32.81", "to": "Surabaya", "value": 2}, {"from": "Lahore", "title": "Distance: 4.88", "to": "New Delhi", "value": 2}, {"from": "Lakhnau", "title": "Distance: 3.75", "to": "New Delhi", "value": 2}, {"from": "Delhi", "title": "Distance: 32.52", "to": "Lakhnau", "value": 2}, {"from": "Bangalore", "title": "Distance: 3.18", "to": "Madras", "value": 2}, {"from": "Peking", "title": "Distance: 3.98", "to": "Shenyang", "value": 2}, {"from": "Tangshan", "title": "Distance: 3.01", "to": "Tianjin", "value": 2}, {"from": "Jaipur", "title": "Distance: 5.34", "to": "Kanpur", "value": 2}, {"from": "Jinan", "title": "Distance: 5.22", "to": "Shenyang", "value": 2}, {"from": "Jaipur", "title": "Distance: 24.72", "to": "New Delhi", "value": 2}, {"from": "Calcutta", "title": "Distance: 2.23", "to": "Dhaka", "value": 2}, {"from": "Nagoya", "title": "Distance: 28.25", "to": "Tokyo", "value": 2}, {"from": "Changchun", "title": "Distance: 34.79", "to": "Dalian", "value": 2}, {"from": "Nanjing", "title": "Distance: 41.68", "to": "Tangshan", "value": 2}, {"from": "Belo Horizonte", "title": "Distance: 28.01", "to": "Rio De Janeiro", "value": 2}, {"from": "Taiyuan", "title": "Distance: 35.05", "to": "Xian", "value": 2}, {"from": "Bangalore", "title": "Distance: 4.80", "to": "Hyderabad", "value": 2}, {"from": "Taiyuan", "title": "Distance: 18.42", "to": "Tangshan", "value": 2}, {"from": "Abidjan", "title": "Distance: 4.44", "to": "Ibadan", "value": 2}, {"from": "Delhi", "title": "Distance: 40.22", "to": "Lahore", "value": 2}, {"from": "Belo Horizonte", "title": "Distance: 30.75", "to": "Bras\u00c3\u0192\u00c2\u00adlia", "value": 2}, {"from": "New York", "title": "Distance: 3.80", "to": "Toronto", "value": 2}, {"from": "Dalian", "title": "Distance: 4.98", "to": "Tangshan", "value": 2}, {"from": "Nanjing", "title": "Distance: 42.20", "to": "Taiyuan", "value": 2}, {"from": "Montreal", "title": "Distance: 4.66", "to": "Toronto", "value": 2}, {"from": "Tangshan", "title": "Distance: 5.37", "to": "Xian", "value": 2}, {"from": "Bogot\u00c3\u0192\u00c2\u00a1", "title": "Distance: 1.33", "to": "Cali", "value": 2}, {"from": "Jakarta", "title": "Distance: 4.58", "to": "Santo Domingo", "value": 2}, {"from": "Kano", "title": "Distance: 42.88", "to": "Lagos", "value": 2}, {"from": "Cali", "title": "Distance: 39.00", "to": "Jakarta", "value": 2}, {"from": "Peking", "title": "Distance: 37.32", "to": "Taiyuan", "value": 2}, {"from": "Rio De Janeiro", "title": "Distance: 3.63", "to": "S\u00c3\u0192\u00c2\u00a3o Paulo", "value": 2}, {"from": "Bangalore", "title": "Distance: 43.08", "to": "Santo Domingo", "value": 2}, {"from": "Chicago", "title": "Distance: 34.37", "to": "Toronto", "value": 2}, {"from": "Faisalabad", "title": "Distance: 5.12", "to": "Kabul", "value": 2}, {"from": "Singapore", "title": "Distance: 34.38", "to": "Surabaya", "value": 2}, {"from": "Shenyang", "title": "Distance: 3.98", "to": "Tianjin", "value": 2}, {"from": "Ahmadabad", "title": "Distance: 19.76", "to": "Surat", "value": 2}, {"from": "Cali", "title": "Distance: 4.79", "to": "Santo Domingo", "value": 2}, {"from": "Ho Chi Minh City", "title": "Distance: 5.15", "to": "Manila", "value": 2}, {"from": "Bombay", "title": "Distance: 3.93", "to": "Pune", "value": 2}, {"from": "Ho Chi Minh City", "title": "Distance: 43.24", "to": "Rangoon", "value": 2}, {"from": "Taiyuan", "title": "Distance: 37.32", "to": "Tianjin", "value": 2}, {"from": "Casablanca", "title": "Distance: 42.37", "to": "Madrid", "value": 2}, {"from": "London", "title": "Distance: 3.71", "to": "Paris", "value": 2}, {"from": "Addis Abeba", "title": "Distance: 42.72", "to": "Nairobi", "value": 2}, {"from": "Ibadan", "title": "Distance: 41.85", "to": "Kano", "value": 2}, {"from": "Kiev", "title": "Distance: 36.59", "to": "Moscow", "value": 2}, {"from": "Jinan", "title": "Distance: 23.66", "to": "Tangshan", "value": 2}, {"from": "Ho Chi Minh City", "title": "Distance: 42.82", "to": "Jakarta", "value": 2}, {"from": "Istanbul", "title": "Distance: 3.84", "to": "Izmir", "value": 2}, {"from": "Alexandria", "title": "Distance: 2.24", "to": "Gizeh", "value": 2}, {"from": "Ahmadabad", "title": "Distance: 5.06", "to": "New Delhi", "value": 2}, {"from": "Hyderabad", "title": "Distance: 3.86", "to": "Madras", "value": 2}, {"from": "Taiyuan", "title": "Distance: 5.40", "to": "Wuhan", "value": 2}, {"from": "Dalian", "title": "Distance: 3.18", "to": "Tianjin", "value": 2}, {"from": "Dalian", "title": "Distance: 5.38", "to": "Harbin", "value": 2}, {"from": "Cali", "title": "Distance: 4.47", "to": "Singapore", "value": 2}, {"from": "Montreal", "title": "Distance: 4.90", "to": "New York", "value": 2}, {"from": "Nagpur", "title": "Distance: 4.96", "to": "Surat", "value": 2}, {"from": "Jinan", "title": "Distance: 43.04", "to": "Seoul", "value": 2}, {"from": "Aleppo", "title": "Distance: 37.81", "to": "Baghdad", "value": 2}, {"from": "Jinan", "title": "Distance: 38.00", "to": "Shanghai", "value": 2}, {"from": "Ho Chi Minh City", "title": "Distance: 41.95", "to": "Surabaya", "value": 2}, {"from": "Jakarta", "title": "Distance: 38.40", "to": "Salvador", "value": 2}, {"from": "Moscow", "title": "Distance: 5.42", "to": "Saint Petersburg", "value": 2}, {"from": "Bogot\u00c3\u0192\u00c2\u00a1", "title": "Distance: 35.00", "to": "Singapore", "value": 2}, {"from": "Jaipur", "title": "Distance: 5.32", "to": "Lahore", "value": 2}, {"from": "Santo Domingo", "title": "Distance: 5.42", "to": "Surabaya", "value": 2}, {"from": "Belo Horizonte", "title": "Distance: 3.76", "to": "S\u00c3\u0192\u00c2\u00a3o Paulo", "value": 2}, {"from": "Nanjing", "title": "Distance: 27.33", "to": "Wuhan", "value": 2}, {"from": "Nagpur", "title": "Distance: 4.70", "to": "Pune", "value": 2}, {"from": "Bogot\u00c3\u0192\u00c2\u00a1", "title": "Distance: 5.30", "to": "Ho Chi Minh City", "value": 2}, {"from": "Changchun", "title": "Distance: 5.39", "to": "Peking", "value": 2}, {"from": "Mogadishu", "title": "Distance: 40.32", "to": "Singapore", "value": 2}, {"from": "Bombay", "title": "Distance: 31.46", "to": "Surat", "value": 2}, {"from": "New Delhi", "title": "Distance: 42.87", "to": "Surat", "value": 2}, {"from": "Ankara", "title": "Distance: 5.37", "to": "Izmir", "value": 2}, {"from": "Faisalabad", "title": "Distance: 5.32", "to": "Jaipur", "value": 2}, {"from": "Salvador", "title": "Distance: 42.07", "to": "Santo Domingo", "value": 2}, {"from": "Aleppo", "title": "Distance: 37.57", "to": "Ankara", "value": 2}, {"from": "Dalian", "title": "Distance: 4.40", "to": "Jinan", "value": 2}, {"from": "Hyderabad", "title": "Distance: 4.95", "to": "Pune", "value": 2}, {"from": "Jinan", "title": "Distance: 5.33", "to": "Wuhan", "value": 2}, {"from": "Salvador", "title": "Distance: 42.36", "to": "Singapore", "value": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.3, "springLength": 100, "springConstant": 0.04, "damping": 0.09, "avoidOverlap": 0.9}, "minVelocity": 0.75, "solver": "barnesHut"}, "nodes": {"font": {"size": 30}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
