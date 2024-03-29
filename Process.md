@@ -126,4 +126,7 @@
         * Plot: Box and whiskers plots
           * Visualize geographical spread by latitude (N/S)
           * Visualize geographical spread by longitude (E/W)
-    * 
+    * TODO: Temporal Analysis (decades?)
+    * TODO: Spatial Analysis (cities in same latitude but different longitudes and vice versa)
+    * TODO: Hierarchical clustering (hmm)
+    * Writeup: comparison with published data
