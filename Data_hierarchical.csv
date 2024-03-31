@@ -1,0 +1,101 @@
+Country,NumericLatitude,NumericLongitude,Continent,kcc,City,Cluster
+Cote D'Ivoire,5.63,-3.23,Africa,Aw,Abidjan,0
+Ethiopia,8.84,38.11,Africa,Cwb,Addis Abeba,0
+India,12.05,77.26,Asia,Aw,Bangalore,0
+Thailand,13.66,99.91,Asia,Aw,Bangkok,0
+Brazil,-20.09,-44.36,South America,Cwa,Belo Horizonte,0
+Colombia,4.02,-74.73,South America,As,BogotÃƒÂ¡,0
+Brazil,-15.27,-47.5,South America,Aw,BrasÃƒÂ­lia,0
+India,23.31,88.25,Asia,Aw,Calcutta,0
+Colombia,4.02,-76.34,South America,Af,Cali,0
+South Africa,-32.95,18.19,Africa,BSk,Cape Town,0
+Bangladesh,23.31,90.0,Asia,Aw,Dhaka,0
+South Africa,-29.74,31.38,Africa,Ocean,Durban,0
+Brazil,-4.02,-40.98,South America,Aw,Fortaleza,0
+Zimbabwe,-18.48,30.42,Africa,Cwa,Harare,0
+Vietnam,10.45,107.18,Asia,Aw,Ho Chi Minh City,0
+India,16.87,78.7,Asia,BSh,Hyderabad,0
+Nigeria,7.23,4.05,Africa,Aw,Ibadan,0
+Indonesia,-5.63,106.55,Asia,Ocean,Jakarta,0
+Nigeria,12.05,8.22,Africa,Aw,Kano,0
+Congo (Democratic Republic Of The),-4.02,15.27,Africa,Aw,Kinshasa,0
+Nigeria,5.63,3.23,Africa,Ocean,Lagos,0
+Peru,-12.05,-77.26,South America,BWh,Lima,0
+Angola,-8.84,13.78,Africa,BSh,Luanda,0
+India,13.66,80.09,Asia,Aw,Madras,0
+Philippines,15.27,120.83,Asia,Aw,Manila,0
+Mexico,20.09,-98.96,North America,BSk,Mexico,0
+Somalia,2.41,45.8,Africa,BSh,Mogadishu,0
+Kenya,-0.8,36.16,Africa,Cfb,Nairobi,0
+Burma,16.87,95.44,Asia,Am,Rangoon,0
+Brazil,-23.31,-42.82,South America,Ocean,Rio De Janeiro,0
+Brazil,-13.66,-38.81,South America,Af,Salvador,0
+Chile,-32.95,-69.89,South America,ET,Santiago,0
+Dominican Republic,18.48,-69.3,North America,Am,Santo Domingo,0
+Singapore,0.8,103.66,Asia,Af,Singapore,0
+Indonesia,-7.23,112.7,Asia,Aw,Surabaya,0
+Brazil,-23.31,-46.31,South America,Cfa,SÃƒÂ£o Paulo,0
+Taiwan,24.92,122.36,Asia,Ocean,Taipei,0
+China,44.2,125.22,Asia,Dwa,Changchun,1
+China,31.35,103.66,Asia,Cwb,Chengdu,1
+China,29.74,107.08,Asia,Cfa,Chongqing,1
+China,39.38,120.69,Asia,Ocean,Dalian,1
+China,23.31,112.72,Asia,Cfa,Guangzhou,1
+China,45.81,125.77,Asia,Dwa,Harbin,1
+China,36.17,117.35,Asia,Cwa,Jinan,1
+Japan,34.56,136.22,Asia,Cfa,Nagoya,1
+China,31.35,118.74,Asia,Cfa,Nanjing,1
+China,39.38,116.53,Asia,BSk,Peking,1
+South Korea,37.78,126.1,Asia,Cwa,Seoul,1
+China,31.35,120.63,Asia,Cfa,Shanghai,1
+China,40.99,123.55,Asia,Dwb,Shenyang,1
+China,37.78,111.86,Asia,Dwb,Taiyuan,1
+China,37.78,113.9,Asia,Dwa,Tangshan,1
+China,39.38,116.53,Asia,BSk,Tianjin,1
+Japan,36.17,139.23,Asia,Cfa,Tokyo,1
+China,29.74,114.46,Asia,Cfa,Wuhan,1
+China,34.56,108.97,Asia,BSk,Xian,1
+Morocco,32.95,-6.7,Africa,Csa,Casablanca,2
+Senegal,15.27,-17.5,Africa,Ocean,Dakar,2
+Tanzania,-7.23,39.73,Africa,Ocean,Dar Es Salaam,2
+United States,34.56,-118.7,North America,Csb,Los Angeles,2
+Spain,40.99,-4.26,Europe,Csa,Madrid,2
+Iran,36.17,59.67,Asia,BSk,Mashhad,2
+Australia,-37.78,144.41,Oceania,Cfb,Melbourne,2
+Italy,42.59,13.09,Europe,Cfb,Rome,2
+Australia,-34.56,151.78,Oceania,Ocean,Sydney,2
+India,23.31,72.52,Asia,BSh,Ahmadabad,3
+India,18.48,72.68,Asia,Am,Bombay,3
+India,28.13,77.27,Asia,BSh,Delhi,3
+Pakistan,31.35,73.51,Asia,BSh,Faisalabad,3
+India,26.52,75.22,Asia,BSh,Jaipur,3
+Afghanistan,34.56,70.05,Asia,BWk,Kabul,3
+India,26.52,80.6,Asia,BSh,Kanpur,3
+Pakistan,24.92,67.39,Asia,BWh,Karachi,3
+Pakistan,31.35,73.51,Asia,BSh,Lahore,3
+India,26.52,80.6,Asia,BSh,Lakhnau,3
+India,21.7,78.75,Asia,As,Nagpur,3
+India,28.13,77.27,Asia,BSh,New Delhi,3
+India,18.48,74.37,Asia,BSh,Pune,3
+India,21.7,73.56,Asia,Aw,Surat,3
+Germany,52.24,13.14,Europe,Cfb,Berlin,4
+Ukraine,50.63,31.69,Europe,Dfb,Kiev,4
+United Kingdom,52.24,-0.0,Europe,Cfb,London,4
+Russia,55.45,36.85,Europe,Dfb,Moscow,4
+France,49.03,2.45,Europe,Cfb,Paris,4
+Russia,60.27,29.19,Europe,Dfb,Saint Petersburg,4
+United States,42.59,-87.27,North America,Dfa,Chicago,5
+Canada,45.81,-72.69,North America,Dfb,Montreal,5
+United States,40.99,-74.56,North America,Cfa,New York,5
+Canada,44.2,-80.5,North America,Dfb,Toronto,5
+Syria,36.17,37.79,Asia,BSh,Aleppo,6
+Egypt,31.35,30.16,Africa,BWh,Alexandria,6
+Turkey,39.38,33.29,Asia,BSk,Ankara,6
+Iraq,32.95,45.0,Asia,BWh,Baghdad,6
+Egypt,29.74,31.38,Africa,BWh,Cairo,6
+Egypt,29.74,31.38,Africa,BWh,Gizeh,6
+Turkey,40.99,29.82,Asia,Csa,Istanbul,6
+Turkey,37.78,26.44,Asia,Csa,Izmir,6
+Saudi Arabia,21.7,38.94,Asia,BWh,Jiddah,6
+Saudi Arabia,24.92,46.11,Asia,BWh,Riyadh,6
+Sudan,15.27,32.5,Africa,BWh,Umm Durman,6

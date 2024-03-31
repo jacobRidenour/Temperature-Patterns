@@ -110,22 +110,51 @@
     * Find strongly correlated city pairs (2.5th percentile) by creating a Set out of the strongly correlated pairs from both distance matrices
     * Plot: pyvis network graph with the Set of strongly correlated city pairs
     * Cluster Mining
-      * Plot: SSE vs. Number of Clusters (elbow method) and Silhouette Score vs. Number of Clusters (k-means)
-        * Perform k-means clustering with the determined optimal number of clusters (k=3)
-        * Plot: Visualize the clusters and their center points
-      * For each cluster:
-        * Plot: relative abundance of each Continent (compare with original non-clustered data)
-          * Plot: heatmap with relative abundance of each Continent in each cluster relative to the overall dataset
-        * Plot: relative abundance of each kcc (compare with original non-clustered data)
-          * Plot: heatmap with relative abundance of each kcc in each cluster relative to the overall dataset
-        * Plot: `Average Temperature` vs. `Year`
-          * Correlation coefficients for each cluster:
-            * Cluster 1: 0.79
-            * Cluster 2: 0.68
-            * Cluster 3: 0.66
-        * Plot: Box and whiskers plots
-          * Visualize geographical spread by latitude (N/S)
-          * Visualize geographical spread by longitude (E/W)
+      * Representative-Based Clustering with k-means
+        * Plot: SSE vs. Number of Clusters (elbow method) and Silhouette Score vs. Number of Clusters (k-means)
+          * Perform k-means clustering with the determined optimal number of clusters (k=3)
+          * Plot: Visualize the clusters and their center points
+        * For each cluster:
+          * Plot: abundance of each Continent (compare with original non-clustered data)
+            * Plot: heatmap with relative abundance of each Continent in each cluster relative to the overall dataset
+          * Plot: abundance of each kcc (compare with original non-clustered data)
+            * Plot: heatmap with relative abundance of each kcc in each cluster relative to the overall dataset
+          * Plot: `Average Temperature` vs. `Year`, averaged for each Cluster
+            * Correlation coefficients for each cluster:
+              * Cluster 1: 0.79
+              * Cluster 2: 0.68
+              * Cluster 3: 0.66
+          * Plot: `Average Temperature` vs. `Year`, for comparison
+          * Plot: Box and whiskers plots
+            * Visualize geographical spread by latitude (N/S)
+            * Visualize geographical spread by longitude (E/W)
+      * Hierarchical Clustering with Agglomerative Clustering
+        * Plot: dendrogram with standardized city profiles
+        * Plot: Silhouette Score vs. number of clusters (range 2 to 10)
+          * Optimal number of clusters: 7
+          * Perform Agglomeratize Clustering with 7 clusters using ward linkage
+          * Plot: Show MDS plot with each cluster
+        * Plot: Number of unique Cities in each cluster
+        * Plot: Number of unique Countries in each cluster
+        * For each cluster:
+          * Plot:  abundance of each Continent (compare with original non-clustered data)
+            * Plot: heatmap with relative abundance of each Continent in each cluster relative to the overall dataset
+          * Plot: abundance of each kcc (compare with original non-clustered data)
+            * Plot: heatmap with relative abundance of each kcc in each cluster relative to the overall dataset
+          * Plot: `Average Temperature` vs. `Year`, averaged for each Cluster
+            * Correlation coefficients for each cluster:
+              * Cluster 1: 0.80
+              * Cluster 2: 0.55
+              * Cluster 3: 0.63
+              * Cluster 4: 0.45
+              * Cluster 5: 0.33
+              * Cluster 6: 0.32
+              * Cluster 7: 0.43
+          * Plot: `Average Temperature` vs. `Year`, for comparison
+
+          * TODO: Plot: Box and whiskers plots
+            * TODO: Visualize geographical spread by latitude (N/S)
+            * TODO: Visualize geographical spread by longitude (E/W)
     * TODO: Temporal Analysis (decades?)
     * TODO: Spatial Analysis (cities in same latitude but different longitudes and vice versa)
     * TODO: Hierarchical clustering (hmm)
