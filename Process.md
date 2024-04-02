@@ -159,3 +159,6 @@
     * TODO: Spatial Analysis (cities in same latitude but different longitudes and vice versa)
     * TODO: Hierarchical clustering (hmm)
     * Writeup: comparison with published data
+
+* first cell's mds, matrix_cities
+* strong_pairs merged?
