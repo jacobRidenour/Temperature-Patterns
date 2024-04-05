@@ -1,2 +1,5 @@
 .venv
 lib
+GlobalLandTemperaturesByCity.csv
+network.html
+original-clustering

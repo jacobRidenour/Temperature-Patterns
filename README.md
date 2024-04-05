@@ -4,10 +4,11 @@ Project for Purdue Fort Wayne CS 45700 Introduction to Data Mining
 
 # Dataset
 
-The dataset used for this project was obtained on Kaggle: [Global Temperature Records (1850-2022)](https://www.kaggle.com/datasets/maso0dahmed/global-temperature-records-1850-2022), which uses the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+The data used for this project (`GlobalLandTemperaturesByCity.csv`) was found in a dataset available on Kaggle. [Climate Change: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data) uses the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Setup
 
 This project is based on Python and was developed using [Python 3.10.11](https://www.python.org/downloads/release/python-31011/).
 
-To run this project, simply open `Analysis.ipynb` in your IDE of choice, or a site such as [Google Colab](https://colab.research.google.com/).
+To run through this project, simply open `Analysis 1 Exploration Preparation.ipynb` in your IDE of choice, or a site such as [Google Colab](https://colab.research.google.com/), then continue with the rest of the notebooks.
+

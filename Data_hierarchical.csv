@@ -1,101 +1,3449 @@
 Country,NumericLatitude,NumericLongitude,Continent,kcc,City,Cluster
-Cote D'Ivoire,5.63,-3.23,Africa,Aw,Abidjan,0
-Ethiopia,8.84,38.11,Africa,Cwb,Addis Abeba,0
-India,12.05,77.26,Asia,Aw,Bangalore,0
-Thailand,13.66,99.91,Asia,Aw,Bangkok,0
-Brazil,-20.09,-44.36,South America,Cwa,Belo Horizonte,0
-Colombia,4.02,-74.73,South America,As,BogotÃƒÂ¡,0
-Brazil,-15.27,-47.5,South America,Aw,BrasÃƒÂ­lia,0
-India,23.31,88.25,Asia,Aw,Calcutta,0
-Colombia,4.02,-76.34,South America,Af,Cali,0
-South Africa,-32.95,18.19,Africa,BSk,Cape Town,0
-Bangladesh,23.31,90.0,Asia,Aw,Dhaka,0
-South Africa,-29.74,31.38,Africa,Ocean,Durban,0
-Brazil,-4.02,-40.98,South America,Aw,Fortaleza,0
-Zimbabwe,-18.48,30.42,Africa,Cwa,Harare,0
-Vietnam,10.45,107.18,Asia,Aw,Ho Chi Minh City,0
-India,16.87,78.7,Asia,BSh,Hyderabad,0
-Nigeria,7.23,4.05,Africa,Aw,Ibadan,0
-Indonesia,-5.63,106.55,Asia,Ocean,Jakarta,0
-Nigeria,12.05,8.22,Africa,Aw,Kano,0
-Congo (Democratic Republic Of The),-4.02,15.27,Africa,Aw,Kinshasa,0
-Nigeria,5.63,3.23,Africa,Ocean,Lagos,0
-Peru,-12.05,-77.26,South America,BWh,Lima,0
-Angola,-8.84,13.78,Africa,BSh,Luanda,0
-India,13.66,80.09,Asia,Aw,Madras,0
-Philippines,15.27,120.83,Asia,Aw,Manila,0
-Mexico,20.09,-98.96,North America,BSk,Mexico,0
-Somalia,2.41,45.8,Africa,BSh,Mogadishu,0
-Kenya,-0.8,36.16,Africa,Cfb,Nairobi,0
-Burma,16.87,95.44,Asia,Am,Rangoon,0
-Brazil,-23.31,-42.82,South America,Ocean,Rio De Janeiro,0
-Brazil,-13.66,-38.81,South America,Af,Salvador,0
-Chile,-32.95,-69.89,South America,ET,Santiago,0
-Dominican Republic,18.48,-69.3,North America,Am,Santo Domingo,0
-Singapore,0.8,103.66,Asia,Af,Singapore,0
-Indonesia,-7.23,112.7,Asia,Aw,Surabaya,0
-Brazil,-23.31,-46.31,South America,Cfa,SÃƒÂ£o Paulo,0
-Taiwan,24.92,122.36,Asia,Ocean,Taipei,0
-China,44.2,125.22,Asia,Dwa,Changchun,1
-China,31.35,103.66,Asia,Cwb,Chengdu,1
-China,29.74,107.08,Asia,Cfa,Chongqing,1
-China,39.38,120.69,Asia,Ocean,Dalian,1
-China,23.31,112.72,Asia,Cfa,Guangzhou,1
-China,45.81,125.77,Asia,Dwa,Harbin,1
-China,36.17,117.35,Asia,Cwa,Jinan,1
-Japan,34.56,136.22,Asia,Cfa,Nagoya,1
-China,31.35,118.74,Asia,Cfa,Nanjing,1
-China,39.38,116.53,Asia,BSk,Peking,1
-South Korea,37.78,126.1,Asia,Cwa,Seoul,1
-China,31.35,120.63,Asia,Cfa,Shanghai,1
-China,40.99,123.55,Asia,Dwb,Shenyang,1
-China,37.78,111.86,Asia,Dwb,Taiyuan,1
-China,37.78,113.9,Asia,Dwa,Tangshan,1
-China,39.38,116.53,Asia,BSk,Tianjin,1
-Japan,36.17,139.23,Asia,Cfa,Tokyo,1
-China,29.74,114.46,Asia,Cfa,Wuhan,1
-China,34.56,108.97,Asia,BSk,Xian,1
-Morocco,32.95,-6.7,Africa,Csa,Casablanca,2
-Senegal,15.27,-17.5,Africa,Ocean,Dakar,2
-Tanzania,-7.23,39.73,Africa,Ocean,Dar Es Salaam,2
-United States,34.56,-118.7,North America,Csb,Los Angeles,2
-Spain,40.99,-4.26,Europe,Csa,Madrid,2
-Iran,36.17,59.67,Asia,BSk,Mashhad,2
-Australia,-37.78,144.41,Oceania,Cfb,Melbourne,2
-Italy,42.59,13.09,Europe,Cfb,Rome,2
-Australia,-34.56,151.78,Oceania,Ocean,Sydney,2
-India,23.31,72.52,Asia,BSh,Ahmadabad,3
-India,18.48,72.68,Asia,Am,Bombay,3
-India,28.13,77.27,Asia,BSh,Delhi,3
-Pakistan,31.35,73.51,Asia,BSh,Faisalabad,3
-India,26.52,75.22,Asia,BSh,Jaipur,3
-Afghanistan,34.56,70.05,Asia,BWk,Kabul,3
-India,26.52,80.6,Asia,BSh,Kanpur,3
-Pakistan,24.92,67.39,Asia,BWh,Karachi,3
-Pakistan,31.35,73.51,Asia,BSh,Lahore,3
-India,26.52,80.6,Asia,BSh,Lakhnau,3
-India,21.7,78.75,Asia,As,Nagpur,3
-India,28.13,77.27,Asia,BSh,New Delhi,3
-India,18.48,74.37,Asia,BSh,Pune,3
-India,21.7,73.56,Asia,Aw,Surat,3
-Germany,52.24,13.14,Europe,Cfb,Berlin,4
-Ukraine,50.63,31.69,Europe,Dfb,Kiev,4
-United Kingdom,52.24,-0.0,Europe,Cfb,London,4
-Russia,55.45,36.85,Europe,Dfb,Moscow,4
-France,49.03,2.45,Europe,Cfb,Paris,4
-Russia,60.27,29.19,Europe,Dfb,Saint Petersburg,4
+Spain,42.59,-8.73,Europe,Csb,A Coruña,0
+Germany,50.63,6.34,Europe,Cfb,Aachen,0
+United Kingdom,57.05,-1.48,Europe,Ocean,Aberdeen,0
+Morocco,29.74,-9.23,Africa,BSk,Agadir,0
+France,44.2,4.47,Europe,Csa,Aix En Provence,0
+Spain,39.38,-2.08,Europe,BSk,Albacete,0
+Spain,40.99,-4.26,Europe,Csa,Alcalá De Henares,0
+Spain,40.99,-4.26,Europe,Csa,Alcobendas,0
+Spain,40.99,-4.26,Europe,Csa,Alcorcón,0
+Spain,36.17,-5.97,Europe,Csa,Algeciras,0
+Netherlands,52.24,5.26,Europe,Cfb,Almere,0
+Spain,36.17,-1.99,Europe,Ocean,Almería,0
+Portugal,39.38,-8.32,Europe,Csa,Amadora,0
+Netherlands,52.24,5.26,Europe,Cfb,Amersfoort,0
+France,49.03,2.45,Europe,Cfb,Amiens,0
+Netherlands,52.24,5.26,Europe,Cfb,Amsterdam,0
+Italy,44.2,13.42,Europe,Ocean,Ancona,0
+France,47.42,-1.18,Europe,Cfb,Angers,0
+Belgium,50.63,3.8,Europe,Cfb,Antwerp,0
+Netherlands,52.24,5.26,Europe,Cfb,Apeldoorn,0
+Netherlands,52.24,5.26,Europe,Cfb,Arnhem,0
+Morocco,32.95,-8.62,Africa,Csa,Asfi,0
+Germany,47.42,10.66,Europe,Cfc,Augsburg,0
+Spain,39.38,-6.24,Europe,Csa,Badajoz,0
+Spain,40.99,2.13,Europe,Ocean,Badalona,0
+Spain,40.99,2.13,Europe,Ocean,Barcelona,0
+Italy,40.99,17.04,Europe,Csa,Bari,0
+Switzerland,47.42,8.29,Europe,Cfb,Basel,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Basildon,0
+United Kingdom,55.45,-5.67,Europe,Cfb,Belfast,0
+Italy,45.81,10.38,Europe,Dfb,Bergamo,0
+Germany,50.63,6.34,Europe,Cfb,Bergisch Gladbach,0
+Switzerland,47.42,8.29,Europe,Cfb,Bern,0
+France,47.42,5.92,Europe,Cfb,Besançon,0
+Germany,52.24,7.88,Europe,Cfb,Bielefeld,0
+Spain,42.59,-2.18,Europe,Cfb,Bilbao,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Blackburn,0
+United Kingdom,53.84,-4.09,Europe,Ocean,Blackpool,0
+Germany,52.24,7.88,Europe,Cfb,Bochum,0
+Italy,44.2,11.18,Europe,Cfb,Bologna,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Bolton,0
+Germany,50.63,6.34,Europe,Cfb,Bonn,0
+France,44.2,-0.0,Europe,Cfb,Bordeaux,0
+Germany,52.24,7.88,Europe,Cfb,Bottrop,0
+France,49.03,2.45,Europe,Cfb,Boulogne Billancourt,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Bournemouth,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Bradford,0
+Portugal,40.99,-8.52,Europe,Csb,Braga,0
+Netherlands,52.24,5.26,Europe,Cfb,Breda,0
+Germany,53.84,9.55,Europe,Cfb,Bremen,0
+Germany,53.84,9.55,Europe,Cfb,Bremerhaven,0
+Italy,45.81,10.38,Europe,Dfb,Brescia,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Brighton,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Bristol,0
+Belgium,50.63,3.8,Europe,Cfb,Brugge,0
+Germany,52.24,10.51,Europe,Cfb,Brunswick,0
+Belgium,50.63,3.8,Europe,Cfb,Brussels,0
+Spain,42.59,-4.36,Europe,Csb,Burgos,0
+Philippines,10.45,123.55,Asia,Am,Cadiz,0
+France,49.03,-0.0,Europe,Cfb,Caen,0
+Italy,39.38,8.32,Europe,Csa,Cagliari,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Cardiff,0
+Colombia,10.45,-76.09,South America,Ocean,Cartagena,0
+Morocco,32.95,-6.7,Africa,Csa,Casablanca,0
+Italy,37.78,14.24,Europe,Csa,Catania,0
+Belgium,50.63,3.8,Europe,Cfb,Charleroi,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Chelmsford,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Cheltenham,0
+France,45.81,3.46,Europe,Cfb,Clermont Ferrand,0
+Portugal,40.99,-8.52,Europe,Csb,Coimbra,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Colchester,0
+Germany,50.63,6.34,Europe,Cfb,Cologne,0
+Ireland,52.24,-7.88,Europe,Cfb,Cork,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Coventry,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Crawley,0
+Mexico,18.48,-96.34,North America,Am,Córdoba,0
+Germany,50.63,8.87,Europe,Cfb,Darmstadt,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Derby,0
+France,47.42,5.92,Europe,Cfb,Dijon,0
+Netherlands,52.24,5.26,Europe,Cfb,Dordrecht,0
+Germany,52.24,7.88,Europe,Cfb,Dortmund,0
+Spain,37.78,-6.1,Europe,Csa,Dos Hermanas,0
+Ireland,53.84,-6.82,Europe,Cfb,Dublin,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Dudley,0
+Germany,50.63,6.34,Europe,Cfb,Duisburg,0
+United Kingdom,57.05,-4.43,Europe,Cfc,Dundee,0
+Germany,50.63,6.34,Europe,Cfb,Düsseldorf,0
+United Kingdom,50.63,1.27,Europe,Ocean,Eastbourne,0
+United Kingdom,55.45,-2.83,Europe,Cfb,Edinburgh,0
+Netherlands,52.24,5.26,Europe,Cfb,Eindhoven,0
+Netherlands,52.24,7.88,Europe,Cfb,Emmen,0
+Netherlands,52.24,7.88,Europe,Cfb,Enschede,0
+Germany,50.63,11.41,Europe,Cfb,Erfurt,0
+Germany,49.03,9.8,Europe,Cfb,Erlangen,0
+Germany,50.63,6.34,Europe,Cfb,Essen,0
+United Kingdom,50.63,-3.8,Europe,Cfb,Exeter,0
+Italy,44.2,11.18,Europe,Cfb,Ferrara,0
+Morocco,34.56,-5.84,Africa,Csa,Fez,0
+Italy,44.2,11.18,Europe,Cfb,Florence,0
+Italy,40.99,14.91,Europe,Csa,Foggia,0
+Italy,44.2,11.18,Europe,Cfb,Forlì,0
+Germany,50.63,8.87,Europe,Cfb,Frankfurt,0
+Germany,47.42,8.29,Europe,Cfb,Freiburg,0
+Spain,40.99,-4.26,Europe,Csa,Fuenlabrada,0
+Germany,49.03,9.8,Europe,Cfb,Fürth,0
+Germany,52.24,7.88,Europe,Cfb,Gelsenkirchen,0
+Switzerland,45.81,5.77,Europe,Cfb,Geneva,0
+Italy,44.2,8.94,Europe,Ocean,Genoa,0
+Belgium,50.63,3.8,Europe,Cfb,Gent,0
+Germany,50.63,11.41,Europe,Cfb,Gera,0
+Spain,40.99,-4.26,Europe,Csa,Getafe,0
+Spain,44.2,-6.71,Europe,Ocean,Gijón,0
+United Kingdom,50.63,1.27,Europe,Ocean,Gillingham,0
+Italy,40.99,14.91,Europe,Csa,Giugliano In Campania,0
+United Kingdom,55.45,-2.83,Europe,Cfb,Glasgow,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Gloucester,0
+Spain,37.78,-4.07,Europe,Csa,Granada,0
+France,45.81,5.77,Europe,Cfb,Grenoble,0
+Netherlands,53.84,6.82,Europe,Ocean,Groningen,0
+Germany,52.24,10.51,Europe,Cfb,Göttingen,0
+Netherlands,52.24,5.26,Europe,Cfb,Haarlem,0
+Netherlands,52.24,5.26,Europe,Cfb,Haarlemmermeer,0
+Germany,52.24,7.88,Europe,Cfb,Hagen,0
+Germany,50.63,11.41,Europe,Cfb,Halle,0
+Germany,53.84,9.55,Europe,Cfb,Hamburg,0
+Germany,52.24,7.88,Europe,Cfb,Hamm,0
+Germany,52.24,10.51,Europe,Cfb,Hanover,0
+Germany,49.03,9.8,Europe,Cfb,Heidelberg,0
+Germany,49.03,9.8,Europe,Cfb,Heilbronn,0
+Germany,52.24,7.88,Europe,Cfb,Herne,0
+Germany,52.24,10.51,Europe,Cfb,Hildesheim,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Huddersfield,0
+Spain,37.78,-6.1,Europe,Csa,Huelva,0
+Germany,49.03,12.24,Europe,Cfb,Ingolstadt,0
+Austria,47.42,10.66,Europe,Cfc,Innsbruck,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Ipswich,0
+Spain,37.78,-4.07,Europe,Csa,Jaén,0
+Spain,36.17,-5.97,Europe,Csa,Jerez,0
+Germany,49.03,7.35,Europe,Cfb,Karlsruhe,0
+Germany,50.63,8.87,Europe,Cfb,Kassel,0
+Morocco,34.56,-5.84,Africa,Csa,Kenitra,0
+Germany,53.84,9.55,Europe,Cfb,Kiel,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Kingston Upon Hull,0
+Germany,50.63,6.34,Europe,Cfb,Koblenz,0
+Germany,50.63,6.34,Europe,Cfb,Krefeld,0
+Spain,28.13,-15.45,Europe,BWh,Las Palmas,0
+Italy,40.99,12.78,Europe,Ocean,Latina,0
+Switzerland,45.81,5.77,Europe,Cfb,Lausanne,0
+France,49.03,-0.0,Europe,Cfb,Le Havre,0
+France,47.42,1.18,Europe,Cfb,Le Mans,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Leeds,0
+Spain,40.99,-4.26,Europe,Csa,Leganés,0
+Italy,44.2,11.18,Europe,Cfb,Leghorn,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Leicester,0
+Netherlands,52.24,5.26,Europe,Cfb,Leiden,0
+Germany,50.63,11.41,Europe,Cfb,Leipzig,0
+Germany,50.63,6.34,Europe,Cfb,Leverkusen,0
+Mexico,21.7,-101.25,North America,BSk,León,0
+France,50.63,3.8,Europe,Cfb,Lille,0
+France,45.81,1.15,Europe,Cfb,Limoges,0
+Portugal,39.38,-8.32,Europe,Csa,Lisbon,0
+United Kingdom,53.84,-4.09,Europe,Ocean,Liverpool,0
+Belgium,50.63,6.34,Europe,Cfb,Liège,0
+Spain,40.99,-0.0,Europe,Csa,Lleida,0
+Spain,42.59,-2.18,Europe,Cfb,Logroño,0
+Germany,49.03,7.35,Europe,Cfb,Ludwigshafen,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Luton,0
+France,45.81,5.77,Europe,Cfb,Lyon,0
+Germany,53.84,9.55,Europe,Cfb,Lübeck,0
+Netherlands,50.63,6.34,Europe,Cfb,Maastricht,0
+Spain,40.99,-4.26,Europe,Csa,Madrid,0
+Germany,52.24,10.51,Europe,Cfb,Magdeburg,0
+Germany,50.63,8.87,Europe,Cfb,Mainz,0
+Germany,49.03,7.35,Europe,Cfb,Mannheim,0
+Spain,36.17,-3.98,Europe,Ocean,Marbella,0
+Morocco,31.35,-7.54,Africa,Csa,Marrakesh,0
+France,42.59,6.55,Europe,Ocean,Marseille,0
+Spain,40.99,2.13,Europe,Ocean,Mataró,0
+Italy,37.78,16.27,Europe,Ocean,Messina,0
+France,49.03,7.35,Europe,Cfb,Metz,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Middlesbrough,0
+Italy,45.81,8.08,Europe,Cfb,Milan,0
+Italy,44.2,11.18,Europe,Cfb,Modena,0
+Germany,50.63,6.34,Europe,Cfb,Moers,0
+France,44.2,4.47,Europe,Csa,Montpellier,0
+Italy,45.81,10.38,Europe,Dfb,Monza,0
+Bosnia And Herzegovina,42.59,17.45,Europe,Ocean,Mostar,0
+France,47.42,8.29,Europe,Cfb,Mulhouse,0
+Germany,47.42,10.66,Europe,Cfc,Munich,0
+Spain,37.78,-2.03,Europe,BSk,Murcia,0
+Spain,36.17,-3.98,Europe,Ocean,Málaga,0
+Spain,40.99,-4.26,Europe,Csa,Móstoles,0
+Germany,50.63,6.34,Europe,Cfb,Mönchengladbach,0
+Germany,50.63,6.34,Europe,Cfb,Mülheim,0
+Germany,52.24,7.88,Europe,Cfb,Münster,0
+Morocco,34.56,-3.89,Africa,Csa,Nador,0
+Belgium,50.63,3.8,Europe,Cfb,Namur,0
+France,49.03,7.35,Europe,Cfb,Nancy,0
+France,47.42,-1.18,Europe,Cfb,Nantes,0
+Italy,40.99,14.91,Europe,Csa,Naples,0
+Germany,50.63,6.34,Europe,Cfb,Neuss,0
+United Kingdom,55.45,-2.83,Europe,Cfb,Newcastle Upon Tyne,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Newport,0
+France,44.2,6.71,Europe,Cfc,Nice,0
+Netherlands,52.24,5.26,Europe,Cfb,Nijmegen,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Northampton,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Norwich,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Nottingham,0
+Italy,45.81,8.08,Europe,Cfb,Novara,0
+Germany,49.03,12.24,Europe,Cfb,Nuremberg,0
+France,44.2,4.47,Europe,Csa,Nîmes,0
+Germany,50.63,6.34,Europe,Cfb,Oberhausen,0
+Germany,50.63,8.87,Europe,Cfb,Offenbach,0
+Germany,52.24,7.88,Europe,Cfb,Oldenburg,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Oldham,0
+France,47.42,1.18,Europe,Cfb,Orléans,0
+Germany,52.24,7.88,Europe,Cfb,Osnabrück,0
+Spain,42.59,-6.55,Europe,Csb,Oviedo,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Oxford,0
+Germany,52.24,7.88,Europe,Cfb,Paderborn,0
+Italy,45.81,12.69,Europe,Cfa,Padova,0
+Italy,37.78,14.24,Europe,Csa,Palermo,0
+Spain,39.38,2.08,Europe,Ocean,Palma,0
+Spain,42.59,-2.18,Europe,Cfb,Pamplona,0
+France,49.03,2.45,Europe,Cfb,Paris,0
+Italy,44.2,11.18,Europe,Cfb,Parma,0
+France,42.59,2.18,Europe,Cfb,Perpignan,0
+Italy,42.59,13.09,Europe,Cfb,Perugia,0
+Italy,42.59,15.27,Europe,Ocean,Pescara,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Peterborough,0
+Germany,49.03,9.8,Europe,Cfb,Pforzheim,0
+United Kingdom,50.63,-3.8,Europe,Cfb,Plymouth,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Poole,0
+Portugal,40.99,-8.52,Europe,Csb,Porto,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Portsmouth,0
+Italy,44.2,11.18,Europe,Cfb,Prato,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Preston,0
+Portugal,39.38,-8.32,Europe,Csa,Queluz,0
+Morocco,34.56,-5.84,Africa,Csa,Rabat,0
+Germany,49.03,12.24,Europe,Cfb,Ratisbon,0
+Italy,44.2,11.18,Europe,Cfb,Ravenna,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Reading,0
+Germany,52.24,7.88,Europe,Cfb,Recklinghausen,0
+Italy,37.78,16.27,Europe,Ocean,Reggio Di Calabria,0
+France,49.03,4.9,Europe,Cfb,Reims,0
+Germany,50.63,6.34,Europe,Cfb,Remscheid,0
+France,47.42,-1.18,Europe,Cfb,Rennes,0
+Germany,49.03,9.8,Europe,Cfb,Reutlingen,0
+Italy,44.2,13.42,Europe,Ocean,Rimini,0
+Italy,42.59,13.09,Europe,Cfb,Rome,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Rotherham,0
+Netherlands,52.24,5.26,Europe,Cfb,Rotterdam,0
+France,49.03,-0.0,Europe,Cfb,Rouen,0
+Germany,49.03,7.35,Europe,Cfb,Saarbrücken,0
+Spain,40.99,2.13,Europe,Ocean,Sabadell,0
+United Kingdom,53.84,-4.09,Europe,Ocean,Saint Helens,0
+France,45.81,3.46,Europe,Cfb,Saint Étienne,0
+Mexico,20.09,-100.66,North America,Cwb,Salamanca,0
+Italy,40.99,14.91,Europe,Csa,Salerno,0
+Austria,47.42,13.03,Europe,ET,Salzburg,0
+Germany,52.24,10.51,Europe,Cfb,Salzgitter,0
+Spain,28.13,-15.45,Europe,BWh,Santa Cruz De Tenerife,0
+Spain,44.2,-4.47,Europe,Ocean,Santander,0
+Italy,40.99,8.52,Europe,Csa,Sassari,0
+Portugal,39.38,-8.32,Europe,Csa,Setúbal,0
+Spain,37.78,-6.1,Europe,Csa,Sevilla,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Sheffield,0
+Germany,50.63,8.87,Europe,Cfb,Siegen,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Slough,0
+Germany,50.63,6.34,Europe,Cfb,Solingen,0
+United Kingdom,50.63,-1.27,Europe,Cfb,Southampton,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Southend On Sea,0
+Croatia,44.2,15.65,Europe,Csa,Split,0
+United Kingdom,53.84,-1.36,Europe,Cfb,Stockport,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Stoke On Trent,0
+France,49.03,7.35,Europe,Cfb,Strasbourg,0
+Germany,49.03,9.8,Europe,Cfb,Stuttgart,0
+United Kingdom,55.45,-2.83,Europe,Cfb,Sunderland,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Sutton Coldfield,0
+United Kingdom,52.24,-5.26,Europe,Ocean,Swansea,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Swindon,0
+Morocco,36.17,-5.97,Africa,Csa,Tangier,0
+Italy,40.99,17.04,Europe,Csa,Taranto,0
+Spain,40.99,2.13,Europe,Ocean,Tarragona,0
+Italy,42.59,13.09,Europe,Cfb,Terni,0
+Spain,40.99,2.13,Europe,Ocean,Terrassa,0
+Netherlands,52.24,5.26,Europe,Cfb,The Hague,0
+Netherlands,52.24,5.26,Europe,Cfb,Tilburg,0
+Spain,40.99,-4.26,Europe,Csa,Torrejón De Ardoz,0
+France,42.59,6.55,Europe,Ocean,Toulon,0
+France,44.2,2.24,Europe,Cfb,Toulouse,0
+France,47.42,1.18,Europe,Cfb,Tours,0
+Italy,45.81,10.38,Europe,Dfb,Trento,0
+Germany,49.03,7.35,Europe,Cfb,Trier,0
+Italy,45.81,12.69,Europe,Cfa,Trieste,0
+Italy,45.81,8.08,Europe,Cfb,Turin,0
+Morocco,36.17,-5.97,Africa,Csa,Tétouan,0
+Germany,49.03,9.8,Europe,Cfb,Ulm,0
+Netherlands,52.24,5.26,Europe,Cfb,Utrecht,0
+Spain,39.38,-0.0,Europe,Ocean,Valencia,0
+Spain,40.99,-4.26,Europe,Csa,Valladolid,0
+Italy,45.81,12.69,Europe,Cfa,Venice,0
+Italy,45.81,10.38,Europe,Dfb,Verona,0
+Italy,45.81,12.69,Europe,Cfa,Vicenza,0
+Spain,42.59,-8.73,Europe,Csb,Vigo,0
+France,45.81,5.77,Europe,Cfb,Villeurbanne,0
+Spain,42.59,-2.18,Europe,Cfb,Vitoria,0
+Algeria,36.17,-0.0,Africa,Ocean,Wahran,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Walsall,0
+United Kingdom,52.24,-0.0,Europe,Cfb,Watford,0
+United Kingdom,52.24,-2.63,Europe,Cfb,West Bromwich,0
+Germany,50.63,8.87,Europe,Cfb,Wiesbaden,0
+Germany,52.24,7.88,Europe,Cfb,Witten,0
+Germany,52.24,10.51,Europe,Cfb,Wolfsburg,0
+United Kingdom,52.24,-2.63,Europe,Cfb,Wolverhampton,0
+Germany,50.63,6.34,Europe,Cfb,Wuppertal,0
+Germany,49.03,9.8,Europe,Cfb,Würzburg,0
+United Kingdom,53.84,-1.36,Europe,Cfb,York,0
+Netherlands,52.24,5.26,Europe,Cfb,Zaanstad,0
+Spain,40.99,-0.0,Europe,Csa,Zaragoza,0
+Netherlands,52.24,5.26,Europe,Cfb,Zoetermeer,0
+Switzerland,47.42,8.29,Europe,Cfb,Zurich,0
+Netherlands,52.24,5.26,Europe,Cfb,Zwolle,0
+Brazil,-23.31,-48.06,South America,Cfa,Americana,1
+Brazil,-23.31,-44.56,South America,Am,Angra Dos Reis,1
+Brazil,-16.87,-48.56,South America,Aw,Anápolis,1
+Brazil,-23.31,-51.55,South America,Cfa,Apucarana,1
+Brazil,-21.7,-47.6,South America,Aw,Araraquara,1
+Brazil,-21.7,-47.6,South America,Aw,Araras,1
+Brazil,-23.31,-42.82,South America,Ocean,Araruama,1
+Brazil,-24.92,-49.66,South America,Cfa,Araucária,1
+Brazil,-21.7,-51.06,South America,Aw,Araçatuba,1
+Paraguay,-24.92,-58.52,South America,Cfa,Asunción,1
+Brazil,-23.31,-46.31,South America,Cfa,Atibaia,1
+Argentina,-39.38,-62.43,South America,Cfa,Bahia Blanca,1
+Brazil,-21.7,-44.13,South America,Cwb,Barbacena,1
+Brazil,-21.7,-44.13,South America,Cwb,Barra Mansa,1
+Brazil,-20.09,-47.77,South America,Aw,Barretos,1
+Brazil,-23.31,-46.31,South America,Cfa,Barueri,1
+Brazil,-21.7,-49.33,South America,Aw,Bauru,1
+Brazil,-23.31,-42.82,South America,Ocean,Belford Roxo,1
+Brazil,-20.09,-44.36,South America,Cwa,Belo Horizonte,1
+Brazil,-20.09,-44.36,South America,Cwa,Betim,1
+Brazil,-21.7,-51.06,South America,Aw,Birigui,1
+Brazil,-26.52,-48.36,South America,Ocean,Blumenau,1
+Brazil,-23.31,-48.06,South America,Cfa,Botucatu,1
+Brazil,-23.31,-46.31,South America,Cfa,Bragança Paulista,1
+Brazil,-15.27,-47.5,South America,Aw,Brasília,1
+Brazil,-23.31,-42.82,South America,Ocean,Cabo Frio,1
+Brazil,-29.74,-51.69,South America,Cfa,Cachoeirinha,1
+Brazil,-20.09,-40.95,South America,Cfa,Cachoeiro De Itapemirim,1
+Brazil,-23.31,-46.31,South America,Cfa,Campinas,1
+Brazil,-20.09,-54.6,South America,Aw,Campo Grande,1
+Brazil,-21.7,-40.67,South America,Ocean,Campos,1
+Brazil,-29.74,-51.69,South America,Cfa,Canoas,1
+Paraguay,-24.92,-56.75,South America,Cfa,Capiatá,1
+Brazil,-23.31,-46.31,South America,Cfa,Carapicuíba,1
+Brazil,-20.09,-40.95,South America,Cfa,Cariacica,1
+Brazil,-24.92,-53.2,South America,Cfa,Cascavel,1
+Argentina,-28.13,-66.36,South America,BWh,Catamarca,1
+Brazil,-21.7,-49.33,South America,Aw,Catanduva,1
+Brazil,-29.74,-51.69,South America,Cfa,Caxias Do Sul,1
+Brazil,-26.52,-53.73,South America,Cfa,Chapecó,1
+Chile,-36.17,-71.6,South America,Csb,Chillan,1
+Brazil,-20.09,-40.95,South America,Cfa,Colatina,1
+Brazil,-24.92,-49.66,South America,Cfa,Colombo,1
+Argentina,-45.81,-68.08,South America,BSk,Comodoro Rivadavia,1
+Chile,-36.17,-73.59,South America,Ocean,Concepcion,1
+Argentina,-31.35,-58.43,South America,Cfa,Concordia,1
+Brazil,-20.09,-44.36,South America,Cwa,Conselheiro Lafaiete,1
+Brazil,-20.09,-44.36,South America,Cwa,Contagem,1
+Chile,-28.13,-70.0,South America,BWk,Copiapo,1
+Chile,-29.74,-72.0,South America,Ocean,Coquimbo,1
+Argentina,-31.35,-64.08,South America,Cwa,Cordoba,1
+Brazil,-20.09,-42.65,South America,Aw,Coronel Fabriciano,1
+Argentina,-28.13,-59.09,South America,Cfa,Corrientes,1
+Brazil,-23.31,-46.31,South America,Cfa,Cotia,1
+Brazil,-28.13,-50.0,South America,Cfb,Criciúma,1
+Brazil,-23.31,-46.31,South America,Cfa,Cubatão,1
+Brazil,-15.27,-55.83,South America,Aw,Cuiabá,1
+Chile,-34.56,-72.0,South America,Csb,Curico,1
+Brazil,-24.92,-49.66,South America,Cfa,Curitiba,1
+Brazil,-23.31,-46.31,South America,Cfa,Diadema,1
+Brazil,-20.09,-44.36,South America,Cwa,Divinópolis,1
+Brazil,-21.7,-54.52,South America,Aw,Dourados,1
+Brazil,-23.31,-42.82,South America,Ocean,Duque De Caxias,1
+Brazil,-23.31,-46.31,South America,Cfa,Embu,1
+Brazil,-20.09,-44.36,South America,Cwa,Esmeraldas,1
+Paraguay,-24.92,-56.75,South America,Cfa,Fernando De La Mora,1
+Brazil,-23.31,-46.31,South America,Cfa,Ferraz De Vasconcelos,1
+Brazil,-28.13,-48.18,South America,Ocean,Florianópolis,1
+Argentina,-26.52,-57.31,South America,Cfa,Formosa,1
+Brazil,-24.92,-54.98,South America,Cfa,Foz Do Iguaçu,1
+Brazil,-20.09,-47.77,South America,Aw,Franca,1
+Brazil,-23.31,-46.31,South America,Cfa,Francisco Morato,1
+Brazil,-23.31,-46.31,South America,Cfa,Franco Da Rocha,1
+Brazil,-16.87,-48.56,South America,Aw,Goiânia,1
+Brazil,-18.48,-42.25,South America,Aw,Governador Valadares,1
+Brazil,-29.74,-51.69,South America,Cfa,Gravataí,1
+Brazil,-20.09,-40.95,South America,Cfa,Guarapari,1
+Brazil,-24.92,-51.43,South America,Cfa,Guarapuava,1
+Brazil,-23.31,-44.56,South America,Am,Guaratinguetá,1
+Brazil,-23.31,-46.31,South America,Cfa,Guarujá,1
+Brazil,-23.31,-46.31,South America,Cfa,Guarulhos,1
+Brazil,-29.74,-51.69,South America,Cfa,Guaíba,1
+Brazil,-23.31,-48.06,South America,Cfa,Hortolândia,1
+Brazil,-20.09,-44.36,South America,Cwa,Ibirité,1
+Brazil,-23.31,-48.06,South America,Cfa,Indaiatuba,1
+Brazil,-20.09,-42.65,South America,Aw,Ipatinga,1
+Brazil,-23.31,-42.82,South America,Ocean,Itaboraí,1
+Brazil,-23.31,-44.56,South America,Am,Itaguaí,1
+Brazil,-26.52,-48.36,South America,Ocean,Itajaí,1
+Brazil,-23.31,-46.31,South America,Cfa,Itapecerica Da Serra,1
+Brazil,-23.31,-48.06,South America,Cfa,Itapetininga,1
+Brazil,-23.31,-46.31,South America,Cfa,Itapevi,1
+Brazil,-23.31,-46.31,South America,Cfa,Itaquaquecetuba,1
+Brazil,-23.31,-48.06,South America,Cfa,Itu,1
+Brazil,-23.31,-46.31,South America,Cfa,Jacareí,1
+Brazil,-23.31,-46.31,South America,Cfa,Jandira,1
+Brazil,-26.52,-48.36,South America,Ocean,Jaraguá Do Sul,1
+Brazil,-21.7,-49.33,South America,Aw,Jaú,1
+Brazil,-26.52,-48.36,South America,Ocean,Joinville,1
+Brazil,-21.7,-44.13,South America,Cwb,Juiz De Fora,1
+Argentina,-24.92,-65.62,South America,BSk,Jujuy,1
+Brazil,-23.31,-46.31,South America,Cfa,Jundiaí,1
+Argentina,-34.56,-58.38,South America,Cfa,La Plata,1
+Argentina,-29.74,-66.46,South America,BSh,La Rioja,1
+Chile,-29.74,-72.0,South America,Ocean,La Serena,1
+Brazil,-28.13,-50.0,South America,Cfb,Lages,1
+Argentina,-24.92,-58.52,South America,Cfa,Lambaré,1
+Brazil,-21.7,-47.6,South America,Aw,Limeira,1
+Brazil,-20.09,-39.24,South America,Ocean,Linhares,1
+Brazil,-23.31,-51.55,South America,Cfa,Londrina,1
+Paraguay,-24.92,-56.75,South America,Cfa,Luque,1
+Brazil,-16.87,-48.56,South America,Aw,Luziânia,1
+Brazil,-21.7,-42.4,South America,Aw,Macaé,1
+Brazil,-23.31,-42.82,South America,Ocean,Magé,1
+Argentina,-37.78,-56.95,South America,Ocean,Mar Del Plata,1
+Brazil,-23.31,-51.55,South America,Cfa,Maringá,1
+Brazil,-21.7,-49.33,South America,Aw,Marília,1
+Brazil,-23.31,-46.31,South America,Cfa,Mauá,1
+Argentina,-32.95,-67.98,South America,BWk,Mendoza,1
+Argentina,-32.95,-66.06,South America,Cwb,Mercedes,1
+Brazil,-23.31,-46.31,South America,Cfa,Moji Das Cruzes,1
+Brazil,-16.87,-43.53,South America,Aw,Montes Claros,1
+Uruguay,-34.56,-56.43,South America,Cfa,Montevideo,1
+Argentina,-39.38,-68.67,South America,BWk,Neuquen,1
+Brazil,-23.31,-42.82,South America,Ocean,Nilópolis,1
+Brazil,-23.31,-42.82,South America,Ocean,Niterói,1
+Brazil,-21.7,-42.4,South America,Aw,Nova Friburgo,1
+Brazil,-23.31,-42.82,South America,Ocean,Nova Iguaçu,1
+Brazil,-29.74,-51.69,South America,Cfa,Novo Hamburgo,1
+Brazil,-23.31,-46.31,South America,Cfa,Osasco,1
+Chile,-40.99,-72.43,South America,Cfb,Osorno,1
+Brazil,-28.13,-48.18,South America,Ocean,Palhoça,1
+Argentina,-31.35,-60.31,South America,Cfa,Parana,1
+Brazil,-24.92,-47.88,South America,Af,Paranaguá,1
+Brazil,-28.13,-51.82,South America,Cfa,Passo Fundo,1
+Brazil,-18.48,-47.32,South America,Aw,Patos De Minas,1
+Brazil,-31.35,-52.77,South America,Cfa,Pelotas,1
+Brazil,-23.31,-42.82,South America,Ocean,Petrópolis,1
+Brazil,-23.31,-46.31,South America,Cfa,Pindamonhangaba,1
+Brazil,-23.31,-48.06,South America,Cfa,Piracicaba,1
+Brazil,-24.92,-49.66,South America,Cfa,Ponta Grossa,1
+Brazil,-29.74,-51.69,South America,Cfa,Porto Alegre,1
+Argentina,-28.13,-55.45,South America,Cfa,Posadas,1
+Brazil,-21.7,-45.87,South America,Cwa,Pouso Alegre,1
+Brazil,-23.31,-46.31,South America,Cfa,Poá,1
+Brazil,-21.7,-45.87,South America,Cwa,Poços De Caldas,1
+Brazil,-23.31,-46.31,South America,Cfa,Praia Grande,1
+Brazil,-21.7,-51.06,South America,Aw,Presidente Prudente,1
+Chile,-40.99,-72.43,South America,Cfb,Puerto Montt,1
+Chile,-52.24,-70.95,South America,Cfc,Punta Arenas,1
+Brazil,-23.31,-42.82,South America,Ocean,Queimados,1
+Chile,-32.95,-71.81,South America,Csb,Quilpue,1
+Chile,-34.56,-70.05,South America,ET,Rancagua,1
+Brazil,-21.7,-44.13,South America,Cwb,Resende,1
+Argentina,-28.13,-59.09,South America,Cfa,Resistencia,1
+Brazil,-20.09,-44.36,South America,Cwa,Ribeirão Das Neves,1
+Brazil,-23.31,-46.31,South America,Cfa,Ribeirão Pires,1
+Brazil,-21.7,-47.6,South America,Aw,Ribeirão Prêto,1
+Brazil,-21.7,-47.6,South America,Aw,Rio Claro,1
+Argentina,-32.95,-64.15,South America,Cwa,Rio Cuarto,1
+Brazil,-23.31,-42.82,South America,Ocean,Rio De Janeiro,1
+Brazil,-31.35,-52.77,South America,Cfa,Rio Grande,1
+Brazil,-16.87,-55.26,South America,Aw,Rondonópolis,1
+Argentina,-32.95,-60.32,South America,Cfa,Rosario,1
+Brazil,-20.09,-44.36,South America,Cwa,Sabará,1
+Argentina,-24.92,-65.62,South America,BSk,Salta,1
+Uruguay,-31.35,-58.43,South America,Cfa,Salto,1
+Chile,-32.95,-69.89,South America,ET,San Bernardo,1
+Argentina,-40.99,-70.3,South America,Csb,San Carlos De Bariloche,1
+Paraguay,-24.92,-56.75,South America,Cfa,San Lorenzo,1
+Argentina,-32.95,-66.06,South America,Cwb,San Luis,1
+Argentina,-32.95,-67.98,South America,BWk,San Martin,1
+Argentina,-32.95,-60.32,South America,Cfa,San Nicolas,1
+Argentina,-34.56,-68.11,South America,BSk,San Rafael,1
+Brazil,-29.74,-51.69,South America,Cfa,Santa Cruz Do Sul,1
+Argentina,-31.35,-60.31,South America,Cfa,Santa Fe,1
+Brazil,-20.09,-44.36,South America,Cwa,Santa Luzia,1
+Brazil,-29.74,-53.54,South America,Cfa,Santa Maria,1
+Argentina,-28.13,-64.55,South America,BSh,Santiago Del Estero,1
+Brazil,-23.31,-46.31,South America,Cfa,Santo André,1
+Brazil,-23.31,-46.31,South America,Cfa,Santos,1
+Brazil,-29.74,-51.69,South America,Cfa,Sapucaia,1
+Brazil,-20.09,-40.95,South America,Cfa,Serra,1
+Brazil,-20.09,-44.36,South America,Cwa,Sete Lagoas,1
+Brazil,-23.31,-48.06,South America,Cfa,Sorocaba,1
+Brazil,-23.31,-48.06,South America,Cfa,Sumaré,1
+Brazil,-23.31,-46.31,South America,Cfa,Suzano,1
+Brazil,-23.31,-46.31,South America,Cfa,São Bernardo Do Campo,1
+Brazil,-23.31,-46.31,South America,Cfa,São Caetano Do Sul,1
+Brazil,-21.7,-47.6,South America,Aw,São Carlos,1
+Brazil,-23.31,-42.82,South America,Ocean,São Gonçalo,1
+Brazil,-28.13,-48.18,South America,Ocean,São José,1
+Brazil,-20.09,-49.48,South America,Aw,São José Do Rio Prêto,1
+Brazil,-23.31,-46.31,South America,Cfa,São José Dos Campos,1
+Brazil,-24.92,-49.66,South America,Cfa,São José Dos Pinhais,1
+Brazil,-23.31,-42.82,South America,Ocean,São João De Meriti,1
+Brazil,-29.74,-51.69,South America,Cfa,São Leopoldo,1
+Brazil,-23.31,-46.31,South America,Cfa,São Paulo,1
+Brazil,-23.31,-46.31,South America,Cfa,São Vicente,1
+Brazil,-23.31,-46.31,South America,Cfa,Taboão Da Serra,1
+Chile,-36.17,-71.6,South America,Csb,Talca,1
+Chile,-36.17,-73.59,South America,Ocean,Talcahuano,1
+Argentina,-37.78,-58.98,South America,Cfb,Tandil,1
+Brazil,-23.31,-46.31,South America,Cfa,Taubaté,1
+Chile,-39.38,-72.83,South America,Csb,Temuco,1
+Brazil,-21.7,-42.4,South America,Aw,Teresópolis,1
+Brazil,-18.48,-42.25,South America,Aw,Teófilo Otoni,1
+Argentina,-42.59,-65.45,South America,BWk,Trelew,1
+Argentina,-26.52,-64.48,South America,Cwa,Tucuman,1
+Brazil,-20.09,-47.77,South America,Aw,Uberaba,1
+Brazil,-18.48,-49.01,South America,Aw,Uberlândia,1
+Brazil,-29.74,-57.23,South America,Cfa,Uruguaiana,1
+Chile,-39.38,-72.83,South America,Csb,Valdivia,1
+Chile,-32.95,-71.81,South America,Csb,Valparaiso,1
+Brazil,-21.7,-45.87,South America,Cwa,Varginha,1
+Brazil,-29.74,-51.69,South America,Cfa,Viamão,1
+Brazil,-20.09,-40.95,South America,Cfa,Vila Velha,1
+Chile,-32.95,-71.81,South America,Csb,Vina Del Mar,1
+Brazil,-20.09,-40.95,South America,Cfa,Vitória,1
+Brazil,-21.7,-44.13,South America,Cwb,Volta Redonda,1
+Brazil,-15.27,-55.83,South America,Aw,Várzea Grande,1
+Brazil,-23.31,-46.31,South America,Cfa,Várzea Paulista,1
+India,29.74,73.85,Asia,BWh,Abohar,2
+India,21.7,77.02,Asia,As,Achalpur,2
+India,20.09,78.48,Asia,Aw,Adilabad,2
+India,23.31,91.75,Asia,Am,Agartala,2
+India,26.52,78.81,Asia,BSh,Agra,2
+India,23.31,72.52,Asia,BSh,Ahmadabad,2
+India,18.48,74.37,Asia,BSh,Ahmadnagar,2
+Pakistan,29.74,72.0,Asia,BWh,Ahmadpur East,2
+India,23.31,93.5,Asia,Cwb,Aizawl,2
+India,26.52,75.22,Asia,BSh,Ajmer,2
+India,20.09,76.78,Asia,Aw,Akola,2
+Burma,20.09,92.13,Asia,Ocean,Akyab,2
+India,28.13,77.27,Asia,BSh,Aligarh,2
+India,24.92,81.58,Asia,Csa,Allahabad,2
+India,28.13,77.27,Asia,BSh,Alwar,2
+India,29.74,77.54,Asia,Cwa,Ambala,2
+India,18.48,72.68,Asia,Am,Ambarnath,2
+India,21.7,77.02,Asia,As,Amravati,2
+India,31.35,75.39,Asia,BSh,Amritsar,2
+India,28.13,79.09,Asia,Cwa,Amroha,2
+India,23.31,72.52,Asia,BSh,Anand,2
+India,24.92,85.12,Asia,Cwa,Ara,2
+India,23.31,86.5,Asia,Aw,Asansol,2
+India,20.09,75.07,Asia,Aw,Aurangabad,2
+India,26.52,82.39,Asia,Cwa,Azamgarh,2
+India,18.48,72.68,Asia,Am,Badlapur,2
+India,26.52,84.18,Asia,Cwa,Bagaha,2
+Afghanistan,36.17,69.61,Asia,Dsb,Baglan,2
+India,28.13,77.27,Asia,BSh,Bahadurgarh,2
+India,23.31,88.25,Asia,Aw,Baharampur,2
+Pakistan,29.74,73.85,Asia,BWh,Bahawalnagar,2
+Pakistan,29.74,72.0,Asia,BWh,Bahawalpur,2
+India,28.13,80.91,Asia,Cwa,Bahraich,2
+India,23.31,88.25,Asia,Aw,Baidyabati,2
+India,21.7,87.4,Asia,Aw,Baleshwar,2
+India,26.52,84.18,Asia,Cwa,Ballia,2
+India,23.31,88.25,Asia,Aw,Bally,2
+India,24.92,88.67,Asia,Aw,Balurghat,2
+India,24.92,79.8,Asia,Csa,Banda,2
+India,23.31,88.25,Asia,Aw,Bangaon,2
+India,23.31,86.5,Asia,Aw,Bankura,2
+India,23.31,88.25,Asia,Aw,Bansbaria,2
+India,23.31,88.25,Asia,Aw,Barakpur,2
+India,23.31,88.25,Asia,Aw,Baranagar,2
+India,23.31,88.25,Asia,Aw,Barasat,2
+India,23.31,88.25,Asia,Aw,Barddhaman,2
+India,28.13,79.09,Asia,Cwa,Bareli,2
+India,21.7,87.4,Asia,Aw,Baripada,2
+Bangladesh,23.31,90.0,Asia,Aw,Barisal,2
+India,29.74,75.69,Asia,BSh,Barnala,2
+India,23.31,88.25,Asia,Aw,Basirhat,2
+India,26.52,82.39,Asia,Cwa,Basti,2
+India,31.35,75.39,Asia,BSh,Batala,2
+India,26.52,73.43,Asia,BWh,Beawar,2
+India,24.92,86.9,Asia,Cwa,Begusarai,2
+India,15.27,74.17,Asia,Am,Belgaum,2
+India,26.52,84.18,Asia,Cwa,Bettiah,2
+India,23.31,88.25,Asia,Aw,Bhadreswar,2
+India,24.92,86.9,Asia,Cwa,Bhagalpur,2
+Bangladesh,24.92,90.44,Asia,Am,Bhairab Bazar,2
+India,26.52,77.01,Asia,BSh,Bharatpur,2
+India,21.7,73.56,Asia,Aw,Bharuch,2
+India,23.31,88.25,Asia,Aw,Bhatpara,2
+India,21.7,71.83,Asia,BSh,Bhavnagar,2
+India,21.7,82.21,Asia,As,Bhilai,2
+India,24.92,74.48,Asia,BSh,Bhilwara,2
+India,26.52,78.81,Asia,BSh,Bhind,2
+India,20.09,73.36,Asia,Aw,Bhiwandi,2
+India,28.13,75.45,Asia,BSh,Bhiwani,2
+India,23.31,77.77,Asia,As,Bhopal,2
+India,20.09,85.31,Asia,Aw,Bhubaneswar,2
+India,23.31,69.03,Asia,BSh,Bhuj,2
+India,21.7,75.29,Asia,BSh,Bhusawal,2
+India,24.92,85.12,Asia,Cwa,Bihar,2
+India,28.13,73.64,Asia,BWh,Bikaner,2
+India,21.7,82.21,Asia,As,Bilaspur,2
+Nepal,26.52,87.76,Asia,Cwa,Biratnagar,2
+Nepal,26.52,84.18,Asia,Cwa,Birganj,2
+India,23.31,86.5,Asia,Aw,Bokaro,2
+India,18.48,72.68,Asia,Am,Bombay,2
+India,21.7,71.83,Asia,BSh,Botad,2
+India,18.48,84.51,Asia,Ocean,Brahmapur,2
+India,28.13,79.09,Asia,Cwa,Budaun,2
+India,28.13,77.27,Asia,BSh,Bulandshahr,2
+Pakistan,29.74,72.0,Asia,BWh,Burewala,2
+India,21.7,77.02,Asia,As,Burhanpur,2
+India,23.31,88.25,Asia,Aw,Calcutta,2
+Pakistan,32.95,73.72,Asia,Cwa,Chakwal,2
+India,23.31,88.25,Asia,Aw,Champdani,2
+India,23.31,88.25,Asia,Aw,Chandannagar,2
+India,28.13,79.09,Asia,Cwa,Chandausi,2
+India,31.35,77.28,Asia,Cwa,Chandigarh,2
+Bangladesh,23.31,90.0,Asia,Aw,Chandpur,2
+India,20.09,78.48,Asia,Aw,Chandrapur,2
+India,23.31,86.5,Asia,Aw,Chas,2
+India,26.52,84.18,Asia,Cwa,Chhapra,2
+India,24.92,79.8,Asia,Csa,Chhatarpur,2
+India,21.7,78.75,Asia,As,Chhindwara,2
+Pakistan,31.35,73.51,Asia,BSh,Chiniot,2
+Pakistan,29.74,72.0,Asia,BWh,Chishtian Mandi,2
+India,24.92,74.48,Asia,BSh,Chittaurgarh,2
+India,28.13,75.45,Asia,BSh,Churu,2
+Pakistan,26.52,68.06,Asia,BWh,Dadu,2
+India,23.31,79.51,Asia,Csa,Damoh,2
+India,26.52,85.97,Asia,Cwa,Darbhanga,2
+India,26.52,87.76,Asia,Cwa,Darjiling,2
+Pakistan,32.95,73.72,Asia,Cwa,Daska,2
+India,29.74,77.54,Asia,Cwa,Dehra Dun,2
+India,24.92,83.35,Asia,Csa,Dehri,2
+India,28.13,77.27,Asia,BSh,Delhi,2
+India,26.52,84.18,Asia,Cwa,Deoria,2
+Pakistan,29.74,70.15,Asia,BWh,Dera Ghazi Khan,2
+Pakistan,31.35,71.62,Asia,BWh,Dera Ismail Khan,2
+India,23.31,76.02,Asia,As,Dewas,2
+Bangladesh,23.31,90.0,Asia,Aw,Dhaka,2
+India,23.31,86.5,Asia,Aw,Dhanbad,2
+Nepal,26.52,87.76,Asia,Cwa,Dharan,2
+India,26.52,77.01,Asia,BSh,Dhaulpur,2
+India,20.09,75.07,Asia,Aw,Dhule,2
+India,28.13,95.45,Asia,Cwa,Dibrugarh,2
+India,26.52,93.13,Asia,Cwa,Dimapur,2
+Bangladesh,24.92,88.67,Asia,Aw,Dinajpur,2
+India,23.31,88.25,Asia,Aw,Dum Dum,2
+India,21.7,80.48,Asia,Aw,Durg,2
+India,23.31,86.5,Asia,Aw,Durgapur,2
+India,28.13,79.09,Asia,Cwa,Etah,2
+India,26.52,78.81,Asia,BSh,Etawah,2
+Pakistan,31.35,73.51,Asia,BSh,Faisalabad,2
+India,26.52,82.39,Asia,Cwa,Faizabad,2
+India,28.13,77.27,Asia,BSh,Faridabad,2
+Bangladesh,23.31,90.0,Asia,Aw,Faridpur,2
+India,28.13,79.09,Asia,Cwa,Farrukhabad,2
+India,26.52,80.6,Asia,BSh,Fatehpur,2
+India,26.52,78.81,Asia,BSh,Firozabad,2
+India,31.35,75.39,Asia,BSh,Firozpur,2
+India,23.31,70.78,Asia,BSh,Gandhidham,2
+India,23.31,72.52,Asia,BSh,Gandhinagar,2
+India,29.74,73.85,Asia,BWh,Ganganagar,2
+India,26.52,77.01,Asia,BSh,Gangapur,2
+Afghanistan,32.95,69.89,Asia,BSh,Gardez,2
+India,24.92,85.12,Asia,Cwa,Gaya,2
+Bangladesh,23.31,90.0,Asia,Aw,Gazipur,2
+Afghanistan,32.95,67.98,Asia,Csa,Gazni,2
+India,28.13,77.27,Asia,BSh,Ghaziabad,2
+India,24.92,83.35,Asia,Csa,Ghazipur,2
+India,23.31,74.27,Asia,Aw,Godhra,2
+Pakistan,31.35,73.51,Asia,BSh,Gojra,2
+India,26.52,82.39,Asia,Cwa,Gonda,2
+India,21.7,70.1,Asia,BSh,Gondal,2
+India,26.52,84.18,Asia,Cwa,Gorakhpur,2
+Pakistan,32.95,73.72,Asia,Cwa,Gujranwala,2
+Pakistan,32.95,73.72,Asia,Cwa,Gujrat,2
+India,24.92,78.03,Asia,Csa,Guna,2
+India,28.13,77.27,Asia,BSh,Gurgaon,2
+India,26.52,91.34,Asia,Cwa,Guwahati,2
+India,26.52,78.81,Asia,BSh,Gwalior,2
+India,23.31,88.25,Asia,Aw,Habra,2
+Pakistan,31.35,73.51,Asia,BSh,Hafizabad,2
+India,24.92,85.12,Asia,Cwa,Hajipur,2
+India,21.7,87.4,Asia,Aw,Haldia,2
+India,29.74,79.38,Asia,Cwa,Haldwani,2
+India,23.31,88.25,Asia,Aw,Halisahar,2
+India,29.74,73.85,Asia,BWh,Hanumangarh,2
+India,23.31,88.25,Asia,Aw,Haora,2
+India,28.13,77.27,Asia,BSh,Hapur,2
+India,26.52,80.6,Asia,BSh,Hardoi,2
+India,29.74,77.54,Asia,Cwa,Haridwar,2
+India,28.13,77.27,Asia,BSh,Hathras,2
+India,23.31,84.76,Asia,Cwa,Hazaribag,2
+India,29.74,75.69,Asia,BSh,Hisar,2
+India,23.31,77.77,Asia,As,Hoshangabad,2
+India,31.35,75.39,Asia,BSh,Hoshiarpur,2
+India,16.87,78.7,Asia,BSh,Hyderabad,2
+India,16.87,73.67,Asia,Am,Ichalkaranji,2
+India,24.92,93.99,Asia,Cwa,Imphal,2
+India,23.31,76.02,Asia,As,Indore,2
+India,24.92,88.67,Asia,Aw,Ingraj Bazar,2
+Pakistan,32.95,73.72,Asia,Cwa,Islamabad,2
+India,23.31,77.77,Asia,As,Itarsi,2
+India,23.31,79.51,Asia,Csa,Jabalpur,2
+Pakistan,28.13,68.18,Asia,BWh,Jacobabad,2
+India,29.74,77.54,Asia,Cwa,Jagadhri,2
+India,26.52,75.22,Asia,BSh,Jaipur,2
+Afghanistan,34.56,70.05,Asia,BWk,Jalalabad,2
+India,31.35,75.39,Asia,BSh,Jalandhar,2
+India,20.09,75.07,Asia,Aw,Jalna,2
+India,26.52,89.55,Asia,Am,Jalpaiguri,2
+Bangladesh,24.92,90.44,Asia,Am,Jamalpur,2
+India,32.95,75.64,Asia,Cwb,Jammu,2
+India,21.7,70.1,Asia,BSh,Jamnagar,2
+India,23.31,86.5,Asia,Aw,Jamshedpur,2
+India,23.31,86.5,Asia,Aw,Jamuria,2
+Pakistan,31.35,73.51,Asia,BSh,Jaranwala,2
+India,26.52,82.39,Asia,Cwa,Jaunpur,2
+India,21.7,70.1,Asia,BSh,Jetpur,2
+Pakistan,31.35,71.62,Asia,BWh,Jhang,2
+India,24.92,78.03,Asia,Csa,Jhansi,2
+Pakistan,32.95,73.72,Asia,Cwa,Jhelum,2
+India,28.13,75.45,Asia,BSh,Jhunjhunun,2
+India,29.74,75.69,Asia,BSh,Jind,2
+India,26.52,73.43,Asia,BWh,Jodhpur,2
+India,21.7,70.1,Asia,BSh,Junagadh,2
+Afghanistan,34.56,70.05,Asia,BWk,Kabul,2
+India,29.74,75.69,Asia,BSh,Kaithal,2
+India,23.31,72.52,Asia,BSh,Kalol,2
+India,20.09,73.36,Asia,Aw,Kalyan,2
+Pakistan,31.35,73.51,Asia,BSh,Kamalia,2
+India,23.31,88.25,Asia,Aw,Kamarhati,2
+Pakistan,31.35,73.51,Asia,BSh,Kamoke,2
+India,23.31,88.25,Asia,Aw,Kanchrapara,2
+India,26.52,80.6,Asia,BSh,Kanpur,2
+Pakistan,24.92,67.39,Asia,BWh,Karachi,2
+India,29.74,77.54,Asia,Cwa,Karnal,2
+India,29.74,79.38,Asia,Cwa,Kashipur,2
+Pakistan,31.35,73.51,Asia,BSh,Kasur,2
+Nepal,28.13,84.55,Asia,Cwa,Kathmandu,2
+India,24.92,86.9,Asia,Cwa,Katihar,2
+Pakistan,28.13,68.18,Asia,BWh,Khairpur,2
+India,21.7,77.02,Asia,As,Khandwa,2
+Pakistan,29.74,72.0,Asia,BWh,Khanewal,2
+India,31.35,75.39,Asia,BSh,Khanna,2
+Pakistan,28.13,70.0,Asia,BWh,Khanpur,2
+India,21.7,87.4,Asia,Aw,Kharagpur,2
+India,23.31,88.25,Asia,Aw,Khardaha,2
+Bangladesh,23.31,90.0,Asia,Aw,Khulna,2
+India,28.13,77.27,Asia,BSh,Khurja,2
+Pakistan,32.95,71.81,Asia,BSh,Khushab,2
+Pakistan,28.13,66.36,Asia,BWh,Khuzdar,2
+Pakistan,32.95,71.81,Asia,BSh,Kohat,2
+India,16.87,73.67,Asia,Am,Kolhapur,2
+India,21.7,82.21,Asia,As,Korba,2
+Pakistan,29.74,70.15,Asia,BWh,Kot Addu,2
+India,24.92,76.26,Asia,BSh,Kota,2
+India,23.31,88.25,Asia,Aw,Krishnanagar,2
+India,23.31,86.5,Asia,Aw,Kulti,2
+Pakistan,31.35,73.51,Asia,BSh,Lahore,2
+India,28.13,80.91,Asia,Cwa,Lakhimpur,2
+India,26.52,80.6,Asia,BSh,Lakhnau,2
+India,24.92,78.03,Asia,Csa,Lalitpur,2
+Pakistan,28.13,68.18,Asia,BWh,Larkana,2
+China,29.74,90.46,Asia,ET,Lasa,2
+India,28.13,77.27,Asia,BSh,Loni,2
+India,31.35,75.39,Asia,BSh,Ludhiana,2
+India,23.31,88.25,Asia,Aw,Madhyamgram,2
+India,23.31,72.52,Asia,BSh,Mahesana,2
+India,20.09,75.07,Asia,Aw,Malegaon,2
+India,29.74,75.69,Asia,BSh,Maler Kotla,2
+Pakistan,32.95,73.72,Asia,Cwa,Mandi Bahauddin,2
+India,24.92,74.48,Asia,BSh,Mandsaur,2
+Pakistan,34.56,72.0,Asia,Cfa,Mardan,2
+India,28.13,77.27,Asia,BSh,Mathura,2
+India,26.52,84.18,Asia,Cwa,Mau,2
+Pakistan,34.56,72.0,Asia,Cfa,Mingaora,2
+Pakistan,24.92,69.16,Asia,BWh,Mirpur Khas,2
+India,24.92,83.35,Asia,Csa,Mirzapur,2
+India,31.35,75.39,Asia,BSh,Moga,2
+India,28.13,79.09,Asia,Cwa,Moradabad,2
+India,26.52,78.81,Asia,BSh,Morena,2
+India,15.27,74.17,Asia,Am,Mormugao,2
+India,23.31,70.78,Asia,BSh,Morvi,2
+India,26.52,84.18,Asia,Cwa,Motihari,2
+Pakistan,29.74,72.0,Asia,BWh,Multan,2
+India,24.92,86.9,Asia,Cwa,Munger,2
+Pakistan,31.35,73.51,Asia,BSh,Muridke,2
+India,23.31,81.26,Asia,Csa,Murwara,2
+Pakistan,29.74,72.0,Asia,BWh,Muzaffargarh,2
+India,29.74,77.54,Asia,Cwa,Muzaffarnagar,2
+India,26.52,85.97,Asia,Cwa,Muzaffarpur,2
+India,23.31,72.52,Asia,BSh,Nadiad,2
+India,23.31,76.02,Asia,As,Nagda,2
+India,21.7,78.75,Asia,As,Nagpur,2
+India,23.31,88.25,Asia,Aw,Naihati,2
+India,21.7,73.56,Asia,Aw,Nandurbar,2
+India,28.13,77.27,Asia,BSh,Nangloi Jat,2
+Bangladesh,23.31,90.0,Asia,Aw,Narayanganj,2
+Bangladesh,23.31,90.0,Asia,Aw,Narsingdi,2
+India,23.31,88.25,Asia,Aw,Navadwip,2
+India,20.09,73.36,Asia,Aw,Navsari,2
+Bangladesh,24.92,88.67,Asia,Aw,Nawabganj,2
+Pakistan,26.52,68.06,Asia,BWh,Nawabshah,2
+India,28.13,77.27,Asia,BSh,New Delhi,2
+Pakistan,31.35,73.51,Asia,BSh,Okara,2
+India,26.52,78.81,Asia,BSh,Orai,2
+Bangladesh,23.31,90.0,Asia,Aw,Pabna,2
+Pakistan,29.74,73.85,Asia,BWh,Pakpattan,2
+India,24.92,72.71,Asia,BSh,Palanpur,2
+India,26.52,73.43,Asia,BWh,Pali,2
+India,28.13,77.27,Asia,BSh,Palwal,2
+India,23.31,88.25,Asia,Aw,Panihati,2
+India,29.74,77.54,Asia,Cwa,Panipat,2
+India,18.48,72.68,Asia,Am,Panvel,2
+India,20.09,76.78,Asia,Aw,Parbhani,2
+India,23.31,72.52,Asia,BSh,Patan,2
+India,32.95,75.64,Asia,Cwb,Pathankot,2
+India,29.74,75.69,Asia,BSh,Patiala,2
+India,24.92,85.12,Asia,Cwa,Patna,2
+Pakistan,34.56,72.0,Asia,Cfa,Peshawar,2
+India,31.35,75.39,Asia,BSh,Phagwara,2
+India,28.13,79.09,Asia,Cwa,Pilibhit,2
+India,18.48,74.37,Asia,BSh,Pimpri,2
+Nepal,28.13,84.55,Asia,Cwa,Pokhara,2
+India,21.7,70.1,Asia,BSh,Porbandar,2
+India,18.48,74.37,Asia,BSh,Pune,2
+India,20.09,85.31,Asia,Aw,Puri,2
+India,26.52,87.76,Asia,Cwa,Purnia,2
+India,23.31,86.5,Asia,Aw,Puruliya,2
+Afghanistan,31.35,65.97,Asia,BWh,Qandahar,2
+Pakistan,29.74,66.46,Asia,BSk,Quetta,2
+Afghanistan,36.17,69.61,Asia,Dsb,Qunduz,2
+India,26.52,80.6,Asia,BSh,Rae Bareli,2
+India,24.92,88.67,Asia,Aw,Raiganj,2
+India,21.7,83.94,Asia,Aw,Raigarh,2
+India,21.7,82.21,Asia,As,Raipur,2
+India,21.7,70.1,Asia,BSh,Rajkot,2
+India,23.31,88.25,Asia,Aw,Rajpur,2
+Bangladesh,24.92,88.67,Asia,Aw,Rajshahi,2
+India,28.13,79.09,Asia,Cwa,Rampur,2
+India,23.31,84.76,Asia,Cwa,Ranchi,2
+Bangladesh,26.52,89.55,Asia,Am,Rangpur,2
+India,23.31,86.5,Asia,Aw,Raniganj,2
+India,23.31,74.27,Asia,Aw,Ratlam,2
+India,21.7,85.67,Asia,Aw,Raurkela,2
+Pakistan,32.95,73.72,Asia,Cwa,Rawalpindi,2
+India,24.92,81.58,Asia,Csa,Rewa,2
+India,28.13,77.27,Asia,BSh,Rewari,2
+India,23.31,88.25,Asia,Aw,Rishra,2
+India,28.13,77.27,Asia,BSh,Rohtak,2
+Pakistan,28.13,70.0,Asia,BWh,Sadiqabad,2
+India,23.31,79.51,Asia,Csa,Sagar,2
+India,29.74,77.54,Asia,Cwa,Saharanpur,2
+India,26.52,85.97,Asia,Cwa,Saharsa,2
+Pakistan,31.35,73.51,Asia,BSh,Sahiwal,2
+India,21.7,83.94,Asia,Aw,Sambalpur,2
+India,28.13,79.09,Asia,Cwa,Sambhal,2
+Pakistan,31.35,73.51,Asia,BSh,Sargodha,2
+India,24.92,83.35,Asia,Csa,Sasaram,2
+India,16.87,73.67,Asia,Am,Satara,2
+Bangladesh,23.31,88.25,Asia,Aw,Satkhira,2
+India,24.92,81.58,Asia,Csa,Satna,2
+India,26.52,77.01,Asia,BSh,Sawai Madhopur,2
+India,21.7,78.75,Asia,As,Seoni,2
+India,28.13,79.09,Asia,Cwa,Shahjahanpur,2
+India,23.31,88.25,Asia,Aw,Shantipur,2
+Pakistan,31.35,73.51,Asia,BSh,Shekhupura,2
+Bangladesh,24.92,90.44,Asia,Am,Sherpur,2
+Pakistan,28.13,68.18,Asia,BWh,Shikarpur,2
+India,26.52,87.76,Asia,Cwa,Shiliguri,2
+India,24.92,92.22,Asia,Cwa,Shillong,2
+India,31.35,77.28,Asia,Cwa,Shimla,2
+India,23.31,88.25,Asia,Aw,Shrirampur,2
+Pakistan,32.95,73.72,Asia,Cwa,Sialkot,2
+India,28.13,75.45,Asia,BSh,Sikar,2
+India,24.92,92.22,Asia,Cwa,Silchar,2
+Bangladesh,24.92,90.44,Asia,Am,Sirajganj,2
+India,29.74,75.69,Asia,BSh,Sirsa,2
+India,28.13,80.91,Asia,Cwa,Sitapur,2
+India,26.52,84.18,Asia,Cwa,Siwan,2
+India,28.13,77.27,Asia,BSh,Sonipat,2
+India,18.48,84.51,Asia,Ocean,Srikakulam,2
+India,34.56,73.95,Asia,Cfb,Srinagar,2
+Pakistan,28.13,68.18,Asia,BWh,Sukkur,2
+India,26.52,82.39,Asia,Cwa,Sultanpur,2
+India,21.7,73.56,Asia,Aw,Surat,2
+India,23.31,72.52,Asia,BSh,Surendranagar,2
+Pakistan,26.52,68.06,Asia,BWh,Tando Adam,2
+India,18.48,72.68,Asia,Am,Thana,2
+India,29.74,77.54,Asia,Cwa,Thanesar,2
+India,23.31,88.25,Asia,Aw,Titagarh,2
+India,26.52,75.22,Asia,BSh,Tonk,2
+Bangladesh,23.31,90.0,Asia,Aw,Tungi,2
+India,23.31,76.02,Asia,As,Ujjain,2
+India,18.48,72.68,Asia,Am,Ulhasnagar,2
+India,23.31,88.25,Asia,Aw,Ulubaria,2
+India,26.52,80.6,Asia,BSh,Unnao,2
+India,21.7,73.56,Asia,Aw,Vadodara,2
+India,24.92,83.35,Asia,Csa,Varanasi,2
+India,23.31,74.27,Asia,Aw,Vejalpur,2
+India,21.7,70.1,Asia,BSh,Veraval,2
+India,23.31,77.77,Asia,As,Vidisha,2
+Pakistan,29.74,72.0,Asia,BWh,Vihari,2
+India,20.09,73.36,Asia,Aw,Virar,2
+India,18.48,82.82,Asia,Cwa,Visakhapatnam,2
+India,18.48,82.82,Asia,Cwa,Vizianagaram,2
+Pakistan,34.56,72.0,Asia,Cfa,Wah,2
+India,20.09,78.48,Asia,Aw,Wardha,2
+Pakistan,32.95,73.72,Asia,Cwa,Wazirabad,2
+India,29.74,77.54,Asia,Cwa,Yamunanagar,2
+India,20.09,78.48,Asia,Aw,Yavatmal,2
+Denmark,57.05,10.33,Europe,Cfb,Aalborg,3
+Kazakhstan,44.2,51.43,Asia,BWk,Aktau,3
+Russia,55.45,51.02,Europe,Dfb,Almetyevsk,3
+Kazakhstan,50.63,57.04,Asia,Dfb,Aqtöbe,3
+Romania,45.81,21.92,Europe,Cfb,Arad,3
+Russia,65.09,40.21,Europe,Dfc,Arkhangelsk,3
+Russia,55.45,42.52,Europe,Dfb,Arzamas,3
+Russia,45.81,47.31,Europe,BSk,Astrakhan,3
+Kazakhstan,47.42,50.92,Asia,BSk,Atyrau,3
+Romania,45.81,26.54,Europe,Dfb,Bacau,3
+Romania,47.42,22.5,Europe,Cfb,Baia Mare,3
+Russia,52.24,47.3,Europe,Dfa,Balakovo,3
+Russia,55.45,36.85,Europe,Dfb,Balashikha,3
+Moldova,47.42,27.24,Europe,Cfa,Balti,3
+Bosnia And Herzegovina,44.2,17.89,Europe,Cfb,Banja Luka,3
+Russia,47.42,39.08,Europe,Dfa,Bataysk,3
+Russia,50.63,36.76,Europe,Dfb,Belgorod,3
+Serbia,44.2,20.12,Europe,Cfb,Belgrade,3
+Norway,60.27,6.49,Europe,Dfc,Bergen,3
+Germany,52.24,13.14,Europe,Cfb,Berlin,3
+Poland,53.84,23.18,Europe,Dfb,Bialystok,3
+Poland,50.63,19.01,Europe,Cfb,Bielsko Biala,3
+Ukraine,49.03,29.39,Europe,Dfb,Bila Tserkva,3
+Romania,47.42,27.24,Europe,Cfa,Botosani,3
+Romania,45.81,28.85,Europe,Cfa,Braila,3
+Romania,45.81,26.54,Europe,Dfb,Brasov,3
+Slovakia,47.42,17.76,Europe,Cfb,Bratislava,3
+Belarus,52.24,23.65,Europe,Cfb,Brest,3
+Czech Republic,49.03,17.14,Europe,Cfb,Brno,3
+Russia,53.84,34.09,Europe,Dfb,Bryansk,3
+Romania,44.2,26.83,Europe,Cfa,Bucharest,3
+Hungary,47.42,20.13,Europe,Cfb,Budapest,3
+Bulgaria,42.59,28.36,Europe,Ocean,Burgas,3
+Romania,45.81,26.54,Europe,Dfb,Buzau,3
+Poland,53.84,17.73,Europe,Cfb,Bydgoszcz,3
+Poland,50.63,19.01,Europe,Cfb,Bytom,3
+Russia,55.45,48.19,Europe,Dfb,Cheboksary,3
+Germany,50.63,13.94,Europe,Cfb,Chemnitz,3
+Russia,58.66,36.92,Europe,Dfb,Cherepovets,3
+Ukraine,49.03,31.84,Europe,Dfb,Cherkasy,3
+Ukraine,52.24,31.53,Europe,Dfb,Chernihiv,3
+Ukraine,49.03,26.94,Europe,Cfa,Chernivtsi,3
+Moldova,47.42,29.61,Europe,Cfb,Chisinau,3
+Poland,50.63,19.01,Europe,Cfb,Chorzow,3
+Romania,47.42,22.5,Europe,Cfb,Cluj Napoca,3
+Romania,44.2,29.07,Europe,Ocean,Constanta,3
+Denmark,55.45,11.34,Europe,Cfb,Copenhagen,3
+Germany,52.24,13.14,Europe,Cfb,Cottbus,3
+Poland,50.63,19.01,Europe,Cfb,Cracow,3
+Romania,44.2,24.6,Europe,Cfa,Craiova,3
+Poland,50.63,19.01,Europe,Cfb,Czestochowa,3
+Poland,50.63,19.01,Europe,Cfb,Dabrowa Gornicza,3
+Latvia,55.45,25.51,Europe,Dfb,Daugavpils,3
+Hungary,47.42,22.5,Europe,Cfb,Debrecen,3
+Russia,53.84,50.45,Europe,Dfb,Dimitrovgrad,3
+Germany,50.63,13.94,Europe,Cfb,Dresden,3
+Romania,44.2,22.36,Europe,Cfa,Drobeta Turnu Severin,3
+Albania,40.99,19.17,Europe,Ocean,Durrës,3
+Russia,57.05,42.79,Europe,Dfb,Dzerzhinsk,3
+Turkey,42.59,26.18,Asia,Cfa,Edirne,3
+Albania,40.99,19.17,Europe,Ocean,Elbasan,3
+Poland,53.84,20.45,Europe,Cfb,Elblag,3
+Russia,55.45,39.69,Europe,Dfb,Elektrostal,3
+Russia,45.81,45.0,Europe,BSk,Elista,3
+Russia,50.63,46.9,Europe,Dfa,Engels,3
+Finland,60.27,25.95,Europe,Dfb,Espoo,3
+Romania,45.81,26.54,Europe,Dfb,Focsani,3
+Romania,45.81,28.85,Europe,Cfa,Galati,3
+Poland,53.84,17.73,Europe,Cfb,Gdansk,3
+Poland,53.84,17.73,Europe,Cfb,Gdynia,3
+Poland,50.63,19.01,Europe,Cfb,Gliwice,3
+Belarus,52.24,31.53,Europe,Dfb,Gomel,3
+Poland,52.24,15.77,Europe,Cfb,Gorzow Wielkopolski,3
+Austria,47.42,15.39,Europe,Cfb,Graz,3
+Hungary,47.42,17.76,Europe,Cfb,Gyor,3
+Sweden,58.66,12.31,Europe,Cfb,Göteborg,3
+Finland,60.27,25.95,Europe,Dfb,Helsinki,3
+Ukraine,49.03,39.18,Europe,Dfa,Horlivka,3
+Belarus,53.84,23.18,Europe,Dfb,Hrodna,3
+Romania,47.42,27.24,Europe,Cfa,Iasi,3
+Russia,57.05,39.84,Europe,Dfb,Ivanovo,3
+Russia,57.05,54.59,Europe,Dfb,Izhevsk,3
+Russia,55.45,19.84,Europe,Ocean,Kaliningrad,3
+Poland,52.24,18.39,Europe,Cfb,Kalisz,3
+Russia,53.84,36.82,Europe,Dfb,Kaluga,3
+Russia,50.63,44.37,Europe,Dfb,Kamyshin,3
+Poland,50.63,19.01,Europe,Cfb,Katowice,3
+Lithuania,55.45,22.68,Europe,Dfb,Kaunas,3
+Russia,55.45,48.19,Europe,Dfb,Kazan,3
+Hungary,47.42,20.13,Europe,Cfb,Kecskemét,3
+Ukraine,45.81,35.77,Europe,Ocean,Kerch,3
+Ukraine,47.42,31.97,Europe,Dfb,Kherson,3
+Russia,55.45,36.85,Europe,Dfb,Khimki,3
+Poland,50.63,21.55,Europe,Cfb,Kielce,3
+Ukraine,50.63,31.69,Europe,Dfb,Kiev,3
+Ukraine,49.03,31.84,Europe,Dfb,Kirovohrad,3
+Lithuania,55.45,19.84,Europe,Ocean,Klaipeda,3
+Russia,55.45,39.69,Europe,Dfb,Kolomna,3
+Russia,60.27,29.19,Europe,Dfb,Kolpino,3
+Slovakia,49.03,22.04,Europe,Cfb,Kosice,3
+Russia,57.05,39.84,Europe,Dfb,Kostroma,3
+Poland,53.84,15.0,Europe,Cfb,Koszalin,3
+Russia,57.05,42.79,Europe,Dfb,Kovrov,3
+Serbia,44.2,20.12,Europe,Cfb,Kragujevac,3
+Ukraine,49.03,34.29,Europe,Dfa,Kremenchuk,3
+Ukraine,47.42,34.34,Europe,Cfa,Kryvyy Rih,3
+Macedonia,42.59,21.82,Europe,Cfb,Kumanovo,3
+Russia,52.24,36.79,Europe,Dfb,Kursk,3
+Poland,50.63,16.48,Europe,Dfb,Legnica,3
+Austria,49.03,14.69,Europe,Cfb,Linz,3
+Russia,52.24,39.42,Europe,Dfb,Lipetsk,3
+Slovenia,45.81,15.0,Europe,Cfb,Ljubljana,3
+Poland,50.63,21.55,Europe,Cfb,Lublin,3
+Ukraine,50.63,24.08,Europe,Dfb,Lvov,3
+Russia,55.45,36.85,Europe,Dfb,Lyubertsy,3
+Russia,53.84,58.64,Europe,Dfb,Magnitogorsk,3
+Ukraine,47.42,39.08,Europe,Dfa,Makiyivka,3
+Sweden,55.45,14.17,Europe,Cfb,Malmö,3
+Belarus,52.24,28.91,Europe,Dfb,Mazyr,3
+Belarus,53.84,28.64,Europe,Dfb,Minsk,3
+Hungary,47.42,20.13,Europe,Cfb,Miskolc,3
+Russia,55.45,36.85,Europe,Dfb,Moscow,3
+Russia,68.31,34.7,Europe,Dfc,Murmansk,3
+Russia,55.45,42.52,Europe,Dfb,Murom,3
+Russia,55.45,36.85,Europe,Dfb,Mytishchi,3
+Russia,55.45,53.86,Europe,Dfb,Neftekamsk,3
+Serbia,42.59,21.82,Europe,Cfb,Nis,3
+Russia,55.45,51.02,Europe,Dfb,Nizhnekamsk,3
+Russia,57.05,42.79,Europe,Dfb,Nizhniy Novgorod,3
+Russia,55.45,39.69,Europe,Dfb,Noginsk,3
+Serbia,45.81,19.62,Europe,Cfa,Novi Sad,3
+Russia,55.45,48.19,Europe,Dfb,Novocheboksarsk,3
+Russia,47.42,39.08,Europe,Dfa,Novocherkassk,3
+Russia,53.84,39.55,Europe,Dfb,Novomoskovsk,3
+Russia,50.63,59.58,Europe,Dfa,Novotroitsk,3
+Hungary,47.42,22.5,Europe,Cfb,Nyíregyháza,3
+Russia,55.45,36.85,Europe,Dfb,Obninsk,3
+Denmark,55.45,11.34,Europe,Cfb,Odense,3
+Ukraine,45.81,31.15,Europe,Ocean,Odesa,3
+Russia,55.45,36.85,Europe,Dfb,Odintsovo,3
+Russia,53.84,53.18,Europe,Dfb,Oktyabrskiy,3
+Czech Republic,49.03,17.14,Europe,Cfb,Olomouc,3
+Poland,53.84,20.45,Europe,Cfb,Olsztyn,3
+Poland,50.63,19.01,Europe,Cfb,Opole,3
+Romania,47.42,22.5,Europe,Cfb,Oradea,3
+Russia,55.45,39.69,Europe,Dfb,Orekhovo Zuevo,3
+Belarus,53.84,31.36,Europe,Dfb,Orsha,3
+Russia,50.63,59.58,Europe,Dfa,Orsk,3
+Russia,52.24,36.79,Europe,Dfb,Orël,3
+Norway,60.27,9.73,Europe,Dfc,Oslo,3
+Czech Republic,50.63,19.01,Europe,Cfb,Ostrava,3
+Finland,65.09,24.89,Europe,Dfc,Oulu,3
+Lithuania,55.45,25.51,Europe,Dfb,Panevezys,3
+Ukraine,49.03,36.73,Europe,Dfa,Pavlohrad,3
+Russia,53.84,45.0,Europe,Dfb,Penza,3
+Russia,61.88,35.66,Europe,Dfb,Petrozavodsk,3
+Romania,47.42,27.24,Europe,Cfa,Piatra Neamt,3
+Belarus,52.24,26.28,Europe,Dfb,Pinsk,3
+Romania,44.2,24.6,Europe,Cfa,Pitesti,3
+Bulgaria,44.2,24.6,Europe,Cfa,Pleven,3
+Poland,52.24,18.39,Europe,Cfb,Plock,3
+Romania,45.81,26.54,Europe,Dfb,Ploiesti,3
+Bulgaria,42.59,24.0,Europe,Cfb,Plovdiv,3
+Czech Republic,50.63,13.94,Europe,Cfb,Plzen,3
+Montenegro,42.59,19.64,Europe,Dfb,Podgorica,3
+Russia,55.45,36.85,Europe,Dfb,Podolsk,3
+Ukraine,49.03,34.29,Europe,Dfa,Poltava,3
+Germany,52.24,13.14,Europe,Cfb,Potsdam,3
+Poland,52.24,15.77,Europe,Cfb,Poznan,3
+Czech Republic,50.63,13.94,Europe,Cfb,Prague,3
+Serbia,42.59,21.82,Europe,Cfb,Pristina,3
+Serbia,42.59,21.82,Europe,Cfb,Prizren,3
+Russia,57.05,28.03,Europe,Dfb,Pskov,3
+Hungary,45.81,17.31,Europe,Cfb,Pécs,3
+Poland,50.63,21.55,Europe,Cfb,Radom,3
+Romania,45.81,24.23,Europe,Cfb,Ramnicu Valcea,3
+Latvia,57.05,25.08,Europe,Dfb,Riga,3
+Croatia,45.81,15.0,Europe,Cfb,Rijeka,3
+Ukraine,50.63,26.62,Europe,Cfb,Rivne,3
+Germany,53.84,12.27,Europe,Cfb,Rostock,3
+Russia,47.42,39.08,Europe,Dfa,Rostov Na Donu,3
+Poland,50.63,19.01,Europe,Cfb,Ruda Slaska,3
+Bulgaria,44.2,26.83,Europe,Cfa,Ruse,3
+Russia,53.84,39.55,Europe,Dfb,Ryazan,3
+Russia,58.66,40.0,Europe,Dfb,Rybinsk,3
+Poland,50.63,19.01,Europe,Cfb,Rybnik,3
+Poland,50.63,21.55,Europe,Cfb,Rzeszow,3
+Russia,60.27,29.19,Europe,Dfb,Saint Petersburg,3
+Russia,53.84,55.91,Europe,Dfb,Salavat,3
+Belarus,52.24,26.28,Europe,Dfb,Salihorsk,3
+Russia,53.84,50.45,Europe,Dfb,Samara,3
+Bosnia And Herzegovina,44.2,17.89,Europe,Cfb,Sarajevo,3
+Russia,53.84,45.0,Europe,Dfb,Saransk,3
+Russia,57.05,54.59,Europe,Dfb,Sarapul,3
+Russia,52.24,47.3,Europe,Dfa,Saratov,3
+Romania,47.42,22.5,Europe,Cfb,Satu Mare,3
+Russia,57.05,36.89,Europe,Dfb,Sergiyev Posad,3
+Russia,55.45,36.85,Europe,Dfb,Serpukhov,3
+Russia,65.09,40.21,Europe,Dfc,Severodvinsk,3
+Russia,47.42,39.08,Europe,Dfa,Shakhty,3
+Lithuania,55.45,22.68,Europe,Dfb,Siauliai,3
+Romania,45.81,24.23,Europe,Cfb,Sibiu,3
+Macedonia,42.59,21.82,Europe,Cfb,Skopje,3
+Russia,55.45,31.18,Europe,Dfb,Smolensk,3
+Bulgaria,42.59,24.0,Europe,Cfb,Sofia,3
+Poland,50.63,19.01,Europe,Cfb,Sosnowiec,3
+Bulgaria,42.59,26.18,Europe,Cfa,Stara Zagora,3
+Russia,50.63,36.76,Europe,Dfb,Staryy Oskol,3
+Norway,58.66,6.15,Europe,Cfb,Stavanger,3
+Russia,53.84,55.91,Europe,Dfb,Sterlitamak,3
+Sweden,58.66,18.46,Europe,Ocean,Stockholm,3
+Romania,47.42,27.24,Europe,Cfa,Suceava,3
+Ukraine,50.63,34.23,Europe,Dfb,Sumy,3
+Russia,53.84,47.73,Europe,Dfb,Syzran,3
+Poland,53.84,15.0,Europe,Cfb,Szczecin,3
+Hungary,45.81,19.62,Europe,Cfa,Szeged,3
+Hungary,47.42,17.76,Europe,Cfb,Székesfehérvár,3
+Russia,47.42,39.08,Europe,Dfa,Taganrog,3
+Estonia,58.66,24.62,Europe,Dfb,Tallinn,3
+Russia,52.24,42.04,Europe,Dfb,Tambov,3
+Finland,61.88,22.08,Europe,Dfb,Tampere,3
+Romania,45.81,24.23,Europe,Cfb,Targu Mures,3
+Poland,50.63,21.55,Europe,Cfb,Tarnow,3
+Estonia,58.66,27.69,Europe,Dfb,Tartu,3
+Greece,40.99,23.43,Europe,BSk,Thessaloníki,3
+Moldova,47.42,29.61,Europe,Cfb,Tighina,3
+Romania,45.81,21.92,Europe,Cfb,Timisoara,3
+Albania,40.99,19.17,Europe,Ocean,Tirana,3
+Russia,53.84,50.45,Europe,Dfb,Tolyatti,3
+Poland,52.24,18.39,Europe,Cfb,Torun,3
+Norway,63.49,9.0,Europe,Cfb,Trondheim,3
+Russia,53.84,36.82,Europe,Dfb,Tula,3
+Finland,60.27,22.7,Europe,Dfb,Turku,3
+Bosnia And Herzegovina,44.2,17.89,Europe,Cfb,Tuzla,3
+Russia,57.05,36.89,Europe,Dfb,Tver,3
+Poland,50.63,19.01,Europe,Cfb,Tychy,3
+Russia,55.45,56.69,Europe,Dfb,Ufa,3
+Russia,53.84,47.73,Europe,Dfb,Ulyanovsk,3
+Sweden,60.27,16.22,Europe,Dfc,Uppsala,3
+Ukraine,49.03,22.04,Europe,Cfb,Uzhhorod,3
+Bulgaria,42.59,28.36,Europe,Ocean,Varna,3
+Russia,57.05,30.98,Europe,Dfb,Velikie Luki,3
+Russia,58.66,30.77,Europe,Dfb,Velikiy Novgorod,3
+Austria,49.03,17.14,Europe,Cfb,Vienna,3
+Lithuania,55.45,25.51,Europe,Dfb,Vilnius,3
+Ukraine,49.03,29.39,Europe,Dfb,Vinnitsa,3
+Ukraine,49.03,29.39,Europe,Dfb,Vinnytsya,3
+Russia,55.45,39.69,Europe,Dfb,Vladimir,3
+Russia,47.42,41.45,Europe,Dfa,Volgodonsk,3
+Russia,49.03,44.08,Europe,Dfa,Volgograd,3
+Russia,58.66,40.0,Europe,Dfb,Vologda,3
+Russia,49.03,44.08,Europe,Dfa,Volzhskiy,3
+Russia,52.24,39.42,Europe,Dfb,Voronezh,3
+Sweden,60.27,16.22,Europe,Dfc,Västerås,3
+Poland,50.63,16.48,Europe,Dfb,Walbrzych,3
+Poland,52.24,21.02,Europe,Cfb,Warsaw,3
+Poland,52.24,18.39,Europe,Cfb,Wloclawek,3
+Poland,50.63,16.48,Europe,Dfb,Wroclaw,3
+Russia,57.05,39.84,Europe,Dfb,Yaroslavl,3
+Russia,52.24,39.42,Europe,Dfb,Yelets,3
+Ukraine,45.81,33.46,Europe,Cfa,Yevpatoriya,3
+Poland,50.63,19.01,Europe,Cfb,Zabrze,3
+Croatia,45.81,15.0,Europe,Cfb,Zagreb,3
+Ukraine,47.42,34.34,Europe,Cfa,Zaporizhzhya,3
+Russia,55.45,48.19,Europe,Dfb,Zelenodolsk,3
+Russia,55.45,36.85,Europe,Dfb,Zelenograd,3
+Bosnia And Herzegovina,44.2,17.89,Europe,Cfb,Zenica,3
+Russia,55.45,36.85,Europe,Dfb,Zhukovskiy,3
+Ukraine,50.63,29.15,Europe,Dfb,Zhytomyr,3
+Poland,52.24,15.77,Europe,Cfb,Zielona Gora,3
+Denmark,57.05,10.33,Europe,Cfb,Århus,3
+Iran,29.74,48.0,Asia,BWh,Abadan,4
+Saudi Arabia,18.48,42.25,Asia,BWh,Abha,4
+United Arab Emirates,24.92,54.98,Asia,BWh,Abu Dhabi,4
+Turkey,36.17,35.8,Asia,Csa,Adana,4
+Turkey,39.38,31.21,Asia,BSk,Afyonkarahisar,4
+Iran,31.35,49.01,Asia,BSh,Ahvaz,4
+Turkey,37.78,34.58,Asia,BSk,Aksaray,4
+China,40.99,80.95,Asia,BWk,Aksu,4
+Turkey,36.17,31.82,Asia,Ocean,Alanya,4
+Syria,36.17,37.79,Asia,BSh,Aleppo,4
+Kazakhstan,42.59,76.36,Asia,Dfb,Almaty,4
+China,47.42,88.82,Asia,Dfb,Altay,4
+Iran,36.17,51.71,Asia,Dsb,Amol,4
+Uzbekistan,40.99,72.43,Asia,BSk,Andijon,4
+Uzbekistan,40.99,70.3,Asia,Dsb,Angren,4
+Turkey,39.38,33.29,Asia,BSk,Ankara,4
+Turkey,36.17,35.8,Asia,Csa,Antakya,4
+Turkey,37.78,30.51,Asia,Csa,Antalya,4
+Iran,34.56,50.59,Asia,BSk,Arak,4
+Iran,37.78,48.81,Asia,Csa,Ardabil,4
+Russia,45.81,40.38,Europe,Cfa,Armavir,4
+Turkmenistan,37.78,58.98,Asia,BWh,Asgabat,4
+Israel,31.35,33.93,Asia,BWh,Ashdod,4
+Israel,31.35,33.93,Asia,BWh,Ashqelon,4
+Egypt,23.31,32.33,Africa,BWh,Aswan,4
+Egypt,26.52,30.45,Africa,BWh,Asyut,4
+Greece,37.78,24.41,Europe,Ocean,Athens,4
+Iran,36.17,51.71,Asia,Dsb,Babol,4
+Iraq,32.95,45.0,Asia,BWh,Baghdad,4
+Azerbaijan,40.99,48.99,Asia,Cfa,Baku,4
+Iran,37.78,48.81,Asia,Csa,Bandar E Anzali,4
+Iran,36.17,45.75,Asia,Csa,Baneh,4
+Israel,31.35,33.93,Asia,BWh,Bat Yam,4
+Turkey,37.78,40.68,Asia,Csa,Batman,4
+Lebanon,34.56,35.03,Asia,Ocean,Bayrut,4
+Lebanon,34.56,35.03,Asia,Ocean,Beirut,4
+Israel,32.95,35.43,Asia,Csa,Bene Beraq,4
+Egypt,29.74,31.38,Africa,BWh,Benha,4
+Egypt,29.74,31.38,Africa,BWh,Beni Suef,4
+Iran,32.95,58.4,Asia,BWh,Birjand,4
+Iran,37.78,56.95,Asia,BSk,Bojnurd,4
+Iran,34.56,48.65,Asia,Dsa,Borujerd,4
+Iran,36.17,45.75,Asia,Csa,Bukan,4
+Saudi Arabia,26.52,44.78,Asia,BWh,Buraydah,4
+Turkey,39.38,29.13,Asia,Csb,Bursa,4
+Iran,29.74,51.69,Asia,Csa,Bushehr,4
+Egypt,29.74,31.38,Africa,BWh,Cairo,4
+China,44.2,87.2,Asia,BSk,Changji,4
+Russia,44.2,42.48,Europe,Cfa,Cherkessk,4
+Iraq,36.17,43.76,Asia,Csa,Dahuk,4
+Syria,32.95,35.43,Asia,Csa,Damascus,4
+Turkmenistan,40.99,59.64,Asia,BWk,Dasoguz,4
+Egypt,31.35,32.04,Africa,BWh,Dekernes,4
+Turkey,37.78,28.47,Asia,Csb,Denizli,4
+Russia,42.59,48.0,Europe,BSk,Derbent,4
+Iran,32.95,48.83,Asia,Csa,Dezful,4
+Iran,32.95,48.83,Asia,Csa,Do Rud,4
+Qatar,24.92,51.43,Asia,BWh,Doha,4
+United Arab Emirates,24.92,54.98,Asia,BWh,Dubai,4
+Syria,32.95,37.34,Asia,BWh,Duma,4
+Tajikistan,39.38,68.67,Asia,Dsb,Dushanbe,4
+Egypt,29.74,31.38,Africa,BWh,El Faiyûm,4
+Egypt,31.35,32.04,Africa,BWh,El Mahalla El Kubra,4
+Turkey,39.38,39.54,Asia,Dsb,Erzincan,4
+Turkey,39.38,41.62,Asia,Dsb,Erzurum,4
+Turkey,40.99,27.69,Asia,Ocean,Esenyurt,4
+Iran,32.95,50.74,Asia,Dsa,Esfahan,4
+Turkey,39.38,31.21,Asia,BSk,Eskisehir,4
+Iran,36.17,51.71,Asia,Dsb,Eslamshahr,4
+Turkey,37.78,36.61,Asia,Csb,Gaziantep,4
+Turkey,40.99,29.82,Asia,Csa,Gebze,4
+Egypt,29.74,31.38,Africa,BWh,Gizeh,4
+Iran,37.78,54.92,Asia,BSh,Gonbad E Qabus,4
+Iran,36.17,53.7,Asia,BSk,Gorgan,4
+Armenia,40.99,44.73,Asia,Dfb,Gyumri,4
+Israel,32.95,35.43,Asia,Csa,Haifa,4
+Iran,34.56,48.65,Asia,Dsa,Hamadan,4
+China,42.59,93.82,Asia,BWk,Hami,4
+Afghanistan,34.56,62.27,Asia,BSk,Herat,4
+Syria,36.17,35.8,Asia,Csa,Idlib,4
+Iran,32.95,46.91,Asia,Csa,Ilam,4
+Turkey,39.38,29.13,Asia,Csb,Inegol,4
+Iran,26.52,60.9,Asia,BWh,Iranshahr,4
+Jordan,32.95,35.43,Asia,Csa,Irbid,4
+Iraq,36.17,43.76,Asia,Csa,Irbil,4
+Turkey,36.17,35.8,Asia,Csa,Iskenderun,4
+Egypt,31.35,32.04,Africa,BWh,Ismailia,4
+Turkey,37.78,30.51,Asia,Csa,Isparta,4
+Turkey,40.99,29.82,Asia,Csa,Istanbul,4
+Turkey,37.78,26.44,Asia,Csa,Izmir,4
+Turkey,40.99,29.82,Asia,Csa,Izmit,4
+Iran,28.13,53.64,Asia,BSh,Jahrom,4
+Syria,32.95,35.43,Asia,Csa,Jaramana,4
+Israel,31.35,35.81,Asia,BSk,Jerusalem,4
+Saudi Arabia,21.7,38.94,Asia,BWh,Jiddah,4
+Iran,28.13,57.27,Asia,BWh,Jiroft,4
+Turkey,37.78,36.61,Asia,Csb,Kahramanmaras,4
+Greece,37.78,24.41,Europe,Ocean,Kallithéa,4
+Iran,36.17,51.71,Asia,Dsb,Karaj,4
+Turkey,37.78,32.54,Asia,BSk,Karaman,4
+China,45.81,84.23,Asia,BWk,Karamay,4
+Iran,34.56,50.59,Asia,BSk,Kashan,4
+China,39.38,76.99,Asia,BWk,Kashi,4
+Turkey,39.38,35.38,Asia,Csb,Kayseri,4
+Iran,29.74,57.23,Asia,BSk,Kerman,4
+Iran,34.56,46.7,Asia,Csa,Kermanshah,4
+Iran,32.95,50.74,Asia,Dsa,Khomeynishahr,4
+Iran,32.95,48.83,Asia,Csa,Khorramabad,4
+Iran,29.74,48.0,Asia,BWh,Khorramshahr,4
+Iran,37.78,44.75,Asia,Dsb,Khoy,4
+Tajikistan,40.99,70.3,Asia,Dsb,Khujand,4
+Iraq,36.17,43.76,Asia,Csa,Kirkuk,4
+Russia,44.2,42.48,Europe,Cfa,Kislovodsk,4
+Turkey,37.78,32.54,Asia,BSk,Konya,4
+China,40.99,85.21,Asia,BWk,Korla,4
+Russia,45.81,38.08,Europe,Cfa,Krasnodar,4
+Iran,32.95,46.91,Asia,Csa,Kuhdasht,4
+China,44.2,84.97,Asia,BWk,Kuytun,4
+Turkey,39.38,29.13,Asia,Csb,Kütahya,4
+Cyprus,34.56,33.08,Asia,Csa,Lemesos,4
+Egypt,26.52,32.24,Africa,BWh,Luxor,4
+Greece,39.38,22.89,Europe,Csa,Lárisa,4
+Iran,36.17,45.75,Asia,Csa,Mahabad,4
+Russia,42.59,48.0,Europe,BSk,Makhachkala,4
+Turkey,37.78,38.64,Asia,Csa,Malatya,4
+Bahrain,26.52,50.15,Asia,BWh,Manama,4
+Syria,36.17,37.79,Asia,BSh,Manbij,4
+Turkey,39.38,27.05,Asia,Csa,Manisa,4
+Iran,37.78,46.78,Asia,BSk,Maragheh,4
+Iran,39.38,45.78,Asia,Dsb,Marand,4
+Iran,36.17,45.75,Asia,Csa,Marivan,4
+Iran,29.74,53.54,Asia,BSh,Marv Dasht,4
+Iran,36.17,59.67,Asia,BSk,Mashhad,4
+Iran,31.35,49.01,Asia,BSh,Masjed E Soleyman,4
+Russia,44.2,40.25,Europe,Cfa,Maykop,4
+Saudi Arabia,21.7,40.67,Asia,BWh,Mecca,4
+Turkey,36.17,33.81,Asia,Csa,Mersin,4
+Iran,36.17,45.75,Asia,Csa,Miandoab,4
+Saudi Arabia,16.87,43.53,Asia,BWk,Najran,4
+Russia,42.59,43.64,Europe,Dfc,Nalchik,4
+Uzbekistan,40.99,72.43,Asia,BSk,Namangan,4
+Uzbekistan,39.38,64.51,Asia,BWk,Navoi,4
+Turkey,37.78,28.47,Asia,Csb,Nazilli,4
+Russia,44.2,44.72,Europe,Cfa,Nazran,4
+Israel,32.95,35.43,Asia,Csa,Netanya,4
+Russia,44.2,42.48,Europe,Cfa,Nevinnomyssk,4
+Iran,36.17,59.67,Asia,BSk,Neyshabur,4
+Russia,44.2,38.01,Europe,Ocean,Novorossiysk,4
+Uzbekistan,42.59,58.91,Asia,BWk,Nukus,4
+Turkey,40.99,38.34,Asia,Cfa,Ordu,4
+Iran,37.78,44.75,Asia,Dsb,Orumiyeh,4
+Turkey,37.78,36.61,Asia,Csb,Osmaniye,4
+Iran,39.38,47.86,Asia,BSk,Parsabad,4
+Greece,37.78,24.41,Europe,Ocean,Peristérion,4
+Egypt,31.35,32.04,Africa,BWh,Port Said,4
+Russia,44.2,42.48,Europe,Cfa,Pyatigorsk,4
+Greece,37.78,22.37,Europe,Csb,Pátrai,4
+Egypt,29.74,31.38,Africa,BWh,Qalyub,4
+Iran,36.17,51.71,Asia,Dsb,Qarchak,4
+Iran,36.17,49.72,Asia,Csa,Qazvin,4
+Egypt,26.52,32.24,Africa,BWh,Qena,4
+Iran,34.56,50.59,Asia,BSk,Qom,4
+Iran,37.78,58.98,Asia,BWh,Quchan,4
+Iran,29.74,55.38,Asia,BWh,Rafsanjan,4
+Israel,32.95,35.43,Asia,Csa,Ramat Gan,4
+Iran,37.78,48.81,Asia,Csa,Rasht,4
+Saudi Arabia,24.92,46.11,Asia,BWh,Riyadh,4
+Iran,36.17,57.68,Asia,BWk,Sabzevar,4
+Oman,16.87,53.58,Asia,BWh,Salalah,4
+Uzbekistan,39.38,66.59,Asia,Csa,Samarkand,4
+Turkey,40.99,36.21,Asia,Csb,Samsun,4
+Iran,34.56,46.7,Asia,Csa,Sanandaj,4
+Iran,36.17,45.75,Asia,Csa,Saqqez,4
+Iran,36.17,53.7,Asia,BSk,Sari,4
+Iran,34.56,50.59,Asia,BSk,Saveh,4
+Iran,36.17,53.7,Asia,BSk,Semnan,4
+Iran,32.95,50.74,Asia,Dsa,Shahr E Kord,4
+Iran,31.35,52.77,Asia,BWk,Shahreza,4
+Iran,36.17,55.69,Asia,BWk,Shahrud,4
+United Arab Emirates,24.92,54.98,Asia,BWh,Sharjah,4
+China,44.2,84.97,Asia,BWk,Shihezi,4
+Iran,29.74,51.69,Asia,Csa,Shiraz,4
+Kazakhstan,42.59,69.82,Asia,Csa,Shymkent,4
+Turkey,37.78,42.71,Asia,Csa,Siirt,4
+Iran,29.74,55.38,Asia,BWh,Sirjan,4
+Turkey,39.38,37.46,Asia,Dsb,Sivas,4
+Turkey,37.78,38.64,Asia,Csa,Siverek,4
+Russia,44.2,40.25,Europe,Cfa,Sochi,4
+Egypt,26.52,32.24,Africa,BWh,Sohag,4
+Russia,44.2,42.48,Europe,Cfa,Stavropol,4
+Egypt,29.74,33.23,Africa,BWh,Suez,4
+Lebanon,32.95,35.43,Asia,Csa,Sur,4
+Iran,37.78,46.78,Asia,BSk,Tabriz,4
+Saudi Arabia,28.13,37.27,Asia,BWh,Tabuk,4
+Egypt,31.35,32.04,Africa,BWh,Talkha,4
+Egypt,31.35,30.16,Africa,BWh,Tanta,4
+Kazakhstan,42.59,72.0,Asia,Dsb,Taraz,4
+Turkey,37.78,34.58,Asia,BSk,Tarsus,4
+Syria,34.56,35.03,Asia,Ocean,Tartus,4
+Uzbekistan,40.99,70.3,Asia,Dsb,Tashkent,4
+Georgia,40.99,44.73,Asia,Dfb,Tbilisi,4
+Turkey,40.99,27.69,Asia,Ocean,Tekirdag,4
+Israel,31.35,33.93,Asia,BWh,Tel Aviv Yafo,4
+Uzbekistan,37.78,67.12,Asia,BSk,Termiz,4
+Turkey,40.99,36.21,Asia,Csb,Tokat,4
+Turkey,40.99,40.47,Asia,Cfa,Trabzon,4
+Turkey,37.78,28.47,Asia,Csb,Turgutlu,4
+Turkey,40.99,36.21,Asia,Csb,Turhal,4
+Turkmenistan,39.38,64.51,Asia,BWk,Türkmenabat,4
+Turkey,37.78,38.64,Asia,Csa,Urfa,4
+Turkey,39.38,29.13,Asia,Csb,Usak,4
+Turkey,37.78,42.71,Asia,Csa,Van,4
+Armenia,40.99,44.73,Asia,Dfb,Vanadzor,4
+Iran,36.17,51.71,Asia,Dsb,Varamin,4
+Turkey,37.78,40.68,Asia,Csa,Viransehir,4
+Russia,42.59,43.64,Europe,Dfc,Vladikavkaz,4
+Iran,31.35,54.66,Asia,BWk,Yazd,4
+Armenia,40.99,44.73,Asia,Dfb,Yerevan,4
+China,44.2,80.5,Asia,BSk,Yining,4
+Iran,31.35,62.2,Asia,BWh,Zabol,4
+Iran,36.17,47.73,Asia,BSk,Zanjan,4
+Kazakhstan,47.42,67.5,Asia,BSk,Zhezkazgan,4
+Turkey,40.99,31.95,Asia,Cfb,Zonguldak,4
+Turkey,40.99,27.69,Asia,Ocean,Çorlu,4
+Turkey,40.99,34.08,Asia,Cfa,Çorum,4
+China,44.2,87.2,Asia,BSk,Ürümqi,4
+United States,32.95,-100.53,North America,Cfa,Abilene,5
+Mexico,29.74,-101.54,North America,BSh,Acuña,5
+United States,40.99,-80.95,North America,Cfb,Akron,5
+Egypt,31.35,30.16,Africa,BWh,Alexandria,5
+United States,40.99,-74.56,North America,Cfa,Allentown,5
+United States,34.56,-101.19,North America,Cfa,Amarillo,5
+United States,42.59,-82.91,North America,Dfa,Ann Arbor,5
+Mexico,26.52,-100.3,North America,BSh,Apodaca,5
+United States,32.95,-96.7,North America,Cfa,Arlington,5
+United States,34.56,-83.68,North America,Cfa,Atlanta,5
+United States,39.38,-104.05,North America,BSk,Aurora,5
+United States,29.74,-97.85,North America,Cfa,Austin,5
+United States,39.38,-76.99,North America,Cfa,Baltimore,5
+Canada,44.2,-80.5,North America,Dfb,Barrie,5
+United States,29.74,-90.46,North America,Cfa,Baton Rouge,5
+United States,29.74,-94.15,North America,Cfa,Beaumont,5
+United Kingdom,52.24,-2.63,Europe,Cfb,Birmingham,5
+United States,42.59,-72.0,North America,Dfb,Boston,5
+United States,40.99,-72.43,North America,Cfa,Bridgeport,5
+United States,26.52,-96.72,North America,Ocean,Brownsville,5
+United States,42.59,-78.55,North America,Dfb,Buffalo,5
+Canada,50.63,-112.82,North America,Dfb,Calgary,5
+Cuba,21.7,-78.75,North America,Aw,Camagüey,5
+United Kingdom,52.24,-0.0,Europe,Cfb,Cambridge,5
+United States,26.52,-82.39,North America,Ocean,Cape Coral,5
+United States,32.95,-96.7,North America,Cfa,Carrollton,5
+United States,36.17,-79.56,North America,Cfa,Cary,5
+United States,42.59,-91.64,North America,Dfa,Cedar Rapids,5
+United States,32.95,-79.47,North America,Ocean,Charleston,5
+United States,34.56,-81.73,North America,Cfa,Charlotte,5
+United States,34.56,-85.62,North America,Cfa,Chattanooga,5
+United States,36.17,-75.58,North America,Ocean,Chesapeake,5
 United States,42.59,-87.27,North America,Dfa,Chicago,5
+Cuba,21.7,-78.75,North America,Aw,Ciego De Ávila,5
+Cuba,21.7,-80.48,North America,Ocean,Cienfuegos,5
+United States,39.38,-85.32,North America,Cfa,Cincinnati,5
+United States,36.17,-87.51,North America,Cfa,Clarksville,5
+United States,28.13,-82.73,North America,Cfa,Clearwater,5
+United States,40.99,-80.95,North America,Cfb,Cleveland,5
+United States,34.56,-81.73,North America,Cfa,Columbia,5
+United States,32.95,-85.21,North America,Cfa,Columbus,5
+United States,26.52,-80.6,North America,Am,Coral Springs,5
+United States,28.13,-97.27,North America,Cfa,Corpus Christi,5
+United States,32.95,-96.7,North America,Cfa,Dallas,5
+United States,39.38,-83.24,North America,Cfa,Dayton,5
+United States,32.95,-96.7,North America,Cfa,Denton,5
+United States,40.99,-93.73,North America,Dfa,Des Moines,5
+United States,42.59,-82.91,North America,Dfa,Detroit,5
+Mexico,24.92,-104.63,North America,BSh,Durango,5
+United States,36.17,-79.56,North America,Cfa,Durham,5
+Netherlands,52.24,5.26,Europe,Cfb,Ede,5
+United States,40.99,-74.56,North America,Cfa,Edison,5
+Canada,53.84,-113.18,North America,Dfb,Edmonton,5
+United States,40.99,-74.56,North America,Cfa,Elizabeth,5
+United States,37.78,-87.46,North America,Cfa,Evansville,5
+United States,34.56,-79.78,North America,Cfa,Fayetteville,5
+United States,42.59,-82.91,North America,Dfa,Flint,5
+United States,26.52,-80.6,North America,Am,Fort Lauderdale,5
+United States,40.99,-85.21,North America,Dfa,Fort Wayne,5
+United States,32.95,-96.7,North America,Cfa,Fort Worth,5
+Mexico,23.31,-102.23,North America,BSk,Fresnillo,5
+United States,29.74,-83.08,North America,Cfa,Gainesville,5
+United States,32.95,-96.7,North America,Cfa,Garland,5
+Mexico,26.52,-100.3,North America,BSh,Garza García,5
+Mexico,26.52,-100.3,North America,BSh,General Escobedo,5
+United States,32.95,-96.7,North America,Cfa,Grand Prairie,5
+United States,42.59,-85.09,North America,Dfa,Grand Rapids,5
+United States,44.2,-87.2,North America,Dfb,Green Bay,5
+United States,36.17,-79.56,North America,Cfa,Greensboro,5
+Mexico,26.52,-100.3,North America,BSh,Guadalupe,5
+Canada,44.2,-80.5,North America,Dfb,Guelph,5
+Mexico,24.92,-102.86,North America,BWh,Gómez Palacio,5
+Canada,44.2,-62.61,North America,Ocean,Halifax,5
+Canada,42.59,-80.73,North America,Dfb,Hamilton,5
+United States,36.17,-75.58,North America,Ocean,Hampton,5
+United States,40.99,-72.43,North America,Cfa,Hartford,5
+United States,26.52,-80.6,North America,Am,Hialeah,5
+United States,26.52,-80.6,North America,Am,Hollywood,5
+United States,29.74,-96.0,North America,Cfa,Houston,5
+United States,34.56,-85.62,North America,Cfa,Huntsville,5
+United States,39.38,-93.64,North America,Cfa,Independence,5
+United States,39.38,-85.32,North America,Cfa,Indianapolis,5
+United States,32.95,-96.7,North America,Cfa,Irving,5
+United States,32.95,-90.96,North America,Cfa,Jackson,5
+United States,29.74,-81.23,North America,Cfa,Jacksonville,5
+United States,40.99,-74.56,North America,Cfa,Jersey City,5
+United States,40.99,-87.34,North America,Dfa,Joliet,5
+United States,39.38,-93.64,North America,Cfa,Kansas City,5
+United States,31.35,-98.01,North America,Cfa,Killeen,5
+Canada,44.2,-76.02,North America,Dfb,Kingston,5
+Canada,44.2,-80.5,North America,Dfb,Kitchener,5
+United States,36.17,-83.54,North America,Cfa,Knoxville,5
+United States,29.74,-92.31,North America,Cfa,Lafayette,5
+United States,42.59,-85.09,North America,Dfa,Lansing,5
+United States,28.13,-99.09,North America,BSh,Laredo,5
+Cuba,21.7,-77.02,North America,Ocean,Las Tunas,5
+United States,37.78,-85.42,North America,Cfa,Lexington Fayette,5
+United States,40.99,-95.86,North America,Dfa,Lincoln,5
+United States,34.56,-91.46,North America,Cfa,Little Rock,5
+Canada,42.59,-80.73,North America,Dfb,London,5
+United States,37.78,-85.42,North America,Cfa,Louisville,5
+United States,42.59,-72.0,North America,Dfb,Lowell,5
+United States,32.95,-102.45,North America,BSk,Lubbock,5
+United States,42.59,-89.45,North America,Dfa,Madison,5
+United Kingdom,53.84,-1.36,Europe,Cfb,Manchester,5
+Mexico,26.52,-96.72,North America,Ocean,Matamoros,5
+Cuba,23.31,-81.26,North America,Aw,Matanzas,5
+United States,34.56,-89.51,North America,Cfa,Memphis,5
+United States,32.95,-96.7,North America,Cfa,Mesquite,5
+United States,29.74,-90.46,North America,Cfa,Metairie,5
+United States,26.52,-80.6,North America,Am,Miami,5
+United States,42.59,-87.27,North America,Dfa,Milwaukee,5
+United States,45.81,-93.46,North America,Dfb,Minneapolis,5
+United States,26.52,-80.6,North America,Am,Miramar,5
+United States,31.35,-88.59,North America,Cfa,Mobile,5
+Mexico,26.52,-102.09,North America,BWh,Monclova,5
+Mexico,26.52,-100.3,North America,BSh,Monterrey,5
+United States,32.95,-87.13,North America,Cfa,Montgomery,5
 Canada,45.81,-72.69,North America,Dfb,Montreal,5
+United States,40.99,-87.34,North America,Dfa,Naperville,5
+United States,36.17,-87.51,North America,Cfa,Nashville,5
+Bahamas,24.92,-78.03,North America,Aw,Nassau,5
+United States,40.99,-72.43,North America,Cfa,New Haven,5
+United States,29.74,-90.46,North America,Cfa,New Orleans,5
 United States,40.99,-74.56,North America,Cfa,New York,5
+United States,40.99,-74.56,North America,Cfa,Newark,5
+United States,37.78,-77.29,North America,Cfa,Newport News,5
+United States,36.17,-75.58,North America,Ocean,Norfolk,5
+United States,34.56,-97.3,North America,Cfa,Norman,5
+United States,28.13,-99.09,North America,BSh,Nuevo Laredo,5
+United States,36.17,-97.46,North America,Cfa,Oklahoma City,5
+United States,39.38,-95.72,North America,Cfa,Olathe,5
+United States,40.99,-95.86,North America,Dfa,Omaha,5
+United States,28.13,-80.91,North America,Cfa,Orlando,5
+Canada,44.2,-78.26,North America,Dfb,Oshawa,5
+Canada,45.81,-75.0,North America,Dfb,Ottawa,5
+United States,39.38,-93.64,North America,Cfa,Overland Park,5
+United States,40.99,-74.56,North America,Cfa,Paterson,5
+United States,26.52,-80.6,North America,Am,Pembroke Pines,5
+United States,32.95,-112.02,North America,BWh,Peoria,5
+United States,39.38,-74.91,North America,Cfa,Philadelphia,5
+Mexico,28.13,-100.91,North America,BSh,Piedras Negras,5
+Cuba,21.7,-83.94,North America,Ocean,Pinar Del Río,5
+United States,40.99,-80.95,North America,Cfb,Pittsburgh,5
+United States,32.95,-96.7,North America,Cfa,Plano,5
+United States,26.52,-80.6,North America,Am,Port Saint Lucie,5
+United States,42.59,-72.0,North America,Dfb,Providence,5
+Canada,47.42,-72.24,North America,Dfb,Quebec,5
+United States,36.17,-79.56,North America,Cfa,Raleigh,5
+Canada,50.63,-105.21,North America,Dfb,Regina,5
+Mexico,26.52,-98.51,North America,BSh,Reynosa,5
+United States,32.95,-96.7,North America,Cfa,Richardson,5
+United States,42.59,-78.55,North America,Dfb,Rochester,5
+United States,42.59,-89.45,North America,Dfa,Rockford,5
+Senegal,16.87,-16.74,Africa,Ocean,Saint Louis,5
+United States,45.81,-93.46,North America,Dfb,Saint Paul,5
+Mexico,24.92,-101.08,North America,BSh,Saltillo,5
+United States,29.74,-97.85,North America,Cfa,San Antonio,5
+Mexico,26.52,-100.3,North America,BSh,San Nicolás De Los Garza,5
+Cuba,21.7,-78.75,North America,Aw,Sancti Spíritus,5
+Mexico,26.52,-100.3,North America,BSh,Santa Catarina,5
+Canada,52.24,-107.74,North America,Dfb,Saskatoon,5
+United States,31.35,-81.05,North America,Ocean,Savannah,5
+Canada,45.81,-72.69,North America,Dfb,Sherbrooke,5
+United States,32.95,-92.87,North America,Cfa,Shreveport,5
+United States,44.2,-96.15,North America,Dfb,Sioux Falls,5
+United States,40.99,-85.21,North America,Dfa,South Bend,5
+United States,37.78,-93.56,North America,Cfa,Springfield,5
+United States,40.99,-74.56,North America,Cfa,Stamford,5
+United States,42.59,-82.91,North America,Dfa,Sterling Heights,5
+Canada,45.81,-81.92,North America,Dfb,Sudbury,5
+Italy,37.78,16.27,Europe,Ocean,Syracuse,5
+United States,29.74,-84.92,North America,Cfa,Tallahassee,5
+United States,28.13,-82.73,North America,Cfa,Tampa,5
+Philippines,10.45,123.55,Asia,Am,Toledo,5
+United States,39.38,-74.91,North America,Cfa,Toms River,5
+United States,39.38,-95.72,North America,Cfa,Topeka,5
 Canada,44.2,-80.5,North America,Dfb,Toronto,5
-Syria,36.17,37.79,Asia,BSh,Aleppo,6
-Egypt,31.35,30.16,Africa,BWh,Alexandria,6
-Turkey,39.38,33.29,Asia,BSk,Ankara,6
-Iraq,32.95,45.0,Asia,BWh,Baghdad,6
-Egypt,29.74,31.38,Africa,BWh,Cairo,6
-Egypt,29.74,31.38,Africa,BWh,Gizeh,6
-Turkey,40.99,29.82,Asia,Csa,Istanbul,6
-Turkey,37.78,26.44,Asia,Csa,Izmir,6
-Saudi Arabia,21.7,38.94,Asia,BWh,Jiddah,6
-Saudi Arabia,24.92,46.11,Asia,BWh,Riyadh,6
+Mexico,24.92,-102.86,North America,BWh,Torreón,5
+Canada,45.81,-72.69,North America,Dfb,Trois Rivières,5
+United States,36.17,-95.47,North America,Cfa,Tulsa,5
+United States,36.17,-75.58,North America,Ocean,Virginia Beach,5
+United States,31.35,-98.01,North America,Cfa,Waco,5
+United States,42.59,-82.91,North America,Dfa,Warren,5
+United States,39.38,-76.99,North America,Cfa,Washington,5
+United States,40.99,-72.43,North America,Cfa,Waterbury,5
+Canada,44.2,-80.5,North America,Dfb,Waterloo,5
+United States,37.78,-97.63,North America,Cfa,Wichita,5
+United States,34.56,-99.24,North America,Cfa,Wichita Falls,5
+United States,42.59,-82.91,North America,Dfa,Windsor,5
+Canada,50.63,-97.61,North America,Dfb,Winnipeg,5
+United States,36.17,-79.56,North America,Cfa,Winston Salem,5
+South Africa,-32.95,20.11,Africa,BSk,Worcester,5
+United States,40.99,-74.56,North America,Cfa,Yonkers,5
+Mexico,23.31,-102.23,North America,BSk,Zacatecas,5
+Mexico,16.87,-100.47,North America,Ocean,Acapulco,6
+Venezuela,8.84,-68.92,South America,Aw,Acarigua,6
+Ethiopia,8.84,38.11,Africa,Cwb,Addis Abeba,6
+Australia,-34.56,138.16,Oceania,Ocean,Adelaide,6
+Yemen,13.66,45.41,Asia,BWh,Aden,6
+Indonesia,-7.23,109.46,Asia,Af,Adiwerna,6
+India,15.27,77.5,Asia,BSh,Adoni,6
+Mexico,21.7,-102.98,North America,BSh,Aguascalientes,6
+Libya,31.35,20.73,Africa,BSh,Ajdabiya,6
+Brazil,-12.05,-37.81,South America,Af,Alagoinhas,6
+India,13.66,80.09,Asia,Aw,Alandur,6
+India,8.84,77.03,Asia,Aw,Alappuzha,6
+South Africa,-26.52,28.66,Africa,Cwb,Alberton,6
+Australia,-36.17,147.18,Oceania,Cfa,Albury,6
+Algeria,36.17,3.98,Africa,Csa,Algiers,6
+Malaysia,5.63,100.09,Asia,Ocean,Alor Setar,6
+Ecuador,-0.8,-77.95,South America,Cfb,Ambato,6
+India,13.66,80.09,Asia,Aw,Ambattur,6
+Indonesia,-4.02,127.77,Asia,Ocean,Ambon,6
+India,12.05,78.9,Asia,Aw,Ambur,6
+Venezuela,8.84,-64.05,South America,Aw,Anaco,6
+Brazil,-0.8,-49.02,South America,Am,Ananindeua,6
+India,15.27,77.5,Asia,BSh,Anantapur,6
+Philippines,15.27,120.83,Asia,Aw,Angeles,6
+Madagascar,-18.48,47.32,Africa,Cwb,Antananarivo,6
+Philippines,15.27,120.83,Asia,Aw,Antipolo,6
+Chile,-23.31,-70.78,South America,BWk,Antofagasta,6
+Madagascar,-20.09,47.77,Africa,Cfb,Antsirabe,6
+El Salvador,13.66,-90.0,North America,Aw,Apopa,6
+Brazil,-10.45,-36.82,South America,As,Aracaju,6
+Brazil,-7.23,-47.84,South America,Aw,Araguaína,6
+Brazil,-10.45,-36.82,South America,As,Arapiraca,6
+Peru,-16.87,-72.0,South America,BWk,Arequipa,6
+Chile,-18.48,-70.99,South America,Ocean,Arica,6
+Indonesia,-7.23,107.84,Asia,Am,Arjawinangun,6
+Colombia,4.02,-76.34,South America,Af,Armenia,6
+Tanzania,-4.02,36.16,Africa,Aw,Arusha,6
+Tunisia,36.17,9.94,Africa,BSk,Aryanah,6
+Eritrea,15.27,39.17,Africa,BSh,Asmara,6
+Indonesia,-7.23,107.84,Asia,Am,Astanajapura,6
+New Zealand,-36.17,175.03,Oceania,Cfb,Auckland,6
+India,13.66,80.09,Asia,Aw,Avadi,6
+Ethiopia,7.23,38.11,Africa,Aw,Awassa,6
+Peru,-13.66,-73.49,South America,Cwb,Ayacucho,6
+Malaysia,5.63,100.09,Asia,Ocean,Ayer Itam,6
+Indonesia,-7.23,107.84,Asia,Am,Babakan,6
+Vietnam,8.84,106.22,Asia,Ocean,Bac Lieu,6
+Philippines,10.45,123.55,Asia,Am,Bacolod,6
+Philippines,15.27,120.83,Asia,Aw,Bacoor,6
+Burma,16.87,97.12,Asia,Am,Bago,6
+Philippines,16.87,120.56,Asia,Am,Baguio,6
+Ethiopia,12.05,37.81,Africa,Cwa,Bahir Dar,6
+Indonesia,-0.8,116.52,Asia,Af,Balikpapan,6
+Philippines,15.27,120.83,Asia,Aw,Baliuag,6
+Indonesia,5.63,95.25,Asia,Af,Banda Aceh,6
+Malaysia,2.41,102.05,Asia,Af,Bandar Maharani,6
+Malaysia,2.41,103.66,Asia,Af,Bandar Penggaram,6
+Congo (Democratic Republic Of The),-4.02,16.88,Africa,Aw,Bandundu,6
+Indonesia,-7.23,107.84,Asia,Am,Bandung,6
+India,12.05,77.26,Asia,Aw,Bangalore,6
+Thailand,13.66,99.91,Asia,Aw,Bangkok,6
+Indonesia,-7.23,107.84,Asia,Am,Banjaran,6
+Indonesia,-4.02,114.91,Asia,Af,Banjarmasin,6
+Indonesia,-8.84,114.32,Asia,Ocean,Banyuwangi,6
+Venezuela,8.84,-70.54,South America,Cfb,Barinas,6
+Venezuela,10.45,-69.55,South America,Aw,Barquisimeto,6
+Colombia,7.23,-73.78,South America,Am,Barrancabermeja,6
+Colombia,10.45,-74.45,South America,Aw,Barranquilla,6
+Brazil,-12.05,-44.38,South America,Aw,Barreiras,6
+India,18.48,76.06,Asia,Aw,Barsi,6
+Venezuela,10.45,-66.27,South America,Am,Baruta,6
+Philippines,13.66,121.38,Asia,Af,Batangas,6
+Indonesia,-4.02,103.66,Asia,Af,Baturaja,6
+Cuba,20.09,-76.78,North America,Aw,Bayamo,6
+Mozambique,-20.09,34.12,Africa,Aw,Beira,6
+Indonesia,-5.63,106.55,Asia,Ocean,Bekasi,6
+Indonesia,4.02,98.84,Asia,Ocean,Belawan,6
+India,15.27,77.5,Asia,BSh,Bellary,6
+Colombia,5.63,-75.87,South America,Af,Bello,6
+Brazil,-0.8,-49.02,South America,Am,Belém,6
+Libya,32.95,20.11,Africa,Ocean,Benghazi,6
+Indonesia,-4.02,102.05,Asia,Ocean,Bengkulu,6
+Angola,-12.05,13.15,Africa,Ocean,Benguela,6
+South Africa,-26.52,28.66,Africa,Cwb,Benoni,6
+Somalia,10.45,45.0,Africa,BWh,Berbera,6
+South Africa,-26.52,28.66,Africa,Cwb,Bethal,6
+India,13.66,75.14,Asia,Am,Bhadravati,6
+India,16.87,82.05,Asia,Aw,Bhimavaram,6
+India,18.48,76.06,Asia,Aw,Bid,6
+India,18.48,77.75,Asia,Aw,Bidar,6
+India,16.87,75.35,Asia,BSh,Bijapur,6
+Philippines,13.66,121.38,Asia,Af,Binangonan,6
+Indonesia,4.02,98.84,Asia,Ocean,Binjai,6
+Malaysia,2.41,113.3,Asia,Af,Bintulu,6
+South Africa,-32.95,27.77,Africa,Cfa,Bisho,6
+Guinea Bissau,12.05,-14.79,Africa,Aw,Bissau,6
+Indonesia,0.8,124.55,Asia,Af,Bitung,6
+Vietnam,10.45,107.18,Asia,Aw,Biên Hòa,6
+Malawi,-15.27,35.83,Africa,Aw,Blantyre,6
+Indonesia,-8.84,112.7,Asia,Ocean,Blitar,6
+South Africa,-29.74,25.85,Africa,BSk,Bloemfontein,6
+Brazil,2.41,-60.27,South America,Am,Boa Vista,6
+Indonesia,-7.23,106.22,Asia,Ocean,Bogor,6
+Colombia,4.02,-74.73,South America,As,Bogotá,6
+South Africa,-26.52,28.66,Africa,Cwb,Boksburg,6
+Congo (Democratic Republic Of The),-5.63,12.91,Africa,Aw,Boma,6
+Indonesia,0.8,118.13,Asia,Ocean,Bontang,6
+South Africa,-29.74,27.69,Africa,Cwb,Botshabelo,6
+South Africa,-26.52,28.66,Africa,Cwb,Brakpan,6
+Congo,-4.02,15.27,Africa,Aw,Brazzaville,6
+Indonesia,-7.23,109.46,Asia,Af,Brebes,6
+Gambia,13.66,-17.34,Africa,Ocean,Brikama,6
+Australia,-28.13,153.64,Oceania,Ocean,Brisbane,6
+South Africa,-24.92,28.37,Africa,BSh,Brits,6
+Colombia,7.23,-73.78,South America,Am,Bucaramanga,6
+Colombia,4.02,-76.34,South America,Af,Buenaventura,6
+Colombia,4.02,-76.34,South America,Af,Buga,6
+Burundi,-4.02,29.73,Africa,Cwb,Bujumbura,6
+Congo (Democratic Republic Of The),-2.41,28.13,Africa,Am,Bukavu,6
+Malaysia,5.63,100.09,Asia,Ocean,Bukit Mertajam,6
+Philippines,15.27,120.83,Asia,Aw,Bulaon,6
+Zimbabwe,-20.09,29.0,Africa,BSh,Bulawayo,6
+Vietnam,12.05,108.49,Asia,Cwb,Buon Me Thuot,6
+Congo (Democratic Republic Of The),0.8,29.73,Africa,Aw,Butembo,6
+Malaysia,5.63,100.09,Asia,Ocean,Butterworth,6
+Philippines,8.84,125.68,Asia,Af,Butuan,6
+Philippines,15.27,120.83,Asia,Aw,Cabanatuan,6
+Venezuela,10.45,-71.18,South America,Aw,Cabimas,6
+Venezuela,10.45,-69.55,South America,Aw,Cabudare,6
+Philippines,8.84,124.05,Asia,Ocean,Cagayan De Oro,6
+Venezuela,10.45,-67.91,South America,BSh,Cagua,6
+Philippines,15.27,120.83,Asia,Aw,Cainta,6
+Australia,-16.87,145.67,Oceania,Am,Cairns,6
+Peru,-7.23,-78.65,South America,Cwb,Cajamarca,6
+Venezuela,8.84,-67.3,South America,Aw,Calabozo,6
+Chile,-23.31,-69.03,South America,BWk,Calama,6
+Philippines,13.66,121.38,Asia,Af,Calamba,6
+Colombia,4.02,-76.34,South America,Af,Cali,6
+Vietnam,12.05,108.49,Asia,Cwb,Cam Ranh,6
+Brazil,-7.23,-34.86,South America,As,Camaragibe,6
+Brazil,-12.05,-37.81,South America,Af,Camaçari,6
+Mexico,20.09,-90.43,North America,Aw,Campeche,6
+Brazil,-7.23,-36.49,South America,BSh,Campina Grande,6
+Vietnam,10.45,105.55,Asia,Aw,Can Tho,6
+Australia,-36.17,149.17,Oceania,Cfb,Canberra,6
+Mexico,21.7,-87.4,North America,Ocean,Cancún,6
+Haiti,20.09,-71.66,North America,Ocean,Cap Haïtien,6
+South Africa,-32.95,18.19,Africa,BSk,Cape Town,6
+Venezuela,10.45,-66.27,South America,Am,Caracas,6
+Mexico,18.48,-91.27,North America,Aw,Carmen,6
+Puerto Rico,18.48,-65.92,North America,Af,Carolina,6
+Haiti,18.48,-72.68,North America,Aw,Carrefour,6
+Colombia,4.02,-76.34,South America,Af,Cartago,6
+Brazil,-8.84,-36.49,South America,As,Caruaru,6
+Venezuela,10.45,-63.0,South America,Aw,Carúpano,6
+Brazil,-0.8,-47.41,South America,Am,Castanhal,6
+Venezuela,10.45,-66.27,South America,Am,Catia La Mar,6
+Brazil,-4.02,-39.38,South America,Aw,Caucaia,6
+Philippines,15.27,120.83,Asia,Aw,Cavite,6
+Brazil,-5.63,-43.59,South America,Aw,Caxias,6
+Philippines,10.45,123.55,Asia,Am,Cebu,6
+Mexico,20.09,-100.66,North America,Cwb,Celaya,6
+Mexico,20.09,-98.96,North America,BSk,Chalco,6
+Venezuela,10.45,-66.27,South America,Am,Charallave,6
+Sri Lanka,8.84,80.27,Asia,As,Chavakachcheri,6
+Mexico,18.48,-87.89,North America,Aw,Chetumal,6
+Thailand,18.48,99.72,Asia,Aw,Chiang Mai,6
+Peru,-7.23,-80.27,South America,Ocean,Chiclayo,6
+India,13.66,75.14,Asia,Am,Chikmagalur,6
+Mexico,18.48,-99.72,North America,Aw,Chilpancingo,6
+Mexico,20.09,-98.96,North America,BSk,Chimalhuacán,6
+Peru,-8.84,-78.65,South America,BWh,Chimbote,6
+Mozambique,-18.48,33.8,Africa,Aw,Chimoio,6
+Nicaragua,12.05,-87.12,North America,Ocean,Chinandega,6
+Peru,-13.66,-76.79,South America,Ocean,Chincha Alta,6
+Zambia,-12.05,27.95,Africa,Cwa,Chingola,6
+India,13.66,76.79,Asia,BSh,Chitradurga,6
+Zimbabwe,-18.48,30.42,Africa,Cwa,Chitungwiza,6
+Honduras,15.27,-87.5,North America,Am,Choloma,6
+Thailand,13.66,101.56,Asia,Aw,Chon Buri,6
+Peru,-12.05,-77.26,South America,BWh,Chosica,6
+New Zealand,-44.2,172.17,Oceania,Ocean,Christchurch,6
+Indonesia,-7.23,107.84,Asia,Am,Ciamis,6
+Indonesia,-7.23,106.22,Asia,Ocean,Ciampea,6
+Indonesia,-7.23,107.84,Asia,Am,Cianjur,6
+Indonesia,-7.23,106.22,Asia,Ocean,Cibadak,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cibinong,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cibitung,6
+Indonesia,-7.23,107.84,Asia,Am,Cicalengka,6
+Indonesia,-7.23,107.84,Asia,Am,Cikampek,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cikarang,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cikupa,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cilegon,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cileungsi,6
+Indonesia,-7.23,107.84,Asia,Am,Cileunyi,6
+Indonesia,-7.23,107.84,Asia,Am,Cimahi,6
+Indonesia,-7.23,106.22,Asia,Ocean,Ciomas,6
+Indonesia,-7.23,107.84,Asia,Am,Ciparay,6
+Indonesia,-5.63,106.55,Asia,Ocean,Ciputat,6
+Indonesia,-7.23,107.84,Asia,Am,Cirebon,6
+Indonesia,-7.23,106.22,Asia,Ocean,Cisaat,6
+Indonesia,-5.63,106.55,Asia,Ocean,Cisarua,6
+Indonesia,-5.63,106.55,Asia,Ocean,Citeureup,6
+Venezuela,8.84,-64.05,South America,Aw,Ciudad Bolívar,6
+Venezuela,8.84,-62.43,South America,Aw,Ciudad Guayana,6
+Mexico,21.7,-99.52,North America,Aw,Ciudad Valles,6
+Mexico,20.09,-98.96,North America,BSk,Coacalco,6
+Mexico,18.48,-94.65,North America,Ocean,Coatzacoalcos,6
+Bolivia,-16.87,-66.98,South America,BSh,Cochabamba,6
+Mexico,20.09,-104.08,North America,BSh,Colima,6
+Algeria,36.17,5.97,Africa,Csa,Constantine,6
+Venezuela,12.05,-69.04,South America,Ocean,Coro,6
+Philippines,7.23,124.05,Asia,Ocean,Cotabato,6
+Mexico,20.09,-98.96,North America,BSk,Cuautitlán Izcalli,6
+Mexico,18.48,-99.72,North America,Aw,Cuautla,6
+India,15.27,79.17,Asia,Aw,Cuddapah,6
+Ecuador,-2.41,-79.55,South America,Aw,Cuenca,6
+Mexico,18.48,-99.72,North America,Aw,Cuernavaca,6
+Mexico,24.92,-108.18,North America,BSh,Culiacán,6
+Venezuela,10.45,-64.64,South America,Ocean,Cumaná,6
+Indonesia,-5.63,106.55,Asia,Ocean,Curug,6
+Peru,-13.66,-71.83,South America,Cwb,Cusco,6
+Vietnam,8.84,104.59,Asia,Am,Cà Mau,6
+Venezuela,10.45,-66.27,South America,Am,Cúa,6
+Colombia,7.23,-72.16,South America,Af,Cúcuta,6
+Vietnam,12.05,108.49,Asia,Cwb,Da Lat,6
+Vietnam,15.27,107.5,Asia,Am,Da Nang,6
+Philippines,5.63,125.92,Asia,Ocean,Dadiangas,6
+Philippines,16.87,120.56,Asia,Am,Dagupan,6
+Senegal,15.27,-17.5,Africa,Ocean,Dakar,6
+Tanzania,-7.23,39.73,Africa,Ocean,Dar Es Salaam,6
+Philippines,13.66,121.38,Asia,Af,Dasmariñas,6
+Philippines,7.23,125.68,Asia,Af,Davao,6
+Burma,13.66,98.26,Asia,Am,Dawei,6
+Ethiopia,8.84,39.73,Africa,BSh,Debre Zeyit,6
+Haiti,18.48,-72.68,North America,Aw,Delmas,6
+Indonesia,-8.84,115.95,Asia,Aw,Denpasar,6
+Indonesia,-5.63,106.55,Asia,Ocean,Depok,6
+Ethiopia,10.45,40.09,Africa,Aw,Dese,6
+India,15.27,77.5,Asia,BSh,Dharmavaram,6
+Philippines,7.23,125.68,Asia,Af,Digos,6
+India,10.45,77.73,Asia,Aw,Dindigul,6
+Senegal,15.27,-15.83,Africa,BSh,Diourbel,6
+Ethiopia,10.45,41.73,Africa,BSh,Dire Dawa,6
+Tanzania,-5.63,35.52,Africa,BSh,Dodoma,6
+Colombia,5.63,-75.87,South America,Af,Dos Quebradas,6
+Philippines,8.84,124.05,Asia,Ocean,Dumaguete,6
+Indonesia,2.41,102.05,Asia,Af,Dumai,6
+New Zealand,-45.81,169.62,Oceania,Cfb,Dunedin,6
+South Africa,-29.74,31.38,Africa,Ocean,Durban,6
+South Africa,-32.95,27.77,Africa,Cfa,East London,6
+Mexico,20.09,-98.96,North America,BSk,Ecatepec,6
+Venezuela,8.84,-70.54,South America,Cfb,Ejido,6
+Venezuela,10.45,-67.91,South America,BSh,El Limón,6
+Honduras,15.27,-87.5,North America,Am,El Progreso,6
+Venezuela,8.84,-64.05,South America,Aw,El Tigre,6
+Kenya,0.8,34.55,Africa,Am,Eldoret,6
+India,16.87,80.37,Asia,Aw,Eluru,6
+Colombia,5.63,-75.87,South America,Af,Envigado,6
+India,12.05,77.26,Asia,Aw,Erode,6
+Guatemala,15.27,-90.83,North America,Cfb,Escuintla,6
+Brazil,-12.05,-39.45,South America,BSh,Feira De Santana,6
+Madagascar,-21.7,47.6,Africa,Aw,Fianarantsoa,6
+Colombia,2.41,-76.34,South America,ET,Florencia,6
+Colombia,7.23,-73.78,South America,Am,Floridablanca,6
+Brazil,-4.02,-40.98,South America,Aw,Fortaleza,6
+Botswana,-24.92,26.6,Africa,BSh,Gaborone,6
+India,15.27,75.83,Asia,BSh,Gadag,6
+Congo (Democratic Republic Of The),-7.23,23.51,Africa,Aw,Gandajika,6
+India,15.27,75.83,Asia,BSh,Gangawati,6
+Brazil,-8.84,-36.49,South America,As,Garanhuns,6
+Indonesia,-7.23,107.84,Asia,Am,Garut,6
+Australia,-37.78,144.41,Oceania,Cfb,Geelong,6
+South Africa,-34.56,23.35,Africa,Ocean,George,6
+Guyana,7.23,-57.57,South America,Ocean,Georgetown,6
+Colombia,4.02,-74.73,South America,As,Girardot,6
+Colombia,7.23,-73.78,South America,Am,Girón,6
+Australia,-28.13,153.64,Oceania,Ocean,Gold Coast,6
+Congo (Democratic Republic Of The),-2.41,29.73,Africa,Aw,Goma,6
+Ethiopia,12.05,37.81,Africa,Cwa,Gondar,6
+Indonesia,0.8,122.95,Asia,Af,Gorontalo,6
+Indonesia,-7.23,111.08,Asia,Am,Grogol,6
+Venezuela,10.45,-67.91,South America,BSh,Guacara,6
+Mexico,20.09,-104.08,North America,BSh,Guadalajara,6
+Venezuela,8.84,-70.54,South America,Cfb,Guanare,6
+Cuba,20.09,-75.07,North America,Aw,Guantánamo,6
+Venezuela,10.45,-66.27,South America,Am,Guarenas,6
+Guatemala,15.27,-90.83,North America,Cfb,Guatemala,6
+Guatemala,15.27,-90.83,North America,Cfb,Guatemala City,6
+Venezuela,10.45,-66.27,South America,Am,Guatire,6
+Ecuador,-2.41,-79.55,South America,Aw,Guayaquil,6
+India,12.05,80.55,Asia,Ocean,Gudalur,6
+India,16.87,80.37,Asia,Aw,Gudivada,6
+India,16.87,77.02,Asia,BSh,Gulbarga,6
+Uganda,2.41,32.95,Africa,Aw,Gulu,6
+India,15.27,77.5,Asia,BSh,Guntakal,6
+India,16.87,80.37,Asia,Aw,Guntur,6
+Zimbabwe,-20.09,29.0,Africa,BSh,Gweru,6
+Philippines,15.27,120.83,Asia,Aw,Hagonoy,6
+Zimbabwe,-18.48,30.42,Africa,Cwa,Harare,6
+Somalia,8.84,44.59,Africa,BSh,Hargeysa,6
+India,13.66,76.79,Asia,BSh,Hassan,6
+Thailand,7.23,99.73,Asia,Am,Hat Yai,6
+Burma,16.87,95.44,Asia,Am,Henzada,6
+Dominican Republic,18.48,-69.3,North America,Am,Higüey,6
+India,13.66,76.79,Asia,BSh,Hindupur,6
+Vietnam,10.45,107.18,Asia,Aw,Ho Chi Minh City,6
+Australia,-42.59,148.36,Oceania,Ocean,Hobart,6
+Cuba,20.09,-76.78,North America,Aw,Holguín,6
+India,15.27,75.83,Asia,BSh,Hospet,6
+India,12.05,77.26,Asia,Aw,Hosur,6
+Angola,-13.66,15.69,Africa,Cwb,Huambo,6
+Peru,-12.05,-75.62,South America,ET,Huancayo,6
+India,15.27,75.83,Asia,BSh,Hubli,6
+Vietnam,16.87,107.16,Asia,Am,Hue,6
+Mexico,20.09,-98.96,North America,BSk,Huixquilucan,6
+Peru,-10.45,-76.09,South America,ET,Huánuco,6
+Colombia,4.02,-74.73,South America,As,Ibagué,6
+Ecuador,0.8,-77.95,South America,ET,Ibarra,6
+Yemen,13.66,43.76,Asia,BSh,Ibb,6
+Peru,-13.66,-75.14,South America,ET,Ica,6
+Mexico,18.48,-99.72,North America,Aw,Iguala,6
+Congo (Democratic Republic Of The),-4.02,20.09,Africa,Aw,Ilebo,6
+Brazil,-15.27,-39.17,South America,Af,Ilhéus,6
+Philippines,8.84,124.05,Asia,Ocean,Iligan,6
+Philippines,10.45,121.91,Asia,Am,Iloilo,6
+Brazil,-5.63,-46.82,South America,Aw,Imperatriz,6
+Indonesia,-5.63,108.16,Asia,Ocean,Indramayu,6
+Malaysia,4.02,100.45,Asia,Ocean,Ipoh,6
+Chile,-20.09,-69.95,South America,BWk,Iquique,6
+Peru,-4.02,-73.13,South America,Af,Iquitos,6
+Mexico,20.09,-100.66,North America,Cwb,Irapuato,6
+Tanzania,-7.23,36.49,Africa,Cwb,Iringa,6
+Greece,34.56,25.3,Europe,Ocean,Iráklion,6
+Congo (Democratic Republic Of The),2.41,28.13,Africa,Af,Isiro,6
+Brazil,-15.27,-39.17,South America,Af,Itabuna,6
+Colombia,5.63,-75.87,South America,Af,Itagüí,6
+Mexico,20.09,-98.96,North America,BSk,Ixtapaluca,6
+Brazil,-8.84,-34.86,South America,Ocean,Jaboatão,6
+Sri Lanka,8.84,80.27,Asia,As,Jaffna,6
+Indonesia,-5.63,106.55,Asia,Ocean,Jakarta,6
+Somalia,0.8,42.59,Africa,BSh,Jamame,6
+Indonesia,-0.8,103.66,Asia,Af,Jambi,6
+Indonesia,-8.84,114.32,Asia,Ocean,Jember,6
+Brazil,-13.66,-40.46,South America,BSh,Jequié,6
+Brazil,-10.45,-61.36,South America,Aw,Ji Paraná,6
+Djibouti,12.05,42.74,Africa,BWh,Jibuti,6
+Ethiopia,7.23,36.49,Africa,Cfb,Jimma,6
+Mexico,18.48,-99.72,North America,Aw,Jiutepec,6
+South Africa,-26.52,28.66,Africa,Cwb,Johannesburg,6
+Malaysia,0.8,103.66,Asia,Af,Johor Bahru,6
+Philippines,5.63,119.46,Asia,Ocean,Jolo,6
+Indonesia,-7.23,112.7,Asia,Aw,Jombang,6
+Brazil,-7.23,-34.86,South America,As,João Pessoa,6
+Brazil,-7.23,-39.73,South America,Aw,Juazeiro Do Norte,6
+Sudan,4.02,31.34,Africa,Aw,Juba,6
+Peru,-15.27,-70.83,South America,ET,Juliaca,6
+Brazil,-8.84,-39.73,South America,BSh,Juàzeiro,6
+Philippines,10.45,123.55,Asia,Am,Kabankalan,6
+Zambia,-13.66,28.9,Africa,Cwa,Kabwe,6
+India,16.87,82.05,Asia,Aw,Kakinada,6
+Congo (Democratic Republic Of The),-5.63,29.06,Africa,Aw,Kalemie,6
+Sri Lanka,7.23,81.89,Asia,As,Kalmunai,6
+Uganda,0.8,32.95,Africa,Am,Kampala,6
+Congo (Democratic Republic Of The),-5.63,22.6,Africa,Aw,Kananga,6
+India,13.66,80.09,Asia,Aw,Kanchipuram,6
+Sri Lanka,7.23,80.27,Asia,Af,Kandy,6
+Senegal,13.66,-15.69,Africa,BSh,Kaolack,6
+India,16.87,78.7,Asia,BSh,Kapra,6
+Indonesia,-7.23,106.22,Asia,Ocean,Karang Tengah,6
+Indonesia,-5.63,106.55,Asia,Ocean,Karawang,6
+India,18.48,79.44,Asia,Aw,Karimnagar,6
+Sudan,15.27,35.83,Africa,BWh,Kassala,6
+Tanzania,-8.84,33.24,Africa,Aw,Katumba,6
+Indonesia,-7.23,109.46,Asia,Af,Kebumen,6
+Indonesia,-7.23,112.7,Asia,Aw,Kediri,6
+Indonesia,-7.23,109.46,Asia,Af,Kedungwuni,6
+Indonesia,-7.23,106.22,Asia,Ocean,Kemang,6
+Indonesia,-4.02,122.95,Asia,Am,Kendari,6
+India,16.87,80.37,Asia,Aw,Khammam,6
+Sudan,15.27,32.5,Africa,BWh,Khartoum,6
+Thailand,13.66,99.91,Asia,Aw,Khlong Luang,6
+Thailand,16.87,102.14,Asia,Aw,Khon Kaen,6
+Rwanda,-2.41,29.73,Africa,Aw,Kigali,6
+Tanzania,-4.02,29.73,Africa,Cwb,Kigoma,6
+Congo (Democratic Republic Of The),-5.63,19.37,Africa,Aw,Kikwit,6
+South Africa,-28.13,24.55,Africa,BSh,Kimberley,6
+Congo (Democratic Republic Of The),-2.41,26.52,Africa,Am,Kindu,6
+Congo (Democratic Republic Of The),-4.02,15.27,Africa,Aw,Kinshasa,6
+Congo (Democratic Republic Of The),0.8,24.91,Africa,Af,Kisangani,6
+Indonesia,2.41,98.84,Asia,Af,Kisaran,6
+Somalia,-0.8,42.59,Africa,Ocean,Kismayo,6
+Kenya,-0.8,34.55,Africa,Af,Kisumu,6
+Zambia,-12.05,27.95,Africa,Cwa,Kitwe,6
+Malaysia,2.41,102.05,Asia,Af,Klang,6
+Indonesia,-7.23,111.08,Asia,Am,Klaten,6
+South Africa,-26.52,26.87,Africa,BSk,Klerksdorp,6
+Malaysia,2.41,103.66,Asia,Af,Kluang,6
+India,10.45,76.09,Asia,Am,Kochi,6
+India,13.66,78.44,Asia,Aw,Kolar,6
+India,8.84,77.03,Asia,Aw,Kollam,6
+Philippines,5.63,124.3,Asia,Ocean,Koronadal,6
+Malaysia,5.63,101.7,Asia,Af,Kota Bahru,6
+Malaysia,5.63,116.23,Asia,Af,Kota Kinabalu,6
+Sri Lanka,7.23,80.27,Asia,Af,Kotte,6
+Indonesia,-5.63,106.55,Asia,Ocean,Kresek,6
+South Africa,-28.13,26.36,Africa,BSk,Kroonstad,6
+South Africa,-26.52,28.66,Africa,Cwb,Krugersdorp,6
+Malaysia,2.41,102.05,Asia,Af,Kuala Lumpur,6
+Malaysia,5.63,103.32,Asia,Ocean,Kuala Terengganu,6
+Malaysia,4.02,103.66,Asia,Ocean,Kuantan,6
+Malaysia,0.8,110.09,Asia,Af,Kuching,6
+Angola,-12.05,16.44,Africa,Cwb,Kuito,6
+Malaysia,5.63,100.09,Asia,Ocean,Kulim,6
+India,10.45,79.36,Asia,Aw,Kumbakonam,6
+Indonesia,-10.45,123.55,Asia,Aw,Kupang,6
+Sudan,13.66,32.2,Africa,BWh,Kusti,6
+Zimbabwe,-18.48,30.42,Africa,Cwa,Kwekwe,6
+Honduras,15.27,-87.5,North America,Am,La Ceiba,6
+Bolivia,-16.87,-68.65,South America,Cwc,La Paz,6
+Dominican Republic,18.48,-69.3,North America,Am,La Romana,6
+Dominican Republic,18.48,-70.99,North America,Aw,La Vega,6
+Malaysia,5.63,117.85,Asia,Af,Lahad Datu,6
+Thailand,18.48,99.72,Asia,Aw,Lampang,6
+Philippines,18.48,120.0,Asia,Ocean,Laoag,6
+Philippines,10.45,123.55,Asia,Am,Lapu Lapu,6
+Burma,23.31,96.99,Asia,Cwa,Lashio,6
+India,18.48,76.06,Asia,Aw,Latur,6
+Indonesia,-7.23,112.7,Asia,Aw,Lawang,6
+Philippines,13.66,123.03,Asia,Af,Legaspi,6
+Indonesia,-7.23,107.84,Asia,Am,Lembang,6
+Indonesia,-7.23,106.22,Asia,Ocean,Leuwiliang,6
+Mozambique,-13.66,35.5,Africa,Aw,Lichinga,6
+Congo (Democratic Republic Of The),-10.45,27.0,Africa,Aw,Likasi,6
+Malawi,-13.66,33.85,Africa,Cwa,Lilongwe,6
+Peru,-12.05,-77.26,South America,BWh,Lima,6
+Philippines,13.66,121.38,Asia,Af,Lipa,6
+Uganda,2.41,32.95,Africa,Aw,Lira,6
+Zambia,-18.48,25.35,Africa,BSh,Livingstone,6
+Indonesia,-0.8,116.52,Asia,Af,Loa Janan,6
+Angola,-12.05,13.15,Africa,Ocean,Lobito,6
+Ecuador,-4.02,-79.55,South America,Aw,Loja,6
+Vietnam,10.45,105.55,Asia,Aw,Long Xuyên,6
+Chile,-37.78,-73.22,South America,Csb,Los Angeles,6
+Mexico,20.09,-98.96,North America,BSk,Los Reyes,6
+Venezuela,10.45,-66.27,South America,Am,Los Teques,6
+Senegal,15.27,-15.83,Africa,BSh,Louga,6
+New Zealand,-40.99,174.67,Oceania,Ocean,Lower Hutt,6
+Angola,-8.84,13.78,Africa,BSh,Luanda,6
+Zambia,-13.66,28.9,Africa,Cwa,Luanshya,6
+Angola,-15.27,14.17,Africa,Cwb,Lubango,6
+Congo (Democratic Republic Of The),-12.05,27.95,Africa,Cwa,Lubumbashi,6
+Philippines,13.66,121.38,Asia,Af,Lucena,6
+Indonesia,-8.84,112.7,Asia,Ocean,Lumajang,6
+Zambia,-15.27,27.5,Africa,Cwa,Lusaka,6
+Mexico,20.09,-98.96,North America,BSk,López Mateos,6
+Philippines,15.27,120.83,Asia,Aw,Mabalacat,6
+Brazil,0.8,-50.63,South America,As,Macapá,6
+Brazil,-10.45,-35.18,South America,Ocean,Maceió,6
+Ecuador,-4.02,-79.55,South America,Aw,Machala,6
+India,15.27,80.83,Asia,Ocean,Machilipatnam,6
+India,13.66,78.44,Asia,Aw,Madanapalle,6
+Indonesia,-7.23,111.08,Asia,Am,Madiun,6
+India,13.66,80.09,Asia,Aw,Madras,6
+India,10.45,77.73,Asia,Aw,Madurai,6
+Colombia,8.84,-75.41,South America,Aw,Magangué,6
+Indonesia,-7.23,109.46,Asia,Af,Magelang,6
+Madagascar,-15.27,45.83,Africa,Ocean,Mahajanga,6
+India,16.87,78.7,Asia,BSh,Mahbubnagar,6
+Colombia,12.05,-72.33,South America,BSh,Maicao,6
+India,12.05,77.26,Asia,Aw,Maisuru,6
+Indonesia,-7.23,107.84,Asia,Am,Majalaya,6
+Indonesia,-5.63,119.46,Asia,Am,Makasar,6
+Philippines,15.27,120.83,Asia,Aw,Makati,6
+Sudan,8.84,31.62,Africa,BSh,Malakal,6
+Colombia,10.45,-74.45,South America,Aw,Malambo,6
+Indonesia,-7.23,112.7,Asia,Aw,Malang,6
+Philippines,15.27,120.83,Asia,Aw,Malolos,6
+Indonesia,0.8,124.55,Asia,Af,Manado,6
+Nicaragua,12.05,-85.48,North America,Aw,Managua,6
+Brazil,-2.41,-60.27,South America,Af,Manaus,6
+Burma,21.7,96.06,Asia,BSh,Mandalay,6
+Philippines,10.45,123.55,Asia,Am,Mandaue,6
+India,12.05,77.26,Asia,Aw,Mandya,6
+India,13.66,75.14,Asia,Am,Mangaluru,6
+Philippines,15.27,120.83,Asia,Aw,Manila,6
+Colombia,5.63,-75.87,South America,Af,Manizales,6
+Ecuador,-0.8,-81.16,South America,Ocean,Manta,6
+Cuba,20.09,-76.78,North America,Aw,Manzanillo,6
+Swaziland,-26.52,32.24,Africa,BSh,Manzini,6
+Mozambique,-26.52,32.24,Africa,BSh,Maputo,6
+Brazil,-5.63,-48.43,South America,Aw,Marabá,6
+Venezuela,10.45,-71.18,South America,Aw,Maracaibo,6
+Brazil,-4.02,-39.38,South America,Aw,Maracanaú,6
+Venezuela,10.45,-67.91,South America,BSh,Maracay,6
+Philippines,7.23,124.05,Asia,Ocean,Marawi,6
+Venezuela,10.45,-67.91,South America,BSh,Mariara,6
+Indonesia,-4.02,114.91,Asia,Af,Martapura,6
+Nicaragua,12.05,-85.48,North America,Aw,Masaya,6
+Lesotho,-29.74,27.69,Africa,Cwb,Maseru,6
+Congo (Democratic Republic Of The),-5.63,12.91,Africa,Aw,Matadi,6
+Indonesia,-8.84,115.95,Asia,Aw,Mataram,6
+Mozambique,-26.52,32.24,Africa,BSh,Matola,6
+Venezuela,10.45,-63.0,South America,Aw,Maturín,6
+Burma,16.87,97.12,Asia,Am,Mawlamyine,6
+Mozambique,-23.31,35.83,Africa,Ocean,Maxixe,6
+Burma,21.7,96.06,Asia,BSh,Maymyo,6
+Mexico,23.31,-105.73,North America,As,Mazatlán,6
+Tanzania,-8.84,33.24,Africa,Aw,Mbeya,6
+Senegal,13.66,-17.34,Africa,Ocean,Mbour,6
+Congo (Democratic Republic Of The),-5.63,24.22,Africa,Aw,Mbuji Mayi,6
+Indonesia,4.02,98.84,Asia,Ocean,Medan,6
+Colombia,5.63,-75.87,South America,Af,Medellín,6
+Burma,20.09,95.55,Asia,Aw,Meiktila,6
+El Salvador,13.66,-90.0,North America,Aw,Mejicanos,6
+Malaysia,2.41,102.05,Asia,Af,Melaka,6
+Australia,-37.78,144.41,Oceania,Cfb,Melbourne,6
+Burma,12.05,98.63,Asia,Am,Mergui,6
+Mexico,18.48,-99.72,North America,Aw,Metepec,6
+Indonesia,-5.63,104.93,Asia,Af,Metro,6
+Mexico,20.09,-98.96,North America,BSk,Mexico,6
+Philippines,15.27,120.83,Asia,Aw,Meycauayan,6
+South Africa,-26.52,28.66,Africa,Cwb,Middelburg,6
+South Africa,-26.52,28.66,Africa,Cwb,Midrand,6
+Ecuador,-2.41,-79.55,South America,Aw,Milagro,6
+Mexico,18.48,-94.65,North America,Ocean,Minatitlán,6
+Malaysia,4.02,113.3,Asia,Ocean,Miri,6
+Libya,32.95,14.36,Africa,Ocean,Misratah,6
+Guatemala,15.27,-90.83,North America,Cfb,Mixco,6
+Somalia,2.41,45.8,Africa,BSh,Mogadishu,6
+Indonesia,-7.23,112.7,Asia,Aw,Mojokerto,6
+Kenya,-4.02,39.38,Africa,As,Mombasa,6
+Philippines,15.27,120.83,Asia,Aw,Montalban,6
+Colombia,8.84,-75.41,South America,Aw,Montería,6
+Burma,21.7,94.33,Asia,Aw,Monywa,6
+Sri Lanka,7.23,80.27,Asia,Af,Moratuwa,6
+Mexico,20.09,-100.66,North America,Cwb,Morelia,6
+Tanzania,-7.23,38.11,Africa,Aw,Morogoro,6
+Tanzania,-4.02,37.77,Africa,Aw,Moshi,6
+Brazil,-5.63,-37.13,South America,As,Mossoró,6
+Zambia,-12.05,27.95,Africa,Cwa,Mufulira,6
+Tanzania,-0.8,34.55,Africa,Af,Musoma,6
+Zimbabwe,-18.48,32.11,Africa,Cwb,Mutare,6
+Tanzania,-2.41,32.95,Africa,Aw,Mwanza,6
+Congo (Democratic Republic Of The),-7.23,23.51,Africa,Aw,Mwene Ditu,6
+Vietnam,10.45,105.55,Asia,Aw,My Tho,6
+Burma,21.7,96.06,Asia,BSh,Myingyan,6
+Algeria,36.17,1.99,Africa,Csa,Médéa,6
+Mexico,21.7,-89.13,North America,Ocean,Mérida,6
+Mozambique,-15.27,40.83,Africa,Ocean,Nacala,6
+Philippines,13.66,123.03,Asia,Af,Naga,6
+India,8.84,77.03,Asia,Aw,Nagercoil,6
+Kenya,-0.8,36.16,Africa,Cfb,Nairobi,6
+Thailand,13.66,99.91,Asia,Aw,Nakhon Pathom,6
+Thailand,15.27,102.5,Asia,Aw,Nakhon Ratchasima,6
+Thailand,8.84,99.73,Asia,Am,Nakhon Si Thammarat,6
+Kenya,-0.8,36.16,Africa,Cfb,Nakuru,6
+India,16.87,78.7,Asia,BSh,Nalgonda,6
+Mozambique,-15.27,39.17,Africa,Aw,Nampula,6
+India,18.48,77.75,Asia,Aw,Nanded,6
+India,15.27,79.17,Asia,Aw,Nandyal,6
+Brazil,-5.63,-35.52,South America,As,Natal,6
+Mexico,20.09,-98.96,North America,BSk,Naucalpan,6
+Ethiopia,8.84,39.73,Africa,BSh,Nazret,6
+Zambia,-13.66,28.9,Africa,Cwa,Ndola,6
+Sri Lanka,7.23,80.27,Asia,Af,Negombo,6
+Colombia,2.41,-74.73,South America,Am,Neiva,6
+South Africa,-24.92,30.15,Africa,BSh,Nelspruit,6
+Australia,-32.95,152.23,Oceania,Ocean,Newcastle,6
+India,12.05,78.9,Asia,Aw,Neyveli,6
+Mexico,20.09,-98.96,North America,BSk,Nezahualcóyotl,6
+Vietnam,12.05,108.49,Asia,Cwb,Nha Trang,6
+Mexico,20.09,-98.96,North America,BSk,Nicolás Romero,6
+South Africa,-26.52,28.66,Africa,Cwb,Nigel,6
+India,18.48,77.75,Asia,Aw,Nizamabad,6
+Thailand,13.66,99.91,Asia,Aw,Nonthaburi,6
+New Zealand,-36.17,175.03,Oceania,Cfb,North Shore,6
+Brazil,-10.45,-36.82,South America,As,Nossa Senhora Do Socorro,6
+Mauritania,18.48,-15.21,Africa,BWh,Nouakchott,6
+El Salvador,13.66,-90.0,North America,Aw,Nueva San Salvador,6
+Mexico,16.87,-97.12,North America,Cwb,Oaxaca,6
+Venezuela,10.45,-66.27,South America,Am,Ocumare Del Tuy,6
+Brazil,-7.23,-34.86,South America,As,Olinda,6
+Philippines,15.27,120.83,Asia,Aw,Olongapo,6
+India,15.27,80.83,Asia,Ocean,Ongole,6
+Mexico,18.48,-96.34,North America,Am,Orizaba,6
+South Africa,-26.52,26.87,Africa,BSk,Orkney,6
+Bolivia,-18.48,-67.61,South America,BSk,Oruro,6
+South Africa,-34.56,19.46,Africa,Csb,Paarl,6
+Indonesia,-7.23,107.84,Asia,Am,Pacet,6
+Mexico,20.09,-98.96,North America,BSk,Pachuca,6
+Indonesia,-7.23,107.84,Asia,Am,Padalarang,6
+Indonesia,-0.8,100.45,Asia,Af,Padang,6
+Philippines,7.23,124.05,Asia,Ocean,Pagadian,6
+Thailand,13.66,99.91,Asia,Aw,Pak Kret,6
+Burma,21.7,94.33,Asia,Aw,Pakokku,6
+India,10.45,76.09,Asia,Am,Palakkad,6
+Indonesia,-2.41,105.27,Asia,Af,Palembang,6
+India,13.66,80.09,Asia,Aw,Pallavaram,6
+Cuba,20.09,-76.78,North America,Aw,Palma Soriano,6
+Brazil,-10.45,-48.27,South America,Aw,Palmas,6
+Colombia,4.02,-76.34,South America,Af,Palmira,6
+Venezuela,10.45,-67.91,South America,BSh,Palo Negro,6
+Indonesia,-0.8,119.73,Asia,Af,Palu,6
+Indonesia,-5.63,108.16,Asia,Ocean,Pamanukan,6
+Indonesia,-5.63,106.55,Asia,Ocean,Pamulang,6
+Panama,8.84,-80.27,North America,Am,Panamá,6
+Indonesia,-7.23,109.46,Asia,Af,Pangkah,6
+Suriname,5.63,-54.89,South America,Af,Paramaribo,6
+Brazil,-5.63,-35.52,South America,As,Parnamirim,6
+Brazil,-2.41,-40.98,South America,Ocean,Parnaíba,6
+Indonesia,-5.63,106.55,Asia,Ocean,Parung,6
+United States,29.74,-96.0,North America,Cfa,Pasadena,6
+Indonesia,-5.63,106.55,Asia,Ocean,Pasarkemis,6
+Indonesia,-7.23,107.84,Asia,Am,Paseh,6
+Malaysia,0.8,103.66,Asia,Af,Pasir Gudang,6
+Colombia,0.8,-77.95,South America,ET,Pasto,6
+Indonesia,-7.23,112.7,Asia,Aw,Pasuruan,6
+Burma,16.87,95.44,Asia,Am,Pathein,6
+Indonesia,-7.23,111.08,Asia,Am,Pati,6
+Brazil,-7.23,-34.86,South America,As,Paulista,6
+Indonesia,-0.8,100.45,Asia,Af,Payakumbuh,6
+Indonesia,-7.23,109.46,Asia,Af,Pekalongan,6
+Indonesia,-7.23,109.46,Asia,Af,Pemalang,6
+Mozambique,-13.66,40.46,Africa,Aw,Pemba,6
+Indonesia,4.02,98.84,Asia,Ocean,Perbaungan,6
+Colombia,5.63,-75.87,South America,Af,Pereira,6
+Australia,-31.35,114.97,Oceania,Ocean,Perth,6
+Malaysia,2.41,102.05,Asia,Af,Petaling Jaya,6
+Guatemala,15.27,-90.83,North America,Cfb,Petapa,6
+Venezuela,10.45,-66.27,South America,Am,Petare,6
+Brazil,-8.84,-39.73,South America,BSh,Petrolina,6
+Russia,53.84,159.55,Europe,ET,Petropavlovsk Kamchatskiy,6
+South Africa,-23.31,30.58,Africa,BSh,Phalaborwa,6
+Vietnam,10.45,107.18,Asia,Aw,Phan Thiet,6
+Thailand,16.87,100.47,Asia,Aw,Phitsanulok,6
+Cambodia,12.05,105.21,Asia,Aw,Phnum Pénh,6
+Thailand,13.66,99.91,Asia,Aw,Phra Pradaeng,6
+South Africa,-29.74,29.54,Africa,Cwb,Pietermaritzburg,6
+South Africa,-23.31,28.83,Africa,BSh,Pietersburg,6
+Peru,-5.63,-80.72,South America,BWh,Piura,6
+Indonesia,-7.23,107.84,Asia,Am,Plumbon,6
+Vietnam,13.66,108.17,Asia,Aw,Plây Cu,6
+Puerto Rico,18.48,-65.92,North America,Af,Ponce,6
+India,12.05,80.55,Asia,Ocean,Pondicherry,6
+India,10.45,76.09,Asia,Am,Ponnani,6
+Indonesia,-0.8,110.09,Asia,Af,Pontianak,6
+Haiti,18.48,-72.68,North America,Aw,Port Au Prince,6
+India,12.05,92.05,Asia,Ocean,Port Blair,6
+South Africa,-34.56,25.3,Africa,Ocean,Port Elizabeth,6
+Mauritius,-20.09,58.01,Africa,Ocean,Port Louis,6
+Papua New Guinea,-8.84,146.76,Oceania,Am,Port Moresby,6
+Jamaica,18.48,-76.06,North America,Ocean,Portmore,6
+Ecuador,-0.8,-81.16,South America,Ocean,Portoviejo,6
+South Africa,-26.52,26.87,Africa,BSk,Potchefstroom,6
+South Africa,-23.31,28.83,Africa,BSh,Potgietersrus,6
+Bolivia,-20.09,-66.54,South America,BWk,Potosí,6
+Indonesia,-4.02,103.66,Asia,Af,Prabumulih,6
+South Africa,-24.92,28.37,Africa,BSh,Pretoria,6
+Indonesia,-5.63,104.93,Asia,Af,Pringsewu,6
+Indonesia,-7.23,112.7,Asia,Aw,Probolinggo,6
+India,15.27,79.17,Asia,Aw,Proddatur,6
+Peru,-8.84,-73.78,South America,Am,Pucallpa,6
+India,10.45,79.36,Asia,Aw,Pudukkottai,6
+Mexico,18.48,-98.03,North America,BSh,Puebla,6
+Venezuela,10.45,-67.91,South America,BSh,Puerto Cabello,6
+Dominican Republic,20.09,-69.95,North America,Ocean,Puerto Plata,6
+Philippines,10.45,118.64,Asia,Ocean,Puerto Princesa,6
+Mexico,20.09,-105.78,North America,Ocean,Puerto Vallarta,6
+Peru,-15.27,-70.83,South America,ET,Puno,6
+Venezuela,12.05,-70.68,South America,Ocean,Punto Fijo,6
+Indonesia,-7.23,107.84,Asia,Am,Purwakarta,6
+Indonesia,-7.23,111.08,Asia,Am,Purwodadi,6
+Indonesia,-7.23,109.46,Asia,Af,Purwokerto,6
+Indonesia,-7.23,112.7,Asia,Aw,Purworejo,6
+Burma,18.48,94.65,Asia,Am,Pyay,6
+Haiti,18.48,-72.68,North America,Aw,Pétionville,6
+Brazil,-16.87,-38.51,South America,Ocean,Pôrto Seguro,6
+Brazil,-8.84,-64.05,South America,Am,Pôrto Velho,6
+Tunisia,34.56,9.73,Africa,BWh,Qabis,6
+South Africa,-31.35,26.39,Africa,Cfb,Queenstown,6
+Mozambique,-18.48,37.18,Africa,Ocean,Quelimane,6
+Mexico,20.09,-100.66,North America,Cwb,Querétaro,6
+Guatemala,15.27,-90.83,North America,Cfb,Quetzaltenango,6
+Ecuador,-0.8,-79.55,South America,Aw,Quevedo,6
+Vietnam,13.66,109.82,Asia,Ocean,Qui Nhon,6
+Ecuador,-0.8,-77.95,South America,Cfb,Quito,6
+Sudan,13.66,32.2,Africa,BWh,Rabak,6
+Vietnam,10.45,105.55,Asia,Aw,Rach Gia,6
+India,16.87,77.02,Asia,BSh,Raichur,6
+India,16.87,82.05,Asia,Aw,Rajamahendri,6
+India,8.84,77.03,Asia,Aw,Rajapalaiyam,6
+Indonesia,-7.23,107.84,Asia,Am,Rancaekek,6
+South Africa,-26.52,26.87,Africa,BSk,Randfontein,6
+Indonesia,-5.63,106.55,Asia,Ocean,Rangkasbitung,6
+Burma,16.87,95.44,Asia,Am,Rangoon,6
+Indonesia,2.41,100.45,Asia,Af,Rantauprapat,6
+Malaysia,4.02,102.05,Asia,Af,Rawang,6
+Thailand,12.05,101.92,Asia,Ocean,Rayong,6
+Brazil,-8.84,-34.86,South America,Ocean,Recife,6
+Indonesia,-5.63,106.55,Asia,Ocean,Rengasdengklok,6
+Iceland,65.09,-21.06,Europe,Cfc,Reykjavík,6
+South Africa,-28.13,31.82,Africa,Cfa,Richards Bay,6
+United States,37.78,-122.03,North America,Csb,Richmond,6
+Brazil,-10.45,-67.91,South America,Aw,Rio Branco,6
+Ecuador,-2.41,-77.95,South America,Af,Riobamba,6
+India,13.66,78.44,Asia,Aw,Robertsonpet,6
+Philippines,12.05,123.29,Asia,Af,Roxas,6
+Kenya,-0.8,37.77,Africa,Aw,Ruiru,6
+South Africa,-26.52,26.87,Africa,BSk,Rustenburg,6
+Libya,26.52,14.33,Africa,BWh,Sabha,6
+Libya,32.95,12.45,Africa,BSh,Sabratah,6
+Tunisia,34.56,11.68,Africa,Ocean,Safaqis,6
+Reunion,-21.7,56.25,Africa,Ocean,Saint Denis,6
+Indonesia,-7.23,111.08,Asia,Am,Salatiga,6
+Brazil,-13.66,-38.81,South America,Af,Salvador,6
+Indonesia,-0.8,116.52,Asia,Af,Samarinda,6
+Thailand,13.66,99.91,Asia,Aw,Samut Prakan,6
+Dominican Republic,18.48,-69.3,North America,Am,San Cristóbal,6
+Philippines,15.27,120.83,Asia,Aw,San Fernando,6
+Dominican Republic,20.09,-69.95,North America,Ocean,San Francisco De Macorís,6
+Costa Rica,10.45,-84.27,North America,Af,San José,6
+Argentina,-31.35,-67.85,South America,BWk,San Juan,6
+Mexico,20.09,-100.66,North America,Cwb,San Juan Del Río,6
+Guatemala,15.27,-90.83,North America,Cfb,San Juan Sacatepéquez,6
+Mexico,21.7,-101.25,North America,BSk,San Luis Potosí,6
+Philippines,15.27,120.83,Asia,Aw,San Mateo,6
+Panama,8.84,-80.27,North America,Am,San Miguelito,6
+Philippines,13.66,121.38,Asia,Af,San Pablo,6
+Mexico,20.09,-98.96,North America,BSk,San Pablo De Las Salinas,6
+Philippines,13.66,121.38,Asia,Af,San Pedro,6
+Dominican Republic,18.48,-69.3,North America,Am,San Pedro De Macorís,6
+Honduras,15.27,-87.5,North America,Am,San Pedro Sula,6
+El Salvador,13.66,-90.0,North America,Aw,San Salvador,6
+Malaysia,5.63,117.85,Asia,Af,Sandakan,6
+El Salvador,13.66,-90.0,North America,Aw,Santa Ana,6
+Cuba,21.7,-80.48,North America,Ocean,Santa Clara,6
+Philippines,13.66,121.38,Asia,Af,Santa Cruz,6
+Colombia,10.45,-74.45,South America,Aw,Santa Marta,6
+Brazil,-7.23,-34.86,South America,As,Santa Rita,6
+Philippines,13.66,121.38,Asia,Af,Santa Rosa,6
+Venezuela,10.45,-66.27,South America,Am,Santa Teresa,6
+Brazil,-2.41,-55.45,South America,Am,Santarém,6
+Chile,-32.95,-69.89,South America,ET,Santiago,6
+Cuba,20.09,-75.07,North America,Aw,Santiago De Cuba,6
+Dominican Republic,18.48,-69.3,North America,Am,Santo Domingo,6
+Indonesia,-5.63,106.55,Asia,Ocean,Sawangan,6
+Malaysia,0.8,103.66,Asia,Af,Sekudai,6
+India,12.05,78.9,Asia,Aw,Selam,6
+Indonesia,-7.23,111.08,Asia,Am,Semarang,6
+Indonesia,-5.63,106.55,Asia,Ocean,Sepatan,6
+Indonesia,-5.63,106.55,Asia,Ocean,Serang,6
+Gambia,13.66,-17.34,Africa,Ocean,Serekunda,6
+Malaysia,2.41,102.05,Asia,Af,Seremban,6
+Malaysia,2.41,102.05,Asia,Af,Shah Alam,6
+India,13.66,75.14,Asia,Am,Shimoga,6
+Tanzania,-4.02,32.95,Africa,Aw,Shinyanga,6
+India,18.48,76.06,Asia,Aw,Sholapur,6
+Thailand,13.66,101.56,Asia,Aw,Si Racha,6
+Malaysia,2.41,111.7,Asia,Af,Sibu,6
+Indonesia,-7.23,112.7,Asia,Aw,Sidoarjo,6
+Colombia,8.84,-75.41,South America,Aw,Sincelejo,6
+Singapore,0.8,103.66,Asia,Af,Singapore,6
+Indonesia,-8.84,114.32,Asia,Ocean,Singaraja,6
+Indonesia,0.8,108.48,Asia,Ocean,Singkawang,6
+Sudan,13.66,33.85,Africa,BWh,Sinnar,6
+Colombia,4.02,-74.73,South America,As,Soacha,6
+Brazil,-4.02,-40.98,South America,Aw,Sobral,6
+Vietnam,8.84,106.22,Asia,Ocean,Soc Trang,6
+Colombia,5.63,-72.65,South America,Cfb,Sogamoso,6
+Colombia,10.45,-74.45,South America,Aw,Soledad,6
+South Africa,-34.56,19.46,Africa,Csb,Somerset West,6
+Tanzania,-10.45,35.18,Africa,Cwa,Songea,6
+Indonesia,-7.23,107.84,Asia,Am,Soreang,6
+Indonesia,-0.8,130.98,Asia,Af,Sorong,6
+South Africa,-26.52,28.66,Africa,Cwb,Soweto,6
+El Salvador,13.66,-88.35,North America,Aw,Soyapango,6
+Jamaica,18.48,-77.75,North America,Am,Spanish Town,6
+South Africa,-26.52,28.66,Africa,Cwb,Springs,6
+Indonesia,-7.23,107.84,Asia,Am,Subang,6
+Bolivia,-18.48,-65.92,South America,Cwb,Sucre,6
+Indonesia,-7.23,106.22,Asia,Ocean,Sukabumi,6
+Indonesia,-7.23,106.22,Asia,Ocean,Sukaraja,6
+Peru,-5.63,-80.72,South America,BWh,Sullana,6
+Indonesia,-7.23,107.84,Asia,Am,Sumedang,6
+Malaysia,5.63,100.09,Asia,Ocean,Sungai Petani,6
+Indonesia,4.02,98.84,Asia,Ocean,Sunggal,6
+Indonesia,-7.23,112.7,Asia,Aw,Surabaya,6
+Indonesia,-7.23,111.08,Asia,Am,Surakarta,6
+Thailand,8.84,99.73,Asia,Am,Surat Thani,6
+India,16.87,80.37,Asia,Aw,Suriapet,6
+Libya,31.35,16.96,Africa,Ocean,Surt,6
+Tunisia,36.17,9.94,Africa,BSk,Susah,6
+Australia,-34.56,151.78,Oceania,Ocean,Sydney,6
+Brazil,-2.41,-44.2,South America,As,São Luís,6
+Tanzania,-5.63,32.29,Africa,Aw,Tabora,6
+Philippines,12.05,124.93,Asia,Af,Tacloban,6
+Peru,-18.48,-70.99,South America,Ocean,Tacna,6
+India,16.87,82.05,Asia,Aw,Tadepallegudem,6
+Philippines,7.23,125.68,Asia,Af,Tagum,6
+Malaysia,4.02,100.45,Asia,Ocean,Taiping,6
+Peru,-4.02,-81.16,South America,BWh,Talara,6
+Philippines,10.45,123.55,Asia,Am,Talisay,6
+Indonesia,-7.23,109.46,Asia,Af,Taman,6
+India,13.66,80.09,Asia,Aw,Tambaram,6
+Indonesia,-5.63,106.55,Asia,Ocean,Tambun,6
+Mexico,21.7,-97.79,North America,Aw,Tampico,6
+Indonesia,-5.63,119.46,Asia,Am,Tanete,6
+Tanzania,-5.63,38.74,Africa,Am,Tanga,6
+Indonesia,-5.63,106.55,Asia,Ocean,Tangerang,6
+Indonesia,4.02,98.84,Asia,Ocean,Tanjung Morawa,6
+Philippines,15.27,120.83,Asia,Aw,Tanza,6
+Mexico,15.27,-92.5,North America,Aw,Tapachula,6
+Libya,32.95,14.36,Africa,Ocean,Tarhunah,6
+Bolivia,-21.7,-64.9,South America,BSk,Tarija,6
+Philippines,15.27,120.83,Asia,Aw,Tarlac,6
+Indonesia,-7.23,107.84,Asia,Am,Tasikmalaya,6
+Burma,20.09,97.25,Asia,Aw,Taunggyi,6
+New Zealand,-37.78,176.95,Oceania,Cfb,Tauranga,6
+Malaysia,4.02,118.13,Asia,Ocean,Tawau,6
+Philippines,15.27,120.83,Asia,Aw,Taytay,6
+Indonesia,4.02,98.84,Asia,Ocean,Tebingtinggi,6
+Indonesia,-7.23,109.46,Asia,Af,Tegal,6
+Honduras,13.66,-86.7,North America,Aw,Tegucigalpa,6
+Mexico,18.48,-98.03,North America,BSh,Tehuacán,6
+Indonesia,-5.63,106.55,Asia,Ocean,Teluknaga,6
+South Africa,-26.52,28.66,Africa,Cwb,Tembisa,6
+India,16.87,80.37,Asia,Aw,Tenali,6
+Mexico,21.7,-104.71,North America,As,Tepic,6
+Brazil,-5.63,-43.59,South America,Aw,Teresina,6
+Indonesia,0.8,127.77,Asia,Af,Ternate,6
+Mozambique,-16.87,33.49,Africa,BSh,Tete,6
+Mexico,20.09,-98.96,North America,BSk,Texcoco,6
+India,10.45,79.36,Asia,Aw,Thanjavur,6
+Thailand,13.66,101.56,Asia,Aw,Thanyaburi,6
+Burma,16.87,97.12,Asia,Am,Thaton,6
+India,8.84,77.03,Asia,Aw,Thiruvananthapuram,6
+Senegal,15.27,-17.5,Africa,Ocean,Thiès,6
+India,10.45,76.09,Asia,Am,Thrissur,6
+Brazil,-5.63,-43.59,South America,Aw,Timon,6
+India,10.45,79.36,Asia,Aw,Tiruchchirappalli,6
+India,8.84,77.03,Asia,Aw,Tirunelveli,6
+India,13.66,80.09,Asia,Aw,Tirupati,6
+India,10.45,77.73,Asia,Aw,Tiruppur,6
+India,12.05,78.9,Asia,Aw,Tiruvannamalai,6
+India,13.66,80.09,Asia,Aw,Tiruvottiyur,6
+Mexico,20.09,-98.96,North America,BSk,Tlalnepantla,6
+Mexico,20.09,-104.08,North America,BSh,Tlaquepaque,6
+Madagascar,-18.48,49.01,Africa,Af,Toamasina,6
+Madagascar,-23.31,42.82,Africa,Ocean,Toliary,6
+Mexico,18.48,-99.72,North America,Aw,Toluca,6
+Mexico,20.09,-104.08,North America,BSh,Tonalá,6
+Burma,18.48,96.34,Asia,Aw,Toungoo,6
+Australia,-18.48,147.04,Oceania,Ocean,Townsville,6
+Sri Lanka,8.84,81.89,Asia,Ocean,Trincomalee,6
+Libya,32.95,12.45,Africa,BSh,Tripoli,6
+Peru,-8.84,-78.65,South America,BWh,Trujillo,6
+Congo (Democratic Republic Of The),-5.63,20.99,Africa,Aw,Tshikapa,6
+Libya,31.35,24.5,Africa,BWh,Tubruq,6
+Philippines,18.48,121.69,Asia,Ocean,Tuguegarao,6
+Mexico,20.09,-98.96,North America,BSk,Tulancingo,6
+Colombia,4.02,-76.34,South America,Af,Tuluá,6
+Peru,-4.02,-81.16,South America,BWh,Tumbes,6
+India,13.66,76.79,Asia,BSh,Tumkur,6
+Tunisia,36.17,9.94,Africa,BSk,Tunis,6
+Colombia,5.63,-72.65,South America,Cfb,Tunja,6
+Venezuela,10.45,-67.91,South America,BSh,Turmero,6
+Mexico,16.87,-93.77,North America,Aw,Tuxtla Gutiérrez,6
+Thailand,15.27,104.17,Asia,Aw,Ubon Ratchathani,6
+India,18.48,77.75,Asia,Aw,Udgir,6
+Thailand,16.87,102.14,Asia,Aw,Udon Thani,6
+India,13.66,75.14,Asia,Am,Udupi,6
+South Africa,-34.56,25.3,Africa,Ocean,Uitenhage,6
 Sudan,15.27,32.5,Africa,BWh,Umm Durman,6
+Indonesia,-7.23,111.08,Asia,Am,Ungaran,6
+Philippines,15.27,120.83,Asia,Aw,Urdaneta,6
+Mexico,20.09,-102.37,North America,Cwa,Uruapan,6
+Congo (Democratic Republic Of The),-4.02,29.73,Africa,Cwb,Uvira,6
+Colombia,10.45,-72.82,South America,Cwb,Valledupar,6
+South Africa,-26.52,28.66,Africa,Cwb,Vanderbijlpark,6
+India,12.05,78.9,Asia,Aw,Velluru,6
+Mexico,18.48,-96.34,North America,Am,Veracruz,6
+South Africa,-26.52,28.66,Africa,Cwb,Vereeniging,6
+South Africa,-26.52,28.66,Africa,Cwb,Verwoerdburg,6
+Laos,18.48,103.1,Asia,Am,Vientiane,6
+India,16.87,80.37,Asia,Aw,Vijayawada,6
+Guatemala,15.27,-90.83,North America,Cfb,Villa Canales,6
+Guatemala,15.27,-90.83,North America,Cfb,Villa Nueva,6
+Mexico,18.48,-92.96,North America,Am,Villahermosa,6
+Colombia,4.02,-73.13,South America,Am,Villavicencio,6
+Vietnam,10.45,105.55,Asia,Aw,Vinh Long,6
+South Africa,-28.13,26.36,Africa,BSk,Virginia,6
+Brazil,-15.27,-40.83,South America,Aw,Vitória Da Conquista,6
+Brazil,-8.84,-34.86,South America,Ocean,Vitória De Santo Antão,6
+South Africa,-28.13,30.0,Africa,Cwb,Vryheid,6
+Vietnam,10.45,107.18,Asia,Aw,Vung Tau,6
+Sudan,13.66,33.85,Africa,BWh,Wad Madani,6
+New Zealand,-36.17,175.03,Oceania,Cfb,Waitakere,6
+India,18.48,79.44,Asia,Aw,Warangal,6
+Algeria,31.35,5.65,Africa,BWh,Warqla,6
+Indonesia,-7.23,112.7,Asia,Aw,Waru,6
+Sudan,7.23,28.38,Africa,Aw,Waw,6
+South Africa,-28.13,26.36,Africa,BSk,Welkom,6
+New Zealand,-40.99,174.67,Oceania,Ocean,Wellington,6
+Indonesia,-7.23,107.84,Asia,Am,Weru,6
+South Africa,-26.52,26.87,Africa,BSk,Westonaria,6
+Namibia,-23.31,16.6,Africa,BWh,Windhoek,6
+South Africa,-26.52,28.66,Africa,Cwb,Witbank,6
+Australia,-34.56,151.78,Oceania,Ocean,Wollongong,6
+Mozambique,-24.92,33.69,Africa,Aw,Xai Xai,6
+Mexico,20.09,-97.25,North America,Am,Xalapa,6
+Mexico,20.09,-98.96,North America,BSk,Xico,6
+India,13.66,76.79,Asia,BSh,Yelahanka,6
+Burma,20.09,95.55,Asia,Aw,Yenangyaung,6
+Indonesia,-7.23,111.08,Asia,Am,Yogyakarta,6
+Philippines,7.23,122.43,Asia,Ocean,Zamboanga,6
+Mexico,20.09,-102.37,North America,Cwa,Zamora,6
+Tanzania,-5.63,38.74,Africa,Am,Zanzibar,6
+Mexico,20.09,-104.08,North America,BSh,Zapopan,6
+Senegal,12.05,-16.44,Africa,Aw,Ziguinchor,6
+Libya,32.95,12.45,Africa,BSh,Zuwarah,6
+China,23.31,116.21,Asia,Cwa,Anbu,7
+China,32.95,108.19,Asia,Cwa,Ankang,7
+China,31.35,116.86,Asia,Cfa,Anqing,7
+China,36.17,119.34,Asia,Cwa,Anqiu,7
+China,26.52,105.67,Asia,Cwb,Anshun,7
+China,36.17,113.37,Asia,Dwb,Anyang,7
+China,36.17,103.43,Asia,BSk,Baiyin,7
+China,24.92,118.82,Asia,Cfa,Bantou,7
+China,39.38,114.45,Asia,Dwb,Baoding,7
+China,34.56,107.03,Asia,BSk,Baoji,7
+China,29.74,107.08,Asia,Cfa,Beibei,7
+China,21.7,109.9,Asia,Cfa,Beihai,7
+China,32.95,117.77,Asia,Cfa,Bengbu,7
+China,36.17,117.35,Asia,Cwa,Boshan,7
+China,32.95,115.85,Asia,Cwa,Bozhou,7
+China,29.74,112.62,Asia,Cfa,Buhe,7
+Vietnam,21.7,108.17,Asia,Cwa,Cam Pha,7
+China,37.78,115.93,Asia,BSk,Cangzhou,7
+China,28.13,111.82,Asia,Cfa,Changde,7
+China,31.35,120.63,Asia,Cfa,Changzhou,7
+China,31.35,118.74,Asia,Cfa,Chaohu,7
+China,23.31,116.21,Asia,Cwa,Chaozhou,7
+China,31.35,103.66,Asia,Cwb,Chengdu,7
+China,23.31,116.21,Asia,Cwa,Chenghai,7
+China,26.52,112.84,Asia,Cfa,Chenzhou,7
+China,31.35,116.86,Asia,Cfa,Chizhou,7
+China,29.74,107.08,Asia,Cfa,Chongqing,7
+China,21.7,111.63,Asia,Cwa,Chuncheng,7
+Taiwan,24.92,120.59,Asia,Ocean,Chungho,7
+Taiwan,24.92,120.59,Asia,Ocean,Chupei,7
+China,32.95,117.77,Asia,Cfa,Chuzhou,7
+China,29.74,105.23,Asia,Cwa,Daan,7
+China,26.52,100.3,Asia,Cwb,Dali,7
+China,23.31,112.72,Asia,Cfa,Daliang,7
+China,23.31,114.47,Asia,Cwa,Danshui,7
+China,40.99,112.9,Asia,BSk,Datong,7
+China,39.38,106.13,Asia,BWk,Dawukou,7
+China,31.35,107.43,Asia,Cwa,Daxian,7
+China,31.35,103.66,Asia,Cwb,Deyang,7
+China,37.78,115.93,Asia,BSk,Dezhou,7
+China,39.38,114.45,Asia,Dwb,Dingzhou,7
+China,23.31,116.21,Asia,Cwa,Donghai,7
+China,20.09,110.9,Asia,Aw,Dongli,7
+China,32.95,119.68,Asia,Cfa,Dongtai,7
+China,21.7,111.63,Asia,Cwa,Encheng,7
+China,29.74,114.46,Asia,Cfa,Ezhou,7
+Taiwan,23.31,119.71,Asia,Cwa,Fengshan,7
+China,23.31,112.72,Asia,Cfa,Foshan,7
+China,29.74,107.08,Asia,Cfa,Fuling,7
+China,32.95,115.85,Asia,Cwa,Fuyang,7
+China,26.52,120.0,Asia,Cfa,Fuzhou,7
+China,26.52,114.63,Asia,Cfa,Ganzhou,7
+China,36.17,119.34,Asia,Cwa,Gaomi,7
+China,21.7,111.63,Asia,Cwa,Gaozhou,7
+China,23.31,103.98,Asia,Cwb,Gejiu,7
+China,31.35,113.09,Asia,Cfa,Guangshui,7
+China,32.95,106.28,Asia,Cwa,Guangyuan,7
+China,23.31,112.72,Asia,Cfa,Guangzhou,7
+China,24.92,109.95,Asia,Cfa,Guilin,7
+China,26.52,107.46,Asia,Cfa,Guiyang,7
+Vietnam,21.7,106.44,Asia,Cwa,Ha Noi,7
+Vietnam,21.7,106.44,Asia,Cwa,Hai Phong,7
+China,39.38,106.13,Asia,BWk,Haibowan,7
+China,20.09,110.9,Asia,Aw,Haikou,7
+China,23.31,116.21,Asia,Cwa,Haimen,7
+China,36.17,115.36,Asia,BSk,Handan,7
+China,29.74,120.0,Asia,Cfa,Hangzhou,7
+Vietnam,21.7,106.44,Asia,Cwa,Hanoi,7
+China,32.95,106.28,Asia,Cwa,Hanzhong,7
+China,36.17,113.37,Asia,Dwb,Hebi,7
+China,31.35,116.86,Asia,Cfa,Hefei,7
+China,37.78,115.93,Asia,BSk,Hengshui,7
+China,26.52,112.84,Asia,Cfa,Hengyang,7
+China,34.56,114.81,Asia,Cwa,Heze,7
+China,40.99,110.77,Asia,Dwb,Hohhot,7
+Vietnam,21.7,106.44,Asia,Cwa,Hong Gai,7
+China,29.74,112.62,Asia,Cfa,Honghu,7
+China,36.17,111.38,Asia,BSk,Houma,7
+Taiwan,24.92,122.36,Asia,Ocean,Hsichih,7
+Taiwan,24.92,120.59,Asia,Ocean,Hsinchu,7
+Taiwan,24.92,122.36,Asia,Ocean,Hsintien,7
+China,34.56,116.76,Asia,Cwa,Huaibei,7
+China,28.13,110.0,Asia,Cfa,Huaihua,7
+China,32.95,117.77,Asia,Cfa,Huainan,7
+China,32.95,119.68,Asia,Cfa,Huaiyin,7
+China,23.31,112.72,Asia,Cfa,Huangpu,7
+China,28.13,120.91,Asia,Cfa,Huangyan,7
+China,29.74,114.46,Asia,Cfa,Huangzhou,7
+China,23.31,116.21,Asia,Cwa,Huicheng,7
+China,23.31,114.47,Asia,Cwa,Huizhou,7
+China,23.31,114.47,Asia,Cwa,Humen,7
+China,31.35,120.63,Asia,Cfa,Huzhou,7
+Vietnam,20.09,105.78,Asia,Aw,Hòa Bình,7
+China,26.52,114.63,Asia,Cfa,Jian,7
+China,23.31,112.72,Asia,Cfa,Jiangmen,7
+China,31.35,120.63,Asia,Cfa,Jiangyin,7
+China,31.35,105.55,Asia,Cwa,Jiangyou,7
+China,28.13,120.91,Asia,Cfa,Jiaojiang,7
+China,36.17,119.34,Asia,Cwa,Jiaozhou,7
+China,34.56,112.86,Asia,Cwa,Jiaozuo,7
+China,31.35,120.63,Asia,Cfa,Jiaxing,7
+China,39.38,97.8,Asia,ET,Jiayuguan,7
+China,23.31,116.21,Asia,Cwa,Jiazi,7
+China,23.31,116.21,Asia,Cwa,Jieshi,7
+China,32.95,115.85,Asia,Cwa,Jieshou,7
+China,36.17,117.35,Asia,Cwa,Jinan,7
+China,37.78,101.69,Asia,Dwc,Jinchang,7
+China,24.92,108.18,Asia,Cwa,Jinchengjiang,7
+China,29.74,116.31,Asia,Cfa,Jingdezhen,7
+China,29.74,120.0,Asia,Cfa,Jinhua,7
+China,34.56,116.76,Asia,Cwa,Jining,7
+China,28.13,110.0,Asia,Cfa,Jishou,7
+China,29.74,116.31,Asia,Cfa,Jiujiang,7
+China,34.56,114.81,Asia,Cwa,Kaifeng,7
+China,26.52,107.46,Asia,Cfa,Kaili,7
+China,23.31,103.98,Asia,Cwb,Kaiyuan,7
+Taiwan,23.31,119.71,Asia,Cwa,Kaohsiung,7
+Taiwan,24.92,122.36,Asia,Ocean,Keelung,7
+China,24.92,102.86,Asia,Cwb,Kunming,7
+China,36.17,117.35,Asia,Cwa,Laiwu,7
+China,36.17,103.43,Asia,BSk,Lanzhou,7
+China,32.95,112.02,Asia,Cwa,Laohekou,7
+China,26.52,112.84,Asia,Cfa,Leiyang,7
+China,28.13,111.82,Asia,Cfa,Lengshuijiang,7
+China,29.74,103.38,Asia,Cwa,Leshan,7
+China,21.7,109.9,Asia,Cfa,Liancheng,7
+China,24.92,102.86,Asia,Cwb,Lianran,7
+China,36.17,115.36,Asia,BSk,Liaocheng,7
+China,23.31,114.47,Asia,Cwa,Licheng,7
+China,28.13,115.45,Asia,Cfa,Linchuan,7
+China,36.17,111.38,Asia,BSk,Linfen,7
+China,28.13,120.91,Asia,Cfa,Linhai,7
+China,36.17,115.36,Asia,BSk,Linqing,7
+China,36.17,113.37,Asia,Dwb,Linshui,7
+China,36.17,103.43,Asia,BSk,Linxia,7
+China,23.31,116.21,Asia,Cwa,Liusha,7
+China,24.92,109.95,Asia,Cfa,Liuzhou,7
+China,24.92,117.04,Asia,Cfa,Longyan,7
+China,28.13,111.82,Asia,Cfa,Loudi,7
+China,31.35,116.86,Asia,Cfa,Luan,7
+China,37.78,113.9,Asia,Dwa,Luancheng,7
+Taiwan,24.92,120.59,Asia,Ocean,Luchou,7
+China,32.95,113.94,Asia,Cwa,Luohe,7
+China,23.31,114.47,Asia,Cwa,Luoyang,7
+China,28.13,120.91,Asia,Cfa,Luqiao,7
+China,29.74,105.23,Asia,Cwa,Luzhou,7
+China,31.35,118.74,Asia,Cfa,Maanshan,7
+China,24.92,113.5,Asia,Cfa,Maba,7
+China,31.35,114.97,Asia,Cfa,Macheng,7
+China,21.7,111.63,Asia,Cwa,Maoming,7
+China,21.7,109.9,Asia,Cfa,Meilu,7
+China,31.35,105.55,Asia,Cwa,Mianyang,7
+China,36.17,117.35,Asia,Cwa,Mingshui,7
+Vietnam,20.09,105.78,Asia,Aw,Nam Dinh,7
+China,28.13,115.45,Asia,Cfa,Nanchang,7
+China,31.35,105.55,Asia,Cwa,Nanchong,7
+China,31.35,118.74,Asia,Cfa,Nanjing,7
+China,23.31,107.48,Asia,Cwa,Nanning,7
+China,31.35,120.63,Asia,Cfa,Nantong,7
+Taiwan,23.31,121.46,Asia,Cfa,Nantou,7
+China,32.95,112.02,Asia,Cwa,Nanyang,7
+China,29.74,105.23,Asia,Cwa,Neijiang,7
+China,29.74,121.85,Asia,Cfa,Ningbo,7
+Taiwan,24.92,122.36,Asia,Ocean,Panchiao,7
+China,26.52,102.09,Asia,Cwb,Panzhihua,7
+Taiwan,24.92,120.59,Asia,Ocean,Pate,7
+Taiwan,24.92,120.59,Asia,Ocean,Pingchen,7
+China,34.56,112.86,Asia,Cwa,Pingdingshan,7
+China,36.17,107.4,Asia,Dwb,Pingliang,7
+China,23.31,114.47,Asia,Cwa,Pingshan,7
+Taiwan,23.31,119.71,Asia,Cwa,Pingtung,7
+China,28.13,113.64,Asia,Cfa,Pingxiang,7
+China,29.74,114.46,Asia,Cfa,Puqi,7
+China,36.17,115.36,Asia,BSk,Puyang,7
+China,29.74,112.62,Asia,Cfa,Qianjiang,7
+China,23.31,112.72,Asia,Cfa,Qingyuan,7
+China,21.7,108.17,Asia,Cwa,Qinzhou,7
+China,24.92,118.82,Asia,Cfa,Quanzhou,7
+China,24.92,104.63,Asia,Cwb,Qujing,7
+China,36.17,119.34,Asia,Cwa,Rizhao,7
+China,23.31,116.21,Asia,Cwa,Rongcheng,7
+China,28.13,120.91,Asia,Cfa,Ruian,7
+China,21.7,113.37,Asia,Ocean,Sanbu,7
+Taiwan,24.92,120.59,Asia,Ocean,Sanchung,7
+Taiwan,24.92,120.59,Asia,Ocean,Sanhsia,7
+China,34.56,110.92,Asia,BSk,Sanmenxia,7
+China,26.52,118.21,Asia,Cfa,Sanming,7
+China,36.17,115.36,Asia,BSk,Shahe,7
+China,31.35,120.63,Asia,Cfa,Shanghai,7
+China,34.56,114.81,Asia,Cwa,Shangqiu,7
+China,28.13,117.27,Asia,Cfa,Shangrao,7
+China,24.92,113.5,Asia,Cfa,Shaoguan,7
+China,28.13,117.27,Asia,Cfa,Shaowu,7
+China,29.74,120.0,Asia,Cfa,Shaoxing,7
+China,26.52,111.04,Asia,Cfa,Shaoyang,7
+China,23.31,112.72,Asia,Cfa,Shaping,7
+China,29.74,112.62,Asia,Cfa,Shashi,7
+Hong Kong,23.31,114.47,Asia,Cwa,Shenzhen,7
+China,23.31,114.47,Asia,Cwa,Shilong,7
+China,29.74,112.62,Asia,Cfa,Shishou,7
+China,32.95,110.11,Asia,Cwa,Shiyan,7
+China,39.38,106.13,Asia,BWk,Shizuishan,7
+Taiwan,24.92,120.59,Asia,Ocean,Shulin,7
+China,29.74,105.23,Asia,Cwa,Suining,7
+China,31.35,120.63,Asia,Cfa,Suzhou,7
+China,36.17,117.35,Asia,Cwa,Taian,7
+China,21.7,113.37,Asia,Ocean,Taicheng,7
+Taiwan,24.92,120.59,Asia,Ocean,Taichung,7
+Taiwan,23.31,119.71,Asia,Cwa,Tainan,7
+Taiwan,24.92,122.36,Asia,Ocean,Taipei,7
+Taiwan,23.31,121.46,Asia,Cfa,Taitung,7
+China,37.78,111.86,Asia,Dwb,Taiyuan,7
+China,32.95,119.68,Asia,Cfa,Taizhou,7
+Taiwan,24.92,120.59,Asia,Ocean,Tali,7
+China,37.78,113.9,Asia,Dwa,Tangshan,7
+Taiwan,24.92,120.59,Asia,Ocean,Tanshui,7
+Taiwan,24.92,120.59,Asia,Ocean,Taoyüan,7
+China,34.56,116.76,Asia,Cwa,Tengzhou,7
+Vietnam,20.09,105.78,Asia,Aw,Thanh Hóa,7
+Vietnam,21.7,106.44,Asia,Cwa,Thái Nguyên,7
+China,31.35,113.09,Asia,Cfa,Tianmen,7
+China,34.56,108.97,Asia,BSk,Tongchuan,7
+China,31.35,118.74,Asia,Cfa,Tongling,7
+Taiwan,23.31,119.71,Asia,Cwa,Touliu,7
+Taiwan,24.92,120.59,Asia,Ocean,Tucheng,7
+Vietnam,18.48,106.48,Asia,Ocean,Vinh,7
+China,31.35,109.32,Asia,Cwa,Wanxian,7
+China,36.17,119.34,Asia,Cwa,Weifang,7
+China,34.56,108.97,Asia,BSk,Weinan,7
+China,28.13,120.91,Asia,Cfa,Wenzhou,7
+China,39.38,106.13,Asia,BWk,Wuda,7
+China,28.13,104.55,Asia,Cfa,Wufeng,7
+China,29.74,114.46,Asia,Cfa,Wuhan,7
+China,31.35,118.74,Asia,Cfa,Wuhu,7
+China,29.74,120.0,Asia,Cfa,Wuning,7
+China,37.78,101.69,Asia,Dwc,Wuwei,7
+China,31.35,120.63,Asia,Cfa,Wuxi,7
+China,29.74,116.31,Asia,Cfa,Wuxue,7
+China,23.31,110.97,Asia,Cfa,Wuzhou,7
+China,24.92,118.82,Asia,Cfa,Xiamen,7
+China,34.56,108.97,Asia,BSk,Xian,7
+China,28.13,113.64,Asia,Cfa,Xiangdong,7
+China,32.95,112.02,Asia,Cwa,Xiangfan,7
+China,29.74,112.62,Asia,Cfa,Xiantao,7
+China,34.56,108.97,Asia,BSk,Xianyang,7
+China,23.31,112.72,Asia,Cfa,Xiaolan,7
+China,34.56,116.76,Asia,Cwa,Xiazhen,7
+China,28.13,102.73,Asia,Cwb,Xichang,7
+China,37.78,113.9,Asia,Dwa,Xingtai,7
+China,24.92,104.63,Asia,Cwb,Xingyi,7
+China,36.17,101.44,Asia,Dwc,Xining,7
+China,34.56,118.7,Asia,Cwa,Xinpu,7
+China,36.17,117.35,Asia,Cwa,Xintai,7
+China,36.17,113.37,Asia,Dwb,Xinxiang,7
+China,32.95,113.94,Asia,Cwa,Xinyang,7
+China,37.78,111.86,Asia,Dwb,Xinzhou,7
+China,31.35,118.74,Asia,Cfa,Xuanzhou,7
+China,34.56,112.86,Asia,Cwa,Xuchang,7
+China,34.56,116.76,Asia,Cwa,Xuzhou,7
+China,29.74,103.38,Asia,Cwa,Yaan,7
+China,36.17,109.39,Asia,BSk,Yanan,7
+China,32.95,119.68,Asia,Cfa,Yancheng,7
+China,21.7,111.63,Asia,Cwa,Yangjiang,7
+Taiwan,24.92,120.59,Asia,Ocean,Yangmei,7
+China,32.95,119.68,Asia,Cfa,Yangzhou,7
+China,28.13,104.55,Asia,Cfa,Yibin,7
+China,31.35,111.2,Asia,Cwa,Yichang,7
+China,36.17,119.34,Asia,Cwa,Yidu,7
+China,37.78,105.76,Asia,BWk,Yinchuan,7
+China,24.92,113.5,Asia,Cfa,Yingcheng,7
+China,31.35,113.09,Asia,Cfa,Yingzhong,7
+China,28.13,111.82,Asia,Cfa,Yiyang,7
+China,32.95,119.68,Asia,Cfa,Yizheng,7
+China,26.52,118.21,Asia,Cfa,Yongan,7
+China,37.78,111.86,Asia,Dwb,Yuci,7
+China,29.74,112.62,Asia,Cfa,Yueyang,7
+China,21.7,109.9,Asia,Cfa,Yulin,7
+China,34.56,110.92,Asia,BSk,Yuncheng,7
+Taiwan,24.92,122.36,Asia,Ocean,Yungho,7
+Taiwan,23.31,121.46,Asia,Cfa,Yungkang,7
+China,31.35,120.63,Asia,Cfa,Yushan,7
+China,29.74,121.85,Asia,Cfa,Yuyao,7
+Taiwan,24.92,120.59,Asia,Ocean,Yüanlin,7
+China,31.35,113.09,Asia,Cfa,Zaoyang,7
+China,34.56,116.76,Asia,Cwa,Zaozhuang,7
+China,36.17,117.35,Asia,Cwa,Zhangdian,7
+China,24.92,117.04,Asia,Cfa,Zhangzhou,7
+China,21.7,109.9,Asia,Cfa,Zhanjiang,7
+China,23.31,112.72,Asia,Cfa,Zhaoqing,7
+China,26.52,103.88,Asia,Cwb,Zhaotong,7
+China,32.95,119.68,Asia,Cfa,Zhaoyang,7
+China,32.95,119.68,Asia,Cfa,Zhenjiang,7
+China,29.74,110.77,Asia,Cfa,Zhicheng,7
+China,21.7,113.37,Asia,Ocean,Zhongshan,7
+China,24.92,102.86,Asia,Cwb,Zhoucheng,7
+China,36.17,117.35,Asia,Cwa,Zhoucun,7
+China,32.95,113.94,Asia,Cwa,Zhoukou,7
+China,36.17,119.34,Asia,Cwa,Zhucheng,7
+China,21.7,113.37,Asia,Ocean,Zhuhai,7
+China,29.74,120.0,Asia,Cfa,Zhuji,7
+China,32.95,113.94,Asia,Cwa,Zhumadian,7
+China,28.13,113.64,Asia,Cfa,Zhuzhou,7
+China,29.74,105.23,Asia,Cwa,Zigong,7
+China,36.17,117.35,Asia,Cwa,Zouxian,7
+China,28.13,106.36,Asia,Cfa,Zunyi,7
+Japan,36.17,139.23,Asia,Cfa,Abiko,8
+Japan,36.17,139.23,Asia,Cfa,Ageo,8
+Japan,34.56,134.27,Asia,Cfa,Akashi,8
+Japan,36.17,139.23,Asia,Cfa,Akishima,8
+Japan,39.38,139.42,Asia,Ocean,Akita,8
+Japan,34.56,136.22,Asia,Cfa,Amagasaki,8
+Japan,34.56,136.22,Asia,Cfa,Anjo,8
+Japan,44.2,143.11,Asia,Dfb,Asahikawa,8
+Japan,36.17,139.23,Asia,Cfa,Asaka,8
+Japan,36.17,139.23,Asia,Cfa,Ashikaga,8
+Japan,36.17,139.23,Asia,Cfa,Atsugi,8
+Japan,32.95,131.17,Asia,Cfa,Beppu,8
+Japan,36.17,139.23,Asia,Cfa,Chigasaki,8
+Japan,36.17,139.23,Asia,Cfa,Chofu,8
+Japan,34.56,136.22,Asia,Cfa,Daito,8
+Japan,42.59,141.82,Asia,Dfb,Ebetsu,8
+Japan,36.17,139.23,Asia,Cfa,Ebina,8
+Japan,36.17,139.23,Asia,Cfa,Fuchu,8
+Japan,34.56,138.16,Asia,Ocean,Fuji,8
+Japan,34.56,138.16,Asia,Ocean,Fujieda,8
+Japan,36.17,139.23,Asia,Cfa,Fujimi,8
+Japan,34.56,138.16,Asia,Ocean,Fujinomiya,8
+Japan,36.17,139.23,Asia,Cfa,Fujisawa,8
+Japan,36.17,139.23,Asia,Cfa,Fukaya,8
+Japan,34.56,134.27,Asia,Cfa,Fukuyama,8
+Japan,36.17,139.23,Asia,Cfa,Funabashi,8
+Japan,34.56,136.22,Asia,Cfa,Habikino,8
+Japan,40.99,140.59,Asia,Cfa,Hachinohe,8
+Japan,36.17,139.23,Asia,Cfa,Hachioji,8
+Japan,36.17,139.23,Asia,Cfa,Hadano,8
+Japan,40.99,140.59,Asia,Cfa,Hakodate,8
+Japan,34.56,138.16,Asia,Ocean,Hamamatsu,8
+Japan,34.56,136.22,Asia,Cfa,Handa,8
+Japan,34.56,136.22,Asia,Cfa,Hikone,8
+Japan,34.56,134.27,Asia,Cfa,Himeji,8
+Japan,36.17,139.23,Asia,Cfa,Hino,8
+Japan,34.56,136.22,Asia,Cfa,Hirakata,8
+Japan,36.17,139.23,Asia,Cfa,Hiratsuka,8
+Japan,40.99,140.59,Asia,Cfa,Hirosaki,8
+Japan,34.56,132.32,Asia,Cfa,Hiroshima,8
+Japan,36.17,141.22,Asia,Ocean,Hitachi,8
+Japan,34.56,132.32,Asia,Cfa,Hofu,8
+Japan,34.56,136.22,Asia,Cfa,Ibaraki,8
+Japan,34.56,140.11,Asia,Ocean,Ichihara,8
+Japan,36.17,139.23,Asia,Cfa,Ichikawa,8
+Japan,34.56,136.22,Asia,Cfa,Ichinomiya,8
+Japan,36.17,137.24,Asia,Cfa,Iida,8
+Japan,34.56,136.22,Asia,Cfa,Ikoma,8
+Japan,34.56,132.32,Asia,Cfa,Imabari,8
+Japan,34.56,136.22,Asia,Cfa,Inazawa,8
+Japan,36.17,139.23,Asia,Cfa,Iruma,8
+Japan,36.17,139.23,Asia,Cfa,Isehara,8
+Japan,36.17,139.23,Asia,Cfa,Isesaki,8
+Japan,39.38,141.5,Asia,Cfb,Ishinomaki,8
+Japan,34.56,136.22,Asia,Cfa,Itami,8
+Japan,37.78,140.34,Asia,Cfa,Iwaki,8
+Japan,34.56,132.32,Asia,Cfa,Iwakuni,8
+Japan,36.17,139.23,Asia,Cfa,Iwatsuki,8
+Japan,34.56,136.22,Asia,Cfa,Izumi,8
+Japan,37.78,138.31,Asia,Cfa,Joetsu,8
+Japan,34.56,136.22,Asia,Cfa,Kadoma,8
+Japan,36.17,137.24,Asia,Cfa,Kakamigahara,8
+Japan,34.56,134.27,Asia,Cfa,Kakogawa,8
+Japan,36.17,139.23,Asia,Cfa,Kamagaya,8
+Japan,34.56,140.11,Asia,Ocean,Kamakura,8
+Japan,34.56,136.22,Asia,Cfa,Kariya,8
+Japan,34.56,136.22,Asia,Cfa,Kashihara,8
+Japan,36.17,139.23,Asia,Cfa,Kashiwa,8
+Japan,32.95,131.17,Asia,Cfa,Kasuga,8
+Japan,34.56,136.22,Asia,Cfa,Kasugai,8
+Japan,36.17,139.23,Asia,Cfa,Kasukabe,8
+Japan,36.17,139.23,Asia,Cfa,Kawagoe,8
+Japan,36.17,139.23,Asia,Cfa,Kawaguchi,8
+Japan,34.56,136.22,Asia,Cfa,Kawanishi,8
+Japan,36.17,139.23,Asia,Cfa,Kawasaki,8
+Japan,36.17,139.23,Asia,Cfa,Kiryu,8
+Japan,34.56,140.11,Asia,Ocean,Kisarazu,8
+Japan,34.56,136.22,Asia,Cfa,Kishiwada,8
+Japan,34.56,130.38,Asia,Ocean,Kitakyushu,8
+Japan,44.2,143.11,Asia,Dfb,Kitami,8
+Japan,34.56,134.27,Asia,Cfa,Kobe,8
+Japan,36.17,139.23,Asia,Cfa,Kodaira,8
+Japan,36.17,139.23,Asia,Cfa,Koganei,8
+Japan,36.17,139.23,Asia,Cfa,Kokubunji,8
+Japan,34.56,136.22,Asia,Cfa,Komaki,8
+Japan,36.17,137.24,Asia,Cfa,Komatsu,8
+Japan,36.17,137.24,Asia,Cfa,Konan,8
+Japan,37.78,140.34,Asia,Cfa,Koriyama,8
+Japan,36.17,139.23,Asia,Cfa,Koshigaya,8
+Japan,36.17,139.23,Asia,Cfa,Kumagaya,8
+Japan,34.56,134.27,Asia,Cfa,Kurashiki,8
+Japan,34.56,132.32,Asia,Cfa,Kure,8
+Japan,32.95,131.17,Asia,Cfa,Kurume,8
+Japan,34.56,136.22,Asia,Cfa,Kusatsu,8
+Japan,34.56,136.22,Asia,Cfa,Kuwana,8
+Japan,36.17,139.23,Asia,Cfa,Machida,8
+Japan,34.56,136.22,Asia,Cfa,Matsubara,8
+Japan,36.17,139.23,Asia,Cfa,Matsudo,8
+Japan,36.17,137.24,Asia,Cfa,Matsumoto,8
+Japan,34.56,136.22,Asia,Cfa,Matsusaka,8
+Japan,36.17,139.23,Asia,Cfa,Misato,8
+Japan,34.56,138.16,Asia,Ocean,Mishima,8
+Japan,36.17,139.23,Asia,Cfa,Mitaka,8
+Japan,31.35,131.94,Asia,Ocean,Miyakonojo,8
+Japan,34.56,136.22,Asia,Cfa,Moriguchi,8
+Japan,36.17,139.23,Asia,Cfa,Musashino,8
+Japan,37.78,138.31,Asia,Cfa,Nagaoka,8
+Japan,36.17,139.23,Asia,Cfa,Nagareyama,8
+Japan,34.56,136.22,Asia,Cfa,Nagoya,8
+Japan,36.17,139.23,Asia,Cfa,Narashino,8
+Japan,36.17,141.22,Asia,Ocean,Narita,8
+Japan,34.56,136.22,Asia,Cfa,Neyagawa,8
+Japan,37.78,138.31,Asia,Cfa,Niigata,8
+Japan,34.56,134.27,Asia,Cfa,Niihama,8
+Japan,36.17,139.23,Asia,Cfa,Niiza,8
+Japan,34.56,136.22,Asia,Cfa,Nishinomiya,8
+Japan,34.56,136.22,Asia,Cfa,Nishio,8
+Japan,32.95,131.17,Asia,Cfa,Nobeoka,8
+Japan,36.17,139.23,Asia,Cfa,Noda,8
+Japan,34.56,138.16,Asia,Ocean,Numazu,8
+Japan,42.59,144.0,Asia,Ocean,Obihiro,8
+Japan,36.17,139.23,Asia,Cfa,Odawara,8
+Japan,34.56,136.22,Asia,Cfa,Ogaki,8
+Japan,34.56,136.22,Asia,Cfa,Okazaki,8
+Japan,36.17,139.23,Asia,Cfa,Ome,8
+Japan,32.95,131.17,Asia,Cfa,Omuta,8
+Japan,36.17,139.23,Asia,Cfa,Ota,8
+Japan,42.59,141.82,Asia,Dfb,Otaru,8
+Japan,36.17,139.23,Asia,Cfa,Oyama,8
+Japan,32.95,131.17,Asia,Cfa,Saga,8
+Japan,36.17,139.23,Asia,Cfa,Sagamihara,8
+Japan,36.17,139.23,Asia,Cfa,Saitama,8
+Japan,34.56,136.22,Asia,Cfa,Sakai,8
+Japan,39.38,139.42,Asia,Ocean,Sakata,8
+Japan,36.17,141.22,Asia,Ocean,Sakura,8
+Japan,34.56,134.27,Asia,Cfa,Sanda,8
+Japan,32.95,129.26,Asia,Cfa,Sasebo,8
+Japan,36.17,139.23,Asia,Cfa,Sayama,8
+Japan,36.17,137.24,Asia,Cfa,Seto,8
+Japan,34.56,130.38,Asia,Ocean,Shimonoseki,8
+Japan,36.17,139.23,Asia,Cfa,Soka,8
+Japan,34.56,136.22,Asia,Cfa,Suita,8
+Japan,34.56,136.22,Asia,Cfa,Suzuka,8
+Japan,36.17,139.23,Asia,Cfa,Tachikawa,8
+Japan,36.17,137.24,Asia,Cfa,Tajimi,8
+Japan,36.17,137.24,Asia,Cfa,Takaoka,8
+Japan,34.56,136.22,Asia,Cfa,Takarazuka,8
+Japan,36.17,139.23,Asia,Cfa,Takasaki,8
+Japan,34.56,136.22,Asia,Cfa,Takatsuki,8
+Japan,36.17,139.23,Asia,Cfa,Tama,8
+Japan,36.17,139.23,Asia,Cfa,Toda,8
+Japan,36.17,139.23,Asia,Cfa,Tokorozawa,8
+Japan,34.56,132.32,Asia,Cfa,Tokuyama,8
+Japan,36.17,139.23,Asia,Cfa,Tokyo,8
+Japan,42.59,141.82,Asia,Dfb,Tomakomai,8
+Japan,34.56,136.22,Asia,Cfa,Tondabayashi,8
+Japan,34.56,134.27,Asia,Cfa,Tottori,8
+Japan,34.56,138.16,Asia,Ocean,Toyohashi,8
+Japan,34.56,138.16,Asia,Ocean,Toyokawa,8
+Japan,34.56,136.22,Asia,Cfa,Toyonaka,8
+Japan,34.56,136.22,Asia,Cfa,Toyota,8
+Japan,36.17,139.23,Asia,Cfa,Tsuchiura,8
+Japan,36.17,139.23,Asia,Cfa,Tsukuba,8
+Japan,34.56,130.38,Asia,Ocean,Ube,8
+Japan,36.17,139.23,Asia,Cfa,Ueda,8
+Japan,34.56,136.22,Asia,Cfa,Uji,8
+Japan,36.17,139.23,Asia,Cfa,Urayasu,8
+Japan,36.17,139.23,Asia,Cfa,Yachiyo,8
+Japan,34.56,138.16,Asia,Ocean,Yaizu,8
+Japan,34.56,136.22,Asia,Cfa,Yao,8
+Japan,32.95,131.17,Asia,Cfa,Yatsushiro,8
+Japan,34.56,136.22,Asia,Cfa,Yokkaichi,8
+Japan,34.56,140.11,Asia,Ocean,Yokosuka,8
+Japan,36.17,133.26,Asia,Cfa,Yonago,8
+Japan,36.17,139.23,Asia,Cfa,Zama,8
+Canada,49.03,-122.45,North America,Cfb,Abbotsford,9
+United States,34.56,-107.03,North America,BWk,Albuquerque,9
+United States,32.95,-117.77,North America,Ocean,Anaheim,9
+United States,61.88,-151.13,North America,Dfc,Anchorage,9
+United States,37.78,-122.03,North America,Csb,Antioch,9
+United States,39.38,-106.13,North America,ET,Arvada,9
+United States,36.17,-119.34,North America,BSh,Bakersfield,9
+United States,47.42,-121.97,North America,Csb,Bellevue,9
+United States,37.78,-122.03,North America,Csb,Berkeley,9
+United States,34.56,-118.7,North America,Csb,Burbank,9
+United States,32.95,-112.02,North America,BWh,Chandler,9
+Mexico,28.13,-106.36,North America,BSk,Chihuahua,9
+United States,32.95,-117.77,North America,Ocean,Chula Vista,9
+United States,39.38,-104.05,North America,BSk,Colorado Springs,9
+United States,37.78,-122.03,North America,Csb,Concord,9
+United States,32.95,-117.77,North America,Ocean,Corona,9
+United States,32.95,-117.77,North America,Ocean,Costa Mesa,9
+Mexico,28.13,-106.36,North America,BSk,Delicias,9
+United States,39.38,-104.05,North America,BSk,Denver,9
+United States,34.56,-118.7,North America,Csb,Downey,9
+United States,34.56,-118.7,North America,Csb,East Los Angeles,9
+United States,34.56,-118.7,North America,Csb,El Monte,9
+United States,31.35,-105.55,North America,BWk,El Paso,9
+Mexico,31.35,-116.86,North America,Ocean,Ensenada,9
+United States,32.95,-117.77,North America,Ocean,Escondido,9
+United States,44.2,-122.98,North America,Csb,Eugene,9
+United States,37.78,-122.03,North America,Csb,Fairfield,9
+United States,34.56,-116.76,North America,BSk,Fontana,9
+United States,40.99,-104.38,North America,BSk,Fort Collins,9
+United States,37.78,-122.03,North America,Csb,Fremont,9
+United States,36.17,-119.34,North America,BSh,Fresno,9
+United States,32.95,-117.77,North America,Ocean,Fullerton,9
+United States,32.95,-117.77,North America,Ocean,Garden Grove,9
+United States,32.95,-112.02,North America,BWh,Gilbert,9
+United States,32.95,-112.02,North America,BWh,Glendale,9
+Mexico,28.13,-110.0,North America,BSh,Guaymas,9
+United States,37.78,-122.03,North America,Csb,Hayward,9
+United States,36.17,-115.36,North America,BWk,Henderson,9
+Mexico,29.74,-110.77,North America,BSh,Hermosillo,9
+United States,39.38,-104.05,North America,BSk,Highlands Ranch,9
+United States,32.95,-117.77,North America,Ocean,Huntington Beach,9
+United States,34.56,-118.7,North America,Csb,Inglewood,9
+United States,32.95,-117.77,North America,Ocean,Irvine,9
+Mexico,31.35,-105.55,North America,BWk,Juarez,9
+Canada,49.03,-120.0,North America,Dfc,Kelowna,9
+United States,39.38,-104.05,North America,BSk,Lakewood,9
+United States,34.56,-118.7,North America,Csb,Lancaster,9
+United States,36.17,-115.36,North America,BWk,Las Vegas,9
+United States,32.95,-117.77,North America,Ocean,Long Beach,9
+Mexico,26.52,-109.25,North America,BSh,Los Mochis,9
+United States,32.95,-112.02,North America,BWh,Mesa,9
+Mexico,32.95,-115.85,North America,BWh,Mexicali,9
+United States,37.78,-120.0,North America,Csa,Modesto,9
+United States,34.56,-116.76,North America,BSk,Moreno Valley,9
+United States,31.35,-111.2,North America,BSk,Nogales,9
+United States,36.17,-115.36,North America,BWk,North Las Vegas,9
+United States,34.56,-118.7,North America,Csb,Norwalk,9
+United States,37.78,-122.03,North America,Csb,Oakland,9
+Mexico,28.13,-110.0,North America,BSh,Obregon,9
+United States,32.95,-117.77,North America,Ocean,Oceanside,9
+United States,34.56,-116.76,North America,BSk,Ontario,9
+United States,32.95,-117.77,North America,Ocean,Orange,9
+United States,34.56,-118.7,North America,Csb,Oxnard,9
+United States,34.56,-118.7,North America,Csb,Palmdale,9
+United States,36.17,-115.36,North America,BWk,Paradise,9
+United States,32.95,-112.02,North America,BWh,Phoenix,9
+United States,34.56,-118.7,North America,Csb,Pomona,9
+United States,45.81,-123.46,North America,Csb,Portland,9
+United States,39.38,-112.37,North America,BSk,Provo,9
+United States,37.78,-103.73,North America,BSk,Pueblo,9
+United States,34.56,-116.76,North America,BSk,Rancho Cucamonga,9
+United States,39.38,-120.69,North America,Csb,Reno,9
+United States,34.56,-116.76,North America,BSk,Rialto,9
+United States,34.56,-116.76,North America,BSk,Riverside,9
+United States,39.38,-120.69,North America,Csb,Roseville,9
+United States,37.78,-122.03,North America,Csb,Sacramento,9
+United States,44.2,-122.98,North America,Csb,Salem,9
+United States,36.17,-121.33,North America,Csb,Salinas,9
+United States,40.99,-112.9,North America,BSk,Salt Lake City,9
+United States,34.56,-116.76,North America,BSk,San Bernardino,9
+United States,32.95,-117.77,North America,Ocean,San Diego,9
+United States,37.78,-122.03,North America,Csb,San Francisco,9
+United States,37.78,-122.03,North America,Csb,San Jose,9
+Mexico,32.95,-113.94,North America,BWh,San Luis Río Colorado,9
+United States,34.56,-118.7,North America,Csb,Santa Clarita,9
+United States,32.95,-112.02,North America,BWh,Scottsdale,9
+United States,47.42,-121.97,North America,Csb,Seattle,9
+United States,34.56,-118.7,North America,Csb,Simi Valley,9
+United States,47.42,-117.24,North America,Csb,Spokane,9
+United States,36.17,-115.36,North America,BWk,Spring Valley,9
+United States,37.78,-122.03,North America,Csb,Stockton,9
+United States,37.78,-122.03,North America,Csb,Sunnyvale,9
+United States,36.17,-115.36,North America,BWk,Sunrise Manor,9
+United States,47.42,-121.97,North America,Csb,Tacoma,9
+United States,32.95,-112.02,North America,BWh,Tempe,9
+United States,39.38,-104.05,North America,BSk,Thornton,9
+United States,34.56,-118.7,North America,Csb,Thousand Oaks,9
+Mexico,32.95,-117.77,North America,Ocean,Tijuana,9
+United States,34.56,-118.7,North America,Csb,Torrance,9
+United States,31.35,-111.2,North America,BSk,Tucson,9
+United States,37.78,-122.03,North America,Csb,Vallejo,9
+Canada,49.03,-122.45,North America,Cfb,Vancouver,9
+Canada,49.03,-122.45,North America,Cfb,Victoria,9
+United States,36.17,-119.34,North America,BSh,Visalia,9
+United States,34.56,-118.7,North America,Csb,West Covina,9
+United States,40.99,-112.9,North America,BSk,West Jordan,9
+United States,40.99,-112.9,North America,BSk,West Valley City,9
+United States,39.38,-104.05,North America,BSk,Westminster,9
+Russia,53.84,91.36,Europe,Dwb,Abakan,10
+China,45.81,128.08,Asia,Dwb,Acheng,10
+Russia,57.05,90.0,Europe,Dfc,Achinsk,10
+China,45.81,125.77,Asia,Dwa,Anda,10
+Russia,52.24,105.11,Europe,Dwc,Angarsk,10
+China,40.99,123.55,Asia,Dwb,Anshan,10
+Kazakhstan,50.63,72.25,Asia,Dfb,Astana,10
+China,42.59,126.55,Asia,Dwa,Badaojiang,10
+China,45.81,123.46,Asia,Dwa,Baicheng,10
+China,47.42,131.45,Asia,Dwa,Baoshan,10
+Russia,53.84,83.18,Europe,Dfb,Barnaul,10
+China,47.42,126.71,Asia,Dwb,Beian,10
+China,40.99,121.42,Asia,Dwa,Beipiao,10
+China,40.99,123.55,Asia,Dwb,Benxi,10
+Russia,58.66,55.38,Europe,Dfb,Berezniki,10
+China,37.78,117.97,Asia,BSk,Binzhou,10
+Russia,52.24,84.09,Europe,Dfb,Biysk,10
+Russia,50.63,128.03,Europe,Dwb,Blagoveshchensk,10
+Russia,55.45,102.05,Europe,Dfc,Bratsk,10
+China,44.2,125.22,Asia,Dwa,Changchun,10
+China,40.99,121.42,Asia,Dwa,Chaoyang,10
+Russia,55.45,62.36,Europe,Dfb,Chelyabinsk,10
+China,40.99,117.16,Asia,Dwb,Chengde,10
+China,42.59,120.0,Asia,BSk,Chifeng,10
+Russia,52.24,112.99,Europe,Dwc,Chita,10
+China,39.38,120.69,Asia,Ocean,Dalian,10
+China,39.38,124.86,Asia,Ocean,Dandong,10
+China,44.2,125.22,Asia,Dwa,Dehui,10
+China,45.81,130.38,Asia,Dwb,Didao,10
+China,40.99,123.55,Asia,Dwb,Dongling,10
+China,37.78,117.97,Asia,BSk,Dongying,10
+China,42.59,128.73,Asia,Dwc,Dunhua,10
+Kazakhstan,52.24,76.2,Asia,Dfb,Ekibastuz,10
+China,40.99,123.55,Asia,Dwb,Fengcheng,10
+China,40.99,123.55,Asia,Dwb,Fushun,10
+China,42.59,122.18,Asia,Dwa,Fuxin,10
+China,45.81,125.77,Asia,Dwa,Fuyu,10
+Russia,58.66,52.31,Europe,Dfb,Glazov,10
+China,44.2,125.22,Asia,Dwa,Gongzhuling,10
+China,23.31,114.47,Asia,Cwa,Haicheng,10
+China,49.03,120.0,Asia,Dwb,Hailar,10
+China,47.42,126.71,Asia,Dwb,Hailun,10
+China,39.38,118.61,Asia,Dwa,Hangu,10
+China,45.81,125.77,Asia,Dwa,Harbin,10
+China,47.42,131.45,Asia,Dwa,Hegang,10
+Russia,50.63,128.03,Europe,Dwb,Heihe,10
+China,45.81,130.38,Asia,Dwb,Hengshan,10
+China,45.81,125.77,Asia,Dwa,Honggang,10
+China,42.59,126.55,Asia,Dwa,Huadian,10
+China,39.38,116.53,Asia,BSk,Huangcun,10
+China,45.81,125.77,Asia,Dwa,Hulan,10
+China,47.42,124.34,Asia,Dwa,Hulan Ergi,10
+Russia,52.24,105.11,Europe,Dwc,Irkutsk,10
+China,47.42,131.45,Asia,Dwa,Jiamusi,10
+China,44.2,127.45,Asia,Dwa,Jiaohe,10
+China,44.2,127.45,Asia,Dwa,Jilin,10
+China,40.99,121.42,Asia,Dwa,Jinxi,10
+China,40.99,121.42,Asia,Dwa,Jinzhou,10
+China,44.2,127.45,Asia,Dwa,Jishu,10
+China,40.99,123.55,Asia,Dwb,Jiupu,10
+China,44.2,125.22,Asia,Dwa,Jiutai,10
+China,45.81,130.38,Asia,Dwb,Jixi,10
+Russia,55.45,62.36,Europe,Dfb,Kamensk Uralskiy,10
+Russia,55.45,96.38,Europe,Dfc,Kansk,10
+Russia,55.45,85.04,Europe,Dfb,Kemerovo,10
+Russia,49.03,134.69,Europe,Dwb,Khabarovsk,10
+Russia,58.66,49.23,Europe,Dfb,Kirov,10
+Russia,50.63,138.17,Europe,Dwc,Komsomolsk Na Amure,10
+Russia,55.45,93.54,Europe,Dfc,Krasnoyarsk,10
+Russia,55.45,65.2,Europe,Dfb,Kurgan,10
+Russia,52.24,94.6,Europe,Dfc,Kyzyl,10
+China,36.17,121.33,Asia,Ocean,Laiyang,10
+China,39.38,116.53,Asia,BSk,Langfang,10
+Russia,53.84,85.91,Europe,Dfb,Leninsk Kuznetskiy,10
+China,40.99,123.55,Asia,Dwb,Liaoyang,10
+China,39.38,118.61,Asia,Dwa,Linxi,10
+China,45.81,125.77,Asia,Dwa,Longfeng,10
+China,47.42,124.34,Asia,Dwa,Longjiang,10
+China,42.59,128.73,Asia,Dwc,Longjing,10
+China,39.38,116.53,Asia,BSk,Mentougou,10
+Russia,53.84,88.64,Europe,Dfc,Mezhdurechensk,10
+Russia,55.45,59.53,Europe,Dfb,Miass,10
+China,44.2,129.69,Asia,Dwb,Mudanjiang,10
+Russia,42.59,133.09,Europe,Ocean,Nakhodka,10
+China,47.42,129.08,Asia,Dwc,Nancha,10
+China,40.99,121.42,Asia,Dwa,Nanpiao,10
+Russia,61.88,73.02,Europe,Dfc,Nefteyugansk,10
+China,49.03,124.9,Asia,Dwb,Nehe,10
+Russia,60.27,77.84,Europe,Dfc,Nizhnevartovsk,10
+Russia,57.05,60.49,Europe,Dfb,Nizhniy Tagil,10
+Russia,69.92,88.83,Europe,Dfc,Norilsk,10
+Russia,53.84,85.91,Europe,Dfb,Novokuznetsk,10
+Russia,55.45,82.2,Europe,Dfb,Novosibirsk,10
+Russia,55.45,73.7,Europe,Dfb,Omsk,10
+Kazakhstan,52.24,76.2,Asia,Dfb,Pavlodar,10
+China,39.38,116.53,Asia,BSk,Peking,10
+Russia,58.66,55.38,Europe,Dfb,Perm,10
+Russia,57.05,60.49,Europe,Dfb,Pervouralsk,10
+Kazakhstan,55.45,68.03,Asia,Dfb,Petropavl,10
+Russia,53.84,85.91,Europe,Dfb,Prokopyevsk,10
+China,39.38,122.77,Asia,Dwa,Pulandian,10
+China,45.81,125.77,Asia,Dwa,Qianguo,10
+China,36.17,121.33,Asia,Ocean,Qingdao,10
+China,39.38,118.61,Asia,Dwa,Qinhuangdao,10
+China,47.42,124.34,Asia,Dwa,Qiqihar,10
+China,45.81,130.38,Asia,Dwb,Qitaihe,10
+Kazakhstan,53.84,64.09,Asia,Dfb,Qostanay,10
+China,47.42,124.34,Asia,Dwa,Ranghulu,10
+Russia,52.24,81.46,Europe,Dfb,Rubtsovsk,10
+Kazakhstan,50.63,79.86,Asia,Dfb,Semey,10
+South Korea,37.78,126.1,Asia,Cwa,Seoul,10
+Russia,57.05,84.1,Europe,Dfb,Seversk,10
+China,40.99,123.55,Asia,Dwb,Shenyang,10
+China,45.81,125.77,Asia,Dwa,Shuangcheng,10
+China,47.42,131.45,Asia,Dwa,Shuangyashan,10
+China,39.38,116.53,Asia,BSk,Shunyi,10
+Russia,60.27,58.38,Europe,Dfc,Solikamsk,10
+China,47.42,126.71,Asia,Dwb,Suihua,10
+China,40.99,123.55,Asia,Dwb,Sujiatun,10
+Russia,61.88,73.02,Europe,Dfc,Surgut,10
+Russia,61.88,49.25,Europe,Dfc,Syktyvkar,10
+China,39.38,118.61,Asia,Dwa,Tanggu,10
+China,45.81,123.46,Asia,Dwa,Taonan,10
+Kazakhstan,50.63,72.25,Asia,Dfb,Temirtau,10
+China,39.38,116.53,Asia,BSk,Tianjin,10
+China,47.42,129.08,Asia,Dwc,Tieli,10
+China,42.59,124.36,Asia,Dwa,Tieling,10
+Russia,57.05,84.1,Europe,Dfb,Tomsk,10
+China,44.2,122.98,Asia,BSk,Tongliao,10
+China,39.38,116.53,Asia,BSk,Tongzhou,10
+Russia,57.05,66.39,Europe,Dfb,Tyumen,10
+Russia,63.49,52.2,Europe,Dfc,Ukhta,10
+Mongolia,47.42,107.76,Asia,Dwc,Ulaanbaatar,10
+Russia,52.24,107.74,Europe,BSk,Ulan Ude,10
+Russia,44.2,131.93,Europe,Dwb,Ussuriysk,10
+Russia,58.66,101.54,Europe,Dfc,Ust Ilimsk,10
+Russia,42.59,130.91,Europe,Dwa,Vladivostok,10
+China,37.78,122.03,Asia,Ocean,Weihai,10
+China,37.78,122.03,Asia,Ocean,Wencheng,10
+China,45.81,121.15,Asia,Dwb,Wulanhaote,10
+China,40.99,115.03,Asia,Dwb,Xuanhua,10
+China,49.03,120.0,Asia,Dwb,Yakeshi,10
+China,42.59,128.73,Asia,Dwc,Yanji,10
+China,37.78,122.03,Asia,Ocean,Yantai,10
+Russia,57.05,60.49,Europe,Dfb,Yekaterinburg,10
+China,28.13,113.64,Asia,Cfa,Yichun,10
+China,40.99,123.55,Asia,Dwb,Yingkou,10
+China,44.2,127.45,Asia,Dwa,Yushu,10
+China,47.42,121.97,Asia,Dwb,Zalantun,10
+China,40.99,115.03,Asia,Dwb,Zhangjiakou,10
+China,37.78,120.0,Asia,Ocean,Zhaocheng,10
+China,45.81,125.77,Asia,Dwa,Zhaodong,10
+China,39.38,116.53,Asia,BSk,Zhuozhou,10
+Russia,55.45,59.53,Europe,Dfb,Zlatoust,10
+Kazakhstan,50.63,82.39,Asia,Dfb,Öskemen,10
+Nigeria,5.63,8.07,Africa,Am,Aba,11
+Nigeria,5.63,8.07,Africa,Am,Abakaliki,11
+Côte D'Ivoire,7.23,-4.05,Africa,Aw,Abengourou,11
+Nigeria,7.23,4.05,Africa,Aw,Abeokuta,11
+Côte D'Ivoire,5.63,-3.23,Africa,Aw,Abidjan,11
+Benin,7.23,2.43,Africa,Aw,Abomey Calavi,11
+Nigeria,8.84,7.3,Africa,Aw,Abuja,11
+Ghana,5.63,-0.0,Africa,Aw,Accra,11
+Côte D'Ivoire,5.63,-4.84,Africa,Aw,Agboville,11
+Nigeria,7.23,5.68,Africa,Aw,Akure,11
+Nigeria,5.63,8.07,Africa,Am,Amaigbo,11
+Côte D'Ivoire,5.63,-4.84,Africa,Aw,Anyama,11
+Nigeria,5.63,6.46,Africa,Am,Awka,11
+Nigeria,12.05,9.86,Africa,BSh,Azare,11
+Cameroon,5.63,9.69,Africa,Aw,Bafoussam,11
+Nigeria,12.05,13.15,Africa,BSh,Bama,11
+Mali,12.05,-8.22,Africa,Aw,Bamako,11
+Cameroon,5.63,9.69,Africa,Aw,Bamenda,11
+Central African Republic,4.02,18.48,Africa,Aw,Bangui,11
+Equatorial Guinea,2.41,10.45,Africa,Am,Bata,11
+Nigeria,10.45,10.64,Africa,Aw,Bauchi,11
+Cameroon,4.02,13.66,Africa,Aw,Bertoua,11
+Nigeria,8.84,5.68,Africa,Aw,Bida,11
+Nigeria,12.05,4.93,Africa,BSh,Birnin Kebbi,11
+Burkina Faso,10.45,-4.09,Africa,Aw,Bobo Dioulasso,11
+Benin,7.23,2.43,Africa,Aw,Bohicon,11
+Côte D'Ivoire,7.23,-5.68,Africa,Aw,Bouaké,11
+Nigeria,4.02,7.23,Africa,Ocean,Bugama,11
+Nigeria,7.23,5.68,Africa,Aw,Bénin,11
+Nigeria,5.63,8.07,Africa,Am,Calabar,11
+Ghana,5.63,-1.61,Africa,Aw,Cape Coast,11
+Guinea,8.84,-13.78,Africa,Ocean,Conakry,11
+Benin,7.23,2.43,Africa,Aw,Cotonou,11
+Côte D'Ivoire,7.23,-5.68,Africa,Aw,Daloa,11
+Nigeria,12.05,11.51,Africa,BSh,Damaturu,11
+Côte D'Ivoire,5.63,-4.84,Africa,Aw,Divo,11
+Benin,10.45,2.45,Africa,Aw,Djougou,11
+Cameroon,4.02,10.45,Africa,Am,Douala,11
+Cameroon,4.02,10.45,Africa,Am,Edéa,11
+Nigeria,7.23,4.05,Africa,Aw,Ejigbo,11
+Nigeria,7.23,7.3,Africa,Aw,Enugu,11
+Sierra Leone,8.84,-13.78,Africa,Ocean,Freetown,11
+Nigeria,12.05,6.58,Africa,Aw,Funtua,11
+Côte D'Ivoire,5.63,-6.46,Africa,Aw,Gagnoa,11
+Cameroon,8.84,13.78,Africa,Aw,Garoua,11
+Nigeria,13.66,10.73,Africa,BWh,Gashua,11
+Nigeria,7.23,8.92,Africa,Aw,Gboko,11
+Nigeria,7.23,4.05,Africa,Aw,Gbongan,11
+Congo (Democratic Republic Of The),4.02,20.09,Africa,Aw,Gemena,11
+Nigeria,10.45,10.64,Africa,Aw,Gombe,11
+Nigeria,12.05,6.58,Africa,Aw,Gusau,11
+Nigeria,12.05,9.86,Africa,BSh,Hadejia,11
+Nigeria,7.23,4.05,Africa,Aw,Ibadan,11
+Nigeria,7.23,4.05,Africa,Aw,Ife,11
+Nigeria,8.84,4.05,Africa,Aw,Igboho,11
+Nigeria,7.23,5.68,Africa,Aw,Ijero,11
+Nigeria,7.23,5.68,Africa,Aw,Ikare,11
+Nigeria,7.23,5.68,Africa,Aw,Ikere,11
+Nigeria,7.23,4.05,Africa,Aw,Ikire,11
+Nigeria,7.23,4.05,Africa,Aw,Ikirun,11
+Nigeria,7.23,5.68,Africa,Aw,Ikole,11
+Nigeria,7.23,4.05,Africa,Aw,Ikorodu,11
+Nigeria,5.63,8.07,Africa,Am,Ikot Ekpene,11
+Nigeria,7.23,5.68,Africa,Aw,Ila,11
+Nigeria,7.23,5.68,Africa,Aw,Ilawe,11
+Nigeria,8.84,4.05,Africa,Aw,Ilesha,11
+Nigeria,7.23,4.05,Africa,Aw,Ilobu,11
+Nigeria,8.84,4.05,Africa,Aw,Ilorin,11
+Nigeria,7.23,4.05,Africa,Aw,Inisa,11
+Nigeria,7.23,5.68,Africa,Aw,Ise,11
+Nigeria,7.23,4.05,Africa,Aw,Iseyin,11
+Nigeria,7.23,4.05,Africa,Aw,Iwo,11
+Nigeria,8.84,12.16,Africa,Aw,Jalingo,11
+Nigeria,8.84,12.16,Africa,Aw,Jimeta,11
+Nigeria,10.45,9.0,Africa,Aw,Jos,11
+Nigeria,10.45,7.36,Africa,Aw,Kaduna,11
+Benin,10.45,2.45,Africa,Aw,Kandi,11
+Guinea,10.45,-9.0,Africa,Aw,Kankan,11
+Nigeria,12.05,8.22,Africa,Aw,Kano,11
+Nigeria,13.66,7.43,Africa,BWh,Katsina,11
+Guinea,10.45,-12.27,Africa,Aw,Kindia,11
+Nigeria,8.84,4.05,Africa,Aw,Kishi,11
+Sierra Leone,8.84,-10.54,Africa,Aw,Koidu,11
+Côte D'Ivoire,8.84,-5.68,Africa,Aw,Korhogo,11
+Cameroon,12.05,14.79,Africa,BSh,Kousséri,11
+Togo,7.23,0.81,Africa,Aw,Kpalimé,11
+Ghana,7.23,-0.81,Africa,Aw,Kumasi,11
+Cameroon,4.02,8.84,Africa,Ocean,Kumba,11
+Nigeria,8.84,8.92,Africa,Aw,Lafia,11
+Nigeria,8.84,5.68,Africa,Aw,Lafiagi,11
+Nigeria,5.63,3.23,Africa,Ocean,Lagos,11
+Gabon,0.8,8.84,Africa,Ocean,Libreville,11
+Cameroon,5.63,9.69,Africa,Aw,Loum,11
+Nigeria,12.05,13.15,Africa,BSh,Maiduguri,11
+Nigeria,7.23,8.92,Africa,Aw,Makurdi,11
+Equatorial Guinea,4.02,8.84,Africa,Ocean,Malabo,11
+Côte D'Ivoire,7.23,-7.3,Africa,Aw,Man,11
+Niger,13.66,7.43,Africa,BWh,Maradi,11
+Cameroon,10.45,13.91,Africa,Aw,Maroua,11
+Congo (Democratic Republic Of The),0.8,18.48,Africa,Af,Mbandaka,11
+Cameroon,5.63,9.69,Africa,Aw,Mbouda,11
+Nigeria,8.84,7.3,Africa,Aw,Minna,11
+Nigeria,7.23,4.05,Africa,Aw,Modakeke,11
+Cameroon,10.45,13.91,Africa,Aw,Mokolo,11
+Liberia,7.23,-10.54,Africa,Am,Monrovia,11
+Mali,15.27,-4.17,Africa,BWh,Mopti,11
+Chad,8.84,15.41,Africa,Aw,Moundou,11
+Nigeria,10.45,13.91,Africa,Aw,Mubi,11
+Cameroon,7.23,13.78,Africa,Aw,Ngaoundéré,11
+Nigeria,13.66,10.73,Africa,BWh,Nguru,11
+Niger,13.66,2.48,Africa,BSh,Niamey,11
+Cameroon,5.63,9.69,Africa,Aw,Nkongsamba,11
+Nigeria,5.63,6.46,Africa,Am,Nkpor,11
+Nigeria,5.63,6.46,Africa,Am,Nnewi,11
+Nigeria,7.23,7.3,Africa,Aw,Nsukka,11
+Guinea,7.23,-8.92,Africa,Aw,Nzérékoré,11
+Nigeria,5.63,6.46,Africa,Am,Obosi,11
+Ghana,5.63,-1.61,Africa,Aw,Obuasi,11
+Nigeria,8.84,4.05,Africa,Aw,Offa,11
+Nigeria,8.84,4.05,Africa,Aw,Ogbomosho,11
+Nigeria,4.02,7.23,Africa,Ocean,Okrika,11
+Nigeria,7.23,4.05,Africa,Aw,Ondo,11
+Nigeria,5.63,6.46,Africa,Am,Onitsha,11
+Nigeria,4.02,7.23,Africa,Ocean,Opobo,11
+Nigeria,5.63,8.07,Africa,Am,Oron,11
+Nigeria,7.23,4.05,Africa,Aw,Oshogbo,11
+Nigeria,7.23,8.92,Africa,Aw,Otukpo,11
+Burkina Faso,12.05,-1.64,Africa,BSh,Ouagadougou,11
+Nigeria,5.63,6.46,Africa,Am,Owerri,11
+Nigeria,7.23,5.68,Africa,Aw,Owo,11
+Nigeria,7.23,4.05,Africa,Aw,Oyo,11
+Benin,8.84,2.43,Africa,Aw,Parakou,11
+Nigeria,10.45,10.64,Africa,Aw,Pindiga,11
+Gabon,-0.8,8.84,Africa,Aw,Port Gentil,11
+Nigeria,4.02,7.23,Africa,Ocean,Port Harcourt,11
+Côte D'Ivoire,5.63,-6.46,Africa,Aw,San Pédro,11
+Nigeria,5.63,6.46,Africa,Am,Sapele,11
+Chad,8.84,18.65,Africa,Aw,Sarh,11
+Ghana,5.63,-1.61,Africa,Aw,Sekondi,11
+Nigeria,7.23,4.05,Africa,Aw,Shagamu,11
+Nigeria,8.84,4.05,Africa,Aw,Shaki,11
+Mali,10.45,-5.73,Africa,Aw,Sikasso,11
+Togo,8.84,0.81,Africa,Aw,Sokodé,11
+Nigeria,13.66,5.78,Africa,BSh,Sokoto,11
+Côte D'Ivoire,5.63,-6.46,Africa,Aw,Soubré,11
+Nigeria,8.84,7.3,Africa,Aw,Suleja,11
+Ghana,5.63,-1.61,Africa,Aw,Takoradi,11
+Ghana,8.84,-0.81,Africa,Aw,Tamale,11
+Ghana,5.63,-0.0,Africa,Aw,Tema,11
+Ghana,5.63,-0.0,Africa,Aw,Teshie,11
+Nigeria,5.63,8.07,Africa,Am,Ugep,11
+Nigeria,5.63,8.07,Africa,Am,Umuahia,11
+Nigeria,7.23,5.68,Africa,Aw,Uromi,11
+Nigeria,5.63,8.07,Africa,Am,Uyo,11
+Nigeria,5.63,6.46,Africa,Am,Warri,11
+Côte D'Ivoire,7.23,-5.68,Africa,Aw,Yamoussoukro,11
+Cameroon,4.02,12.05,Africa,Aw,Yaoundé,11
+Nigeria,10.45,7.36,Africa,Aw,Zaria,11
+Niger,13.66,9.08,Africa,BWh,Zinder,11
