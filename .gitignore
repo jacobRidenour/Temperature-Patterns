@@ -1,5 +1,8 @@
 .venv
 lib
 GlobalLandTemperaturesByCity.csv
+GlobalLandTemperaturesByCity_updated.csv
 network.html
 original-clustering
+v2-clustering
+test.ipynb
